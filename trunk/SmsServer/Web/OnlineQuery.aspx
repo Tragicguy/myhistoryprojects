@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="OnlineQuery.aspx.cs" Inherits="SmsServer.Web.OnlineQuery" %>

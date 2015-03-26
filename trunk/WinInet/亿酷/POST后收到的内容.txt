@@ -1,0 +1,173 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+<style type="text/css">
+<!--
+body{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 380px;
+	background-color: #F2F2F2;
+	overflow-x:Hidden; 
+	overflow-y:Hidden;
+	margin-left: 1px;
+	margin-top: 0px;
+}
+.btn1 {
+ BORDER-RIGHT: #7b9ebd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7b9ebd 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px;BORDER-LEFT: #7b9ebd 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7b9ebd 1px solid; height:20px; background-color:#F7F8F9;
+}
+.textbox2 {
+	BORDER-RIGHT: #CCCCCC 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #CCCCCC 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; BORDER-LEFT: #CCCCCC 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #CCCCCC 1px solid;BACKGROUND-COLOR: #F2F2F2; height:20px; width:40px;
+}
+.font {font:"宋体"; font-size:12px; }
+-->
+</style>
+<style>
+.red { color:#FF0000;
+}
+.b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b{display:block;overflow:hidden;}
+.b1,.b2,.b3,.b1b,.b2b,.b3b{height:1px;}
+.b2,.b3,.b4,.b2b,.b3b,.b4b,.b{border-left:1px solid #999;border-right:1px solid #999;}
+.b1,.b1b{margin:0 5px;background:#999;}
+.b2,.b2b{margin:0 3px;border-width:2px;}
+.b3,.b3b{margin:0 2px;}
+.b4,.b4b{height:2px;margin:0 1px;}
+.d1{background:#F7F8F9;}
+.btn {
+ BORDER-RIGHT: #7b9ebd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7b9ebd 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); BORDER-LEFT: #7b9ebd 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 3px; BORDER-BOTTOM: #7b9ebd 1px solid; width:110px;
+}
+</style>
+<script>  
+function  DisableF5()
+{  
+	with  (event)
+   	{  
+       if  (keyCode==116 || (ctrlKey  &&  keyCode==82)) //  F5  and  Ctrl+R    Shift
+	   {  
+           event.keyCode  =  0;  
+           event.cancelBubble  =  true;  
+           return  false;  
+       } 
+   	}  
+}    
+document.onkeydown  =  DisableF5;  
+</script>
+<script>
+//屏蔽SHIFT
+document.onclick=function(){return !event.shiftKey}
+</script>
+
+</head>
+
+<BODY  oncontextmenu="window.event.returnValue=false" ondragstart="window.event.returnValue=false" onselectstart="event.returnValue=false">
+<form name="Form1" method="post" action="DayPay.Aspx?UserID=4974619&amp;PassWord=9ab50b8e55bdf45adb12de33a2279273" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzUzODI5NTgyD2QWAgIBD2QWCmYPDxYCHgRUZXh0BQQzNjY2ZGQCAQ8PFgIfAAUa5LiN6LazJm5ic3A7MzAmbmJzcDvliIbpkp9kZAICDw8WAh8ABQExZGQCBg8PFgIfAAVI5oKo546w5Zyo55qE5Zyo57q/5ri45oiP5pe26Ze05rKh6L6+5Yiw6aKG5Y+W5qCH5YeG77yM6K+357un57ut5Yqq5Yqb44CCZGQCBw8PFgIeB0VuYWJsZWRoZGRkbPGNQ6a+IB/FxwgZ24PCSQ1Szno=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALX5oy9DwLLm6aZAgKLrJurCQK3mOX7CUVJh+u/k2t64ha1I9cVfgc6ph6b" />
+</div>
+<div style="width:520px; height:323px; border:0px solid #CC6633; text-align:left; font-size:12px; padding-top:10px;">
+  <table width="100%" height="150" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+	  <td style="padding-left:6px;" valign="top">
+<DIV style="width:510px; margin-top:10px; margin-bottom:10px;">
+  	<b class="b1"></b>
+  	<b class="b2 d1"></b>
+  	<b class="b3 d1"></b>
+  	<b class="b4 d1"></b>
+  	<div class="b d1" style="padding-left:6px; height:306px; font-size:12px">
+      <div style="margin-top:0px; text-align:left; line-height:150%">
+	  
+	  	<div style="width:494px; margin-top:10px; font-size:12px;line-height:19px; text-align:left;text-indent:0; background:#EEF5FF;border:1px solid #CCE; padding-top:6px; padding-left:8px; padding-bottom:2px;"> 
+		基金酷豆数量：
+		<span id="lb_CanGetCount" class="font">3666</span>&nbsp;枚酷豆
+		</div>
+	  
+	  	<div style="width:494px; margin-top:10px; font-size:12px;line-height:19px; text-align:left;text-indent:0; background:#EEF5FF;border:1px solid #CCE; padding-top:6px; padding-left:8px; padding-bottom:2px;"> 
+		当前领取资格：
+		<span id="lb_NowTimeCount" class="font">不足&nbsp;30&nbsp;分钟</span>
+		</div>
+		
+		
+        <div style="width:494px; margin-top:10px; font-size:12px;line-height:19px; text-align:left;text-indent:0; background:#EEF5FF;border:1px solid #CCE; padding-top:6px; padding-left:8px; padding-bottom:2px;"> 
+		本日已领次数：
+		<span id="lb_NowTake" class="font" style="color:#C2273A;">1</span>&nbsp;次
+		</div>
+		
+		<div style="width:494px; margin-top:10px; font-size:12px;line-height:19px; text-align:left;text-indent:0; background:#EEF5FF;border:1px solid #CCE; padding-top:6px; padding-left:8px; padding-bottom:2px;"> 
+		
+			<div style="WIDTH: 160px; padding-top:6px; float:left;">
+   			请输入右图显示的四个数字：</div>
+		
+			<div style="WIDTH: 100px; padding-top:1px; float:left; margin-left:1px;">
+			<input name="txt_Code" type="text" value="9705" maxlength="4" id="txt_Code" class="textbox" style="width:80px;" /></div>
+
+			<div style="WIDTH: 100px; padding-top:2px; float:left;">
+			<img id="img_v" src="FundCode.aspx" style="border-width:0px;" /></div>
+			
+			<div style="WIDTH: 100px; padding-top:7px; float:left; margin-left:6px;">
+			<a id="lbt_ChangePic" href="javascript:__doPostBack('lbt_ChangePic','')" style="color:#3333FF;text-decoration:underline;">看不清，换一张</a></div>
+			
+		</div>
+		
+		
+
+		
+			<div style="width:494px; margin-top:10px; font-size:12px;line-height:19px; text-align:left;text-indent:0; background:#EEF5FF;border:1px solid #CCE; padding-top:6px; padding-left:8px; padding-bottom:2px;"> 
+		 		<img src="Images/info_1.jpg"/>&nbsp;
+		 		<span id="lb_prompt" class="font" style="color:#C2273A;">您现在的在线游戏时间没达到领取标准，请继续努力。</span>
+			</div>
+		 
+		
+		
+	  	<div style="text-align:CENTER; font-size:12px; padding-top:0px; margin-top:20px;">
+		<input type="submit" name="bt_submit" value="领取本次亿酷基金" id="bt_submit" disabled="disabled" class="btn" />
+	  	</div>
+
+      </div>
+	  </div>
+  	<b class="b4b d1"></b> <b class="b3b d1"></b> <b class="b2b d1"></b> <b class="b1b"></b> </DIV>	
+	
+	  </td>
+	</tr>
+  </table>
+  
+  
+  	<div style="width:509px; margin-top:6px; font-size:12px;line-height:180%; text-align:left;text-indent:0; background:#EEF5FF;border:1px solid #CCE; padding-top:6px; padding-left:8px; padding-bottom:2px; margin-left:6px;">
+		<B>亿酷基金功能说明：</B><BR>
+	 	<font color="#C2273A">1、每日亿酷基金的领取仅限当日有效，过期不补。。</font><br>
+	 	2、亿酷基金<font color="#C2273A">&nbsp;每日&nbsp;</font>可领&nbsp;<font color="#C2273A">三次</font>。<br>
+	 	3、为确保正确统计时间，请玩家退出游戏房间后再查看本页。<br>
+	 	4、本活动<font color="#C2273A">不包括</font>棋类和休闲类游戏。<br>
+	 	5、2010年1月1日开始已绑定密保手机玩家每游戏半小时可领基金<font color="#C2273A">3666</font>酷豆，一天限领三次。<br>
+	 	6、2010年1月1日开始未绑定密保手机玩家每游戏一小时可领基金<font color="#C2273A">1000</font>酷豆，一天限领三次。<br>
+	 	&nbsp;　<a href="BindPhone.Aspx?UserID=4974619&PassWord=9ab50b8e55bdf45adb12de33a2279273"><font color="#3399FF" style="text-decoration:underline">立即绑定密保手机</font></a><br>
+	</div>
+</div>
+</form>
+</body>
+</html>

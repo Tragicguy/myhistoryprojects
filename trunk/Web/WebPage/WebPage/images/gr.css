@@ -1,0 +1,498 @@
+BODY {
+	LINE-HEIGHT: 150%; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND: #fff; COLOR: #535353; FONT-SIZE: 14px
+}
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+BODY {
+	MARGIN: 0px auto
+}
+IMG {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H2 {
+	FONT-SIZE: 14px
+}
+H4 {
+	FONT-SIZE: 14px
+}
+.clearfix {
+	DISPLAY: block
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+.clear {
+	LINE-HEIGHT: 0; HEIGHT: 0px; CLEAR: both; FONT-SIZE: 0px
+}
+.h20 {
+	LINE-HEIGHT: 0px; WIDTH: 10px; DISPLAY: block; HEIGHT: 20px; CLEAR: both; FONT-SIZE: 0px
+}
+.h15 {
+	LINE-HEIGHT: 0px; WIDTH: 10px; DISPLAY: block; HEIGHT: 20px; CLEAR: both; FONT-SIZE: 0px
+}
+.h10 {
+	LINE-HEIGHT: 0px; WIDTH: 10px; DISPLAY: block; HEIGHT: 20px; CLEAR: both; FONT-SIZE: 0px
+}
+.h5 {
+	LINE-HEIGHT: 0px; WIDTH: 10px; DISPLAY: block; HEIGHT: 20px; CLEAR: both; FONT-SIZE: 0px
+}
+h7 {
+	LINE-HEIGHT: 0px; WIDTH: 10px; DISPLAY: block; HEIGHT: 20px; CLEAR: both; FONT-SIZE: 0px
+}
+.h15 {
+	HEIGHT: 15px
+}
+.h10 {
+	HEIGHT: 10px
+}
+.h5 {
+	HEIGHT: 5px
+}
+.h7 {
+	HEIGHT: 7px
+}
+#footer {
+	MARGIN: 0px; WIDTH: 100%; BACKGROUND: #fff; OVERFLOW: hidden
+}
+#footer A:link {
+	COLOR: #535353; TEXT-DECORATION: none
+}
+#footer A:visited {
+	COLOR: #535353; TEXT-DECORATION: none
+}
+#footer A:hover {
+	COLOR: #ff0000
+}
+#footer A:active {
+	COLOR: #ff0000
+}
+#footer DIV {
+	TEXT-ALIGN: center; MARGIN: 10px auto auto; WIDTH: 950px; DISPLAY: block; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/foot_bg.gif) #fff repeat-x 50% top; CLEAR: both; FONT-SIZE: 12px; PADDING-TOP: 10px
+}
+#footer IMG {
+	VERTICAL-ALIGN: middle
+}
+.text12 {
+	FONT-SIZE: 12px
+}
+.textBlack {
+	COLOR: #000
+}
+.text12B {
+	FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.text14 {
+	FONT-SIZE: 14px
+}
+.text14B {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.textGray {
+	COLOR: #7d7d7d
+}
+.textRed {
+	COLOR: #ff0000
+}
+.textGreen {
+	COLOR: #009933
+}
+.textBlue {
+	COLOR: #0135ad
+}
+.textWhite {
+	COLOR: #fff
+}
+.wrongWhole {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fff799; MARGIN: 15px 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 15px; HEIGHT: auto; COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 7px
+}
+#wrongWhole {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fff799; MARGIN: 15px 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 15px; HEIGHT: auto; COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 7px
+}
+.wrongTip {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fff799; MARGIN: 15px 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 15px; HEIGHT: auto; COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 7px
+}
+.wrongTip {
+	FONT-SIZE: 14px
+}
+.wrong {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #fff799; FONT-WEIGHT: bold
+}
+.wrongInfo {
+	PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #fff799; MARGIN-TOP: 3px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: auto; COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 3px
+}
+#wrongInfo {
+	PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #fff799; MARGIN-TOP: 3px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: auto; COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 3px
+}
+.pageNo {
+	TEXT-ALIGN: center; DISPLAY: block; COLOR: #fff; CLEAR: both
+}
+#header {
+	MARGIN: 0px auto; WIDTH: 950px; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/topnav.gif) no-repeat right top; HEIGHT: 66px; FONT-SIZE: 12px
+}
+#header A:link {
+	COLOR: #535353
+}
+#header A:visited {
+	COLOR: #535353
+}
+#headera:hover {
+	COLOR: #ff0000
+}
+#header A:active {
+	COLOR: #ff0000
+}
+.logo {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 6px
+}
+.logo IMG {
+	VERTICAL-ALIGN: bottom
+}
+.topNav {
+	LINE-HEIGHT: 24px; MARGIN-TOP: -5px; FLOAT: right
+}
+.topNav IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 5px
+}
+.quickChannel {
+	Z-INDEX: 500; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.quickChannel LI {
+	Z-INDEX: 100; POSITION: relative; DISPLAY: block; FLOAT: left
+}
+.quickChannel LI SPAN {
+	Z-INDEX: 100; PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: block; PADDING-TOP: 5px
+}
+.quickChannel LI A {
+	WHITE-SPACE: nowrap
+}
+.quickChannel LI A:visited {
+	WHITE-SPACE: nowrap
+}
+.quickChannel DL {
+	POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; TOP: 0px; PADDING-TOP: 0px; LEFT: 0px
+}
+.quickChannel DL.twoline {
+	WIDTH: 214px
+}
+.quickChannel DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: block; COLOR: #000; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+.quickChannel LI.fuwu {
+	PADDING-LEFT: 6px; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/person_bot.gif) no-repeat 0px 12px
+}
+.quickChannel LI.fuwu DT {
+	PADDING-LEFT: 14px; PADDING-TOP: 5px
+}
+.quickChannel LI.baozhang DT {
+	PADDING-LEFT: 14px; PADDING-TOP: 5px
+}
+.quickChannel LI.baozhang {
+	PADDING-LEFT: 6px; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/ensure.gif) no-repeat 0px 12px
+}
+.quickChannel LI.help {
+	BACKGROUND: url(https://img.99bill.com/jt/p/i/index/quick_help.gif) no-repeat 0px 12px
+}
+HTML .quickChannel DD {
+	Z-INDEX: 101; FILTER: Alpha(opacity=95); MARGIN-TOP: 1px; ZOOM: 1; BACKGROUND: white; moz-opacity: 0.95; opacity: 0.95
+}
+.quickChannel DD {
+	BORDER-BOTTOM: #e1e1e1 1px solid; TEXT-ALIGN: left; FILTER: Alpha(opacity=95); BORDER-LEFT: #e1e1e1 1px solid; PADDING-BOTTOM: 0px; MARGIN: 1px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; DISPLAY: none; BACKGROUND: white; HEIGHT: auto; COLOR: #fff; CLEAR: left; FONT-SIZE: 12px; BORDER-TOP: #e1e1e1 1px solid; BORDER-RIGHT: #e1e1e1 1px solid; PADDING-TOP: 0px; moz-opacity: 0.95; opacity: 0.95
+}
+.quickChannel DD A {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 12px; PADDING-RIGHT: 8px; DISPLAY: block; COLOR: #666666; PADDING-TOP: 1px
+}
+.quickChannel DD A:visited {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 12px; PADDING-RIGHT: 8px; DISPLAY: block; COLOR: #666666; PADDING-TOP: 1px
+}
+.quickChannel LI A:hover {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.quickChannel LI:hover DD {
+	DISPLAY: block
+}
+.quickChannel LI A:hover DD {
+	DISPLAY: block
+}
+.quickChannel LI:hover DL {
+	
+}
+.quickChannel LI A:hover DL {
+	
+}
+.quickChannel DD {
+	Z-INDEX: 500; MARGIN-TOP: 2px
+}
+.quickChannel DD A {
+	Z-INDEX: 500; FILTER: Alpha(opacity=95); MARGIN-TOP: 0px; WIDTH: 86px; ZOOM: 1; DISPLAY: block; BACKGROUND: white; FLOAT: left; OVERFLOW: hidden; moz-opacity: 0.95; opacity: 0.95
+}
+.quickChannel LI:hover DT A {
+	COLOR: #c00
+}
+.quickChannel LI A:hover DT A {
+	COLOR: #c00
+}
+.quickChannel DD A:hover {
+	COLOR: #c00
+}
+.quickChannel DD A:hover {
+	BACKGROUND: url(https://img.99bill.com/jt/p/i/index/quick_bg.gif) no-repeat
+}
+.quick {
+	MARGIN-TOP: -54px; FLOAT: right; PADDING-TOP: 30px
+}
+.navBg {
+	BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_bg.gif) repeat-x 50% top
+}
+#nav {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 950px; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_bg.gif) repeat-x 50% top; HEIGHT: 66px; FONT-SIZE: 14px; OVERFLOW: hidden
+}
+#nav .search {
+	TEXT-ALIGN: center; LINE-HEIGHT: 32px; WIDTH: 171px; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_qy.gif) no-repeat right 50%; FLOAT: right; HEIGHT: 32px; COLOR: #fff
+}
+#nav .search A:link {
+	COLOR: #cddaf6
+}
+#nav .search A:visited {
+	COLOR: #cddaf6
+}
+#nav UL {
+	WIDTH: 777px; HEIGHT: 34px; MARGIN-LEFT: -2px
+}
+#nav UL UL {
+	WIDTH: 949px; HEIGHT: 34px
+}
+#nav TABLE {
+	PADDING-BOTTOM: 0px; MARGIN: -1px -20px 0px 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; HEIGHT: 0px; PADDING-TOP: 0px
+}
+#nav LI {
+	FLOAT: left; HEIGHT: 34px
+}
+#nav LI A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_li.gif) no-repeat left top; FLOAT: left; HEIGHT: 32px; COLOR: #fff; PADDING-TOP: 0px
+}
+#nav LI A B {
+	BACKGROUND-IMAGE: url(https://img.99bill.com/jt/p/i/index/nav_li.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 22px; DISPLAY: inline; BACKGROUND-POSITION: 50% 0px; FLOAT: left; HEIGHT: 32px; CURSOR: pointer; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+#nav LI.current A {
+	BORDER-BOTTOM-COLOR: #fff; BORDER-TOP-COLOR: #fff; BACKGROUND-POSITION: 0px -32px; BORDER-RIGHT-COLOR: #fff; BORDER-LEFT-COLOR: #fff
+}
+#nav LI.current A B {
+	BACKGROUND-POSITION: 50% -32px; COLOR: #fff
+}
+#nav LI UL {
+	Z-INDEX: 10; POSITION: absolute; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_bg.gif) repeat-x 50% bottom; HEIGHT: 34px; TOP: 32px; LEFT: -9999px
+}
+#nav LI UL LI {
+	LINE-HEIGHT: 28px; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_bg.gif) repeat-x 50% bottom; FONT-SIZE: 12px
+}
+#nav LI.current UL {
+	Z-INDEX: 1; LEFT: 0px
+}
+#nav LI A:hover {
+	BACKGROUND-POSITION: 0px -64px; CURSOR: pointer
+}
+#nav LI A:hover B {
+	BACKGROUND-POSITION: 50% -64px; COLOR: #fff
+}
+UNKNOWN {
+	BACKGROUND-POSITION: 0px -64px; CURSOR: pointer
+}
+UNKNOWN {
+	BACKGROUND-POSITION: 50% -64px; COLOR: #fff
+}
+#nav LI.current A:hover {
+	BACKGROUND-POSITION: 0px -32px
+}
+#nav LI.current A:hover B {
+	BACKGROUND-POSITION: 50% -32px; COLOR: #fff
+}
+#nav LI.current:hover A {
+	BACKGROUND-POSITION: 0px -32px
+}
+#nav LI.current:hover A B {
+	BACKGROUND-POSITION: 50% -32px; COLOR: #fff
+}
+#nav UL :hover {
+	BORDER-BOTTOM: #123456 0px solid; BORDER-LEFT: #123456 0px solid; BORDER-TOP: #123456 0px solid; BORDER-RIGHT: #123456 0px solid
+}
+#nav UL :hover UL {
+	LEFT: 0px
+}
+#nav UL UL.blank {
+	PADDING-LEFT: 10px; COLOR: #535353
+}
+#nav UL :hover UL LI A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 10px; DISPLAY: inline; WHITE-SPACE: nowrap; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_bg.gif) repeat-x 50% bottom; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 34px; COLOR: #595c61; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+#nav UL LI.current UL LI A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 10px; DISPLAY: inline; WHITE-SPACE: nowrap; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_bg.gif) repeat-x 50% bottom; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 34px; COLOR: #595c61; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+#nav LI.current A:hover UL LI A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 10px; DISPLAY: inline; WHITE-SPACE: nowrap; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_bg.gif) repeat-x 50% bottom; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 34px; COLOR: #595c61; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+#nav LI.current:hover UL LI A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 10px; DISPLAY: inline; WHITE-SPACE: nowrap; BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_bg.gif) repeat-x 50% bottom; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 34px; COLOR: #595c61; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+#nav LI UL LI.current_sub A {
+	COLOR: #000
+}
+#nav LI A:hover UL LI.current_sub A {
+	COLOR: #000
+}
+#nav LI:hover UL LI.current_sub A {
+	COLOR: #000
+}
+#nav LI A:hover UL LI A:hover {
+	COLOR: #000
+}
+#nav LI:hover UL LI A:hover {
+	COLOR: #000
+}
+#nav LI.current UL LI.current_sub A {
+	COLOR: #000
+}
+#nav LI.current A:hover UL LI.current_sub A {
+	COLOR: #000
+}
+#nav LI.current:hover UL LI.current_sub A {
+	COLOR: #000
+}
+#nav LI.current A:hover UL LI A:hover {
+	COLOR: #000
+}
+#nav LI.current:hover UL LI A:hover {
+	COLOR: #000
+}
+#nav LI.current UL LI.current_sub A {
+	BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_li_now.gif) no-repeat center 50%; COLOR: #000
+}
+#nav LI.current A:hover UL LI.current_sub A {
+	BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_li_now.gif) no-repeat center 50%; COLOR: #000
+}
+#nav LI.current:hover UL LI.current_sub A {
+	BACKGROUND: url(https://img.99bill.com/jt/p/i/index/nav_li_now.gif) no-repeat center 50%; COLOR: #000
+}
+.navNo {
+	LINE-HEIGHT: 15px; WIDTH: 100%; MARGIN-BOTTOM: 10px; BACKGROUND: url(https://img.99bill.com/jt/p/i/common/nav_no.gif) repeat-x; HEIGHT: 15px
+}
+#menuLeft {
+	PADDING-BOTTOM: 9999px; PADDING-LEFT: 2px; WIDTH: 170px; PADDING-RIGHT: 2px; MARGIN-BOTTOM: -9999px; BACKGROUND: #fffbe7; FLOAT: left; PADDING-TOP: 2px
+}
+#menuLeft DL {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #fff; PADDING-TOP: 0px
+}
+#menuLeft DT {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #fff; PADDING-TOP: 0px
+}
+#menuLeft DD {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #fff; PADDING-TOP: 0px
+}
+#menuLeft DL {
+	BORDER-BOTTOM: #ffe275 1px solid; BORDER-LEFT: #ffe275 0px solid; MARGIN-BOTTOM: 2px; BORDER-TOP: #ffe275 1px solid; BORDER-RIGHT: #ffe275 0px solid
+}
+#menuLeft DL DT {
+	Z-INDEX: 2; POSITION: relative
+}
+#menuLeft DL DT A {
+	BACKGROUND-IMAGE: url(https://img.99bill.com/jt/p/i/common/mleft.gif); Z-INDEX: 1; PADDING-LEFT: 22px; WIDTH: 148px; DISPLAY: block; BACKGROUND-POSITION: 0px 0px; COLOR: #b64107; FONT-WEIGHT: bold
+}
+#menuLeft DL#openNow DT A {
+	BACKGROUND-POSITION: -185px 0px
+}
+#menuLeft DL DD {
+	DISPLAY: none
+}
+#menuLeft DL#openNow DD {
+	BORDER-BOTTOM: #ffe275 0px solid; POSITION: relative; BORDER-LEFT: #ffe275 1px solid; MARGIN-TOP: -1px; DISPLAY: block; FONT-SIZE: 12px; BORDER-TOP: #ffe275 0px solid; BORDER-RIGHT: #ffe275 1px solid
+}
+#menuLeft DD A {
+	MARGIN: -1px 10px 1px; PADDING-LEFT: 25px; WIDTH: 123px; DISPLAY: block; BACKGROUND: url(https://img.99bill.com/jt/p/i/common/mleft_ddbg.gif) repeat-x 50% top; COLOR: #535353
+}
+#menuLeft DD A:hover {
+	COLOR: #994a0a; TEXT-DECORATION: underline
+}
+#menuLeft DD UL {
+	BACKGROUND-IMAGE: url(https://img.99bill.com/jt/p/i/common/mleft.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px -60px
+}
+#menuLeft DD#linkNow UL {
+	BACKGROUND-POSITION: -185px -60px
+}
+#menuLeft DD LI {
+	DISPLAY: none
+}
+#menuLeft DD LI A {
+	DISPLAY: none
+}
+#menuLeft DD#linkNow LI {
+	LIST-STYLE-TYPE: none; DISPLAY: block; HEIGHT: 28px
+}
+#menuLeft DD#linkNow LI A {
+	BACKGROUND-IMAGE: url(https://img.99bill.com/jt/p/i/common/mleft.gif); PADDING-LEFT: 20px; WIDTH: 110px; DISPLAY: block; BACKGROUND-POSITION: 0px -90px; MARGIN-LEFT: 10px
+}
+#menuLeft DD A#anow {
+	COLOR: #000; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+#menuLeft DD LI A#anow {
+	COLOR: #994a0a; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+#wrapper {
+	OVERFLOW: hidden
+}
+.tabs LI A EM {
+	BACKGROUND: url(https://img.99bill.com/jt/p/i/common/tab.gif) right top
+}
+.tabs LI A B {
+	BACKGROUND: url(https://img.99bill.com/jt/p/i/common/tab.gif) left top
+}
+.tableList {
+	BORDER-BOTTOM: #ffcb4f 4px solid; BORDER-LEFT: #ffcb4f 4px solid; WIDTH: 99%; FONT-SIZE: 12px; BORDER-TOP: #ffcb4f 4px solid; BORDER-RIGHT: #ffcb4f 4px solid
+}
+.tableList .tabWhole {
+	BORDER-BOTTOM: #f3e7c6 1px solid; BORDER-LEFT: #ffffff 2px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse; MARGIN-BOTTOM: 2px; HEIGHT: auto; FONT-SIZE: 12px; BORDER-TOP: #ffffff 2px solid; BORDER-RIGHT: #ffffff 2px solid
+}
+.tableList .tabWhole TD {
+	BORDER-BOTTOM: #b8bab7 1px solid; BORDER-LEFT: #b8bab7 1px solid; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-COLLAPSE: collapse; FONT-SIZE: 12px; BORDER-TOP: #b8bab7 0px solid; BORDER-RIGHT: #b8bab7 1px solid
+}
+.tableList .tabT {
+	TEXT-ALIGN: left; BACKGROUND: url(https://img.99bill.com/jt/p/i/common/table_head_bg.gif) #f1f1f2 repeat-x 50% bottom; HEIGHT: 18px
+}
+.tableList .tabT TD {
+	BORDER-BOTTOM: #b8bab7 1px solid; BORDER-LEFT: #b8bab7 1px solid; BORDER-COLLAPSE: collapse; COLOR: #000000; BORDER-TOP: #b8bab7 1px solid; BORDER-RIGHT: #b8bab7 1px solid
+}

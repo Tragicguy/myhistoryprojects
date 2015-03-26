@@ -1,0 +1,28 @@
+https://session.trionworlds.com/login
+
+大前题:批量核对帐号密码.把正确和错误帐号分开保存.
+
+1.软件要注册。 注册软件后方能运行。
+  第一次运行软件,弹出注册对话框.输入用户和密码之后.发送(Post)用户和密码到  http://xxx.com/reg.asp.如果返回是1.就通过注册,继续运行程序,把用注册信息保存在ini文件或是注册表.如果是0.注册出错.退出程序.
+  第二次运行程序.用本机已有的数据自动核对注册.
+
+2.批量导入用户名和密码。用文本文件导入. 界面显示当前正在进行时帐号.列表显示出帐号和密码和核对结果.用时.
+  核对之后应该从网站登出核对帐号。
+
+
+3.每核对一次把正确密码POST到www.xxx.com/save.asp 程序等save.asp 返回值1后方能继续运行。要传的值有.name pass ip
+
+4.如果最后一次核对.不管对错都 post 到save.asp...传值: name  pass  ip  last(最后一次标志)   yn(对错标示)
+
+
+5.对正确和错误密码分开保存在电脑。
+
+6.程序可设置扫描几条记录后.断开拔号连接.然后自动连接.继续工作.
+http://www.51xibi.cn/h/reg.asp?na=xxx&ps=xxx
+http://www.51xibi.cn/h/save.asp?uname=eqwe&upass=mmzp&ipaddress=12.12.12.142&lastname=Y&last=1
+只要把数据POST到就可以了.
+
+jblackhat@live.com l19b351k 
+gammer2008@hotmail.fr sarj1981 
+theworldaintbigenough@hotmail.co.uk smile9919 
+mac2k8@hotmail.com password10 

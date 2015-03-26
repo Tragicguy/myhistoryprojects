@@ -1,0 +1,5 @@
+еЫКХПђЃК<input type="text" name='s_2_1_40_0' value='' onblur='Edit__0__Control__Login_SName__onblur(null, "s_2_1_40_0")'  pa_ui_name='painput' class='i_h' onkeydown="if (event.keyCode==13) {document.all.lg.click()}" id='s_2_1_40_0' tabindex=4001  maxlength="50">
+
+УмТыПђЃК<input type=password name='s_2_1_41_0' value='' onblur='Edit__0__Control__Password__onblur(null, "s_2_1_41_0")'  pa_ui_name='painput' class='i_h' onkeydown="if (event.keyCode==13) {document.all.lg.click()}" id='s_2_1_41_0' abindex=4002 >
+
+бщжЄТыЃК<input type="text" name='s_2_1_27_0' value='' onblur='Edit__0__Control__VerifyCode__onblur(null, "s_2_1_27_0")'  style="width:50" pa_ui_name='painput' class='i_h' onkeydown="if (event.keyCode==13) {document.all.lg.click()}" id='s_2_1_27_0' tabindex=4003  maxlength="255">

@@ -1,0 +1,14 @@
+C:\VanklOrder\VanclOrder\obj\Release\GoodsFresh.exe
+C:\VanklOrder\VanclOrder\obj\Release\GoodsFresh.pdb
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\bin\Release_PcOnline\VanclOrder.exe
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\bin\Release_PcOnline\VanclOrder.pdb
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\bin\Release_PcOnline\ClassLibrary.dll
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\bin\Release_PcOnline\ClassLibrary.pdb
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\obj\Release\ResolveAssemblyReference.cache
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\obj\Release\PcOnlineFresh.Form1.resources
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\obj\Release\PcOnlineFresh.Form2.resources
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\obj\Release\PcOnlineFresh.Properties.Resources.resources
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\obj\Release\ResGen.read.1.tlog
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\obj\Release\ResGen.write.1.tlog
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\obj\Release\VanclOrder.exe
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\VanclOrder\obj\Release\VanclOrder.pdb

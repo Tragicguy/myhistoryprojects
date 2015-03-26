@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vncviewer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP24BB.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /Ob0 /I "omnithread" /I ".." /I "..\common" /I "..\common\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "__NT__" /D "_WINSTATIC" /D "__WIN32__" /D "XMD_H" /FR"Release/" /Fp"Release/vncviewer.pch" /YX"stdhdrs.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Test Project\vncviewer recorder\ClientConnection.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP24BB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP24BC.tmp" with contents
+[
+winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib uuid.lib wsock32.lib comctl32.lib htmlhelp.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/RTSServerTransaction.pdb" /machine:I386 /out:"../../Release_Baseline/RtsSet/ch/RTSServerTransaction.exe" 
+".\Release\AboutBox.obj"
+".\Release\AuthDialog.obj"
+".\Release\CapsContainer.obj"
+".\Release\ClientConnection.obj"
+".\Release\ClientConnectionClipboard.obj"
+".\Release\ClientConnectionCopyRect.obj"
+".\Release\ClientConnectionCoRRE.obj"
+".\Release\ClientConnectionCursor.obj"
+".\Release\ClientConnectionFile.obj"
+".\Release\ClientConnectionFullScreen.obj"
+".\Release\ClientConnectionHextile.obj"
+".\Release\ClientConnectionRaw.obj"
+".\Release\ClientConnectionRRE.obj"
+".\Release\ClientConnectionTight.obj"
+".\Release\ClientConnectionZlib.obj"
+".\Release\ClientConnectionZlibHex.obj"
+".\Release\ConnectingDialog.obj"
+".\Release\d3des.obj"
+".\Release\Daemon.obj"
+".\Release\Exception.obj"
+".\Release\FileTransfer.obj"
+".\Release\FileTransferItemInfo.obj"
+".\Release\Flasher.obj"
+".\Release\HotKeys.obj"
+".\Release\KeyMap.obj"
+".\Release\Log.obj"
+".\Release\LoginAuthDialog.obj"
+".\Release\mdump.obj"
+".\Release\ProgramConfig.obj"
+".\Release\SessionDialog.obj"
+".\Release\stdhdrs.obj"
+".\Release\vncauth.obj"
+".\Release\VNCHelp.obj"
+".\Release\VNCOptions.obj"
+".\Release\vncviewer.obj"
+".\Release\VNCviewerApp.obj"
+".\Release\VNCviewerApp32.obj"
+".\Release\vncviewer.res"
+".\Release\omnithread.lib"
+".\Release\zlib.lib"
+".\Release\libjpeg.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP24BC.tmp"
+<h3>Output Window</h3>
+Compiling...
+ClientConnection.cpp
+E:\Test Project\vncviewer recorder\libjpeg/jmorecfg.h(215) : warning C4005: 'FAR' : macro redefinition
+        E:\Program Files\Microsoft Visual Studio98\VC98\INCLUDE\windef.h(135) : see previous definition of 'FAR'
+E:\Test Project\vncviewer recorder\ClientConnection.cpp(67) : note C6311: E:\Test Project\vncviewer recorder\msgdefines.h(247) : see previous definition of 'WM_NOTIECE_VNCHANDLE'
+E:\Test Project\vncviewer recorder\ClientConnection.cpp(68) : note C6311: E:\Test Project\vncviewer recorder\msgdefines.h(248) : see previous definition of 'WM_NOTICE_VNCSTATUS'
+Linking...
+
+
+
+<h3>Results</h3>
+RTSServerTransaction.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

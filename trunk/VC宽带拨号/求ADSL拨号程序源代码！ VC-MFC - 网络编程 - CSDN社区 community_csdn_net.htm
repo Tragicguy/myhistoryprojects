@@ -1,0 +1,442 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0048)http://topic.csdn.net/t/20050106/15/3704319.html -->
+<HTML lang=zh-CN xml:lang="zh-CN" 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>求ADSL拨号程序源代码！ VC/MFC / 网络编程 - CSDN社区 community.csdn.net</TITLE>
+<META content=all name=robots>
+<META http-equiv=Content-Language content=zh-CN>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
+href="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/topic.css" 
+type=text/css rel=stylesheet>
+<SCRIPT 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/Topic.js" 
+type=text/javascript></SCRIPT>
+
+<META content="连接 函数 消息 代码 结构 hrasconn 句柄 lprasconn rasdial rasconn VC/MFC 网络编程" 
+name=Keywords>
+<META content=哪位知道哪有呀？告诉小弟，先谢了！ name=description>
+<META content="MSHTML 6.00.2900.5848" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=wrapper>
+<DIV id=innerWrapper>
+<DIV id=logo>
+<SCRIPT 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/csdn_ggmm.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>show_ads_zone(230);</SCRIPT>
+<IMG style="DISPLAY: none" alt="" 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/pv.htm"> 
+<DIV>
+<TABLE class=CSDN-PHF id=CSDNPHL cellSpacing=1 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD><A href="http://www.csdn.net/" rel=external>CSDN首页</A></TD>
+    <TD><A href="http://hi.csdn.net/" rel=external>空间</A></TD>
+    <TD><A href="http://news.csdn.net/" rel=external>新闻</A></TD>
+    <TD><A href="http://bbs.csdn.net/" rel=external>论坛</A></TD>
+    <TD><A href="http://blog.csdn.net/" rel=external>Blog</A></TD>
+    <TD><A href="http://download.csdn.net/" rel=external>下载</A></TD>
+    <TD><A href="http://book.csdn.net/" rel=external>读书</A></TD>
+    <TD><A href="http://wz.csdn.net/" rel=external>网摘</A></TD>
+    <TD><A href="http://search.csdn.net/" rel=external>搜索</A></TD>
+    <TD><A href="http://dotnet.csdn.net/" rel=external>.NET</A></TD>
+    <TD><A href="http://java.csdn.net/" rel=external>Java</A></TD>
+    <TD><A href="http://live.csdn.net/" rel=external>视频</A></TD>
+    <TD><A href="http://prj.csdn.net/" rel=external>接项目</A></TD>
+    <TD><A href="http://job.csdn.net/" rel=external>求职</A></TD>
+    <TD><A href="http://www.itcast.net/" rel=external>在线学习</A></TD>
+    <TD><A href="http://www.dearbook.com.cn/" rel=external>买书</A></TD>
+    <TD><A href="http://www.programmer.com.cn/" rel=external>程序员</A></TD>
+    <TD><A href="http://hi.csdn.net/Admin/NotifyList.aspx"><SPAN 
+      id=notifyPrompt>通知</SPAN></A></TD></TR></TBODY></TABLE>
+<DIV id=logo>
+<TABLE cellSpacing=0 cellPadding=0 width=760 border=0>
+  <TBODY>
+  <TR style="TEXT-ALIGN: center">
+    <TD style="MARGIN: auto; VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #026994" 
+    align=middle width=380 height=36><!--a href="http://community.csdn.net/Games/GamesList.aspx/" target="_blank"><font size="3px" color="white"><strong>可用分押宝游戏火热进行中...</strong></font></a--><A 
+      href="http://www.uplooking.com/" target=_blank><FONT color=white 
+      size=3><STRONG>5-8万年薪顶级嵌入式，京沪深就业地</STRONG></FONT></A> </TD>
+    <TD style="MARGIN: auto; VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #026994" 
+    align=middle width=380 height=36><A href="http://g.csdn.net/5085045" 
+      target=_blank><FONT color=white 
+      size=3><STRONG>浅谈并行编程中的任务分解模式</STRONG></FONT></A> </TD></TR>
+  <TR id=bigFlash style="TEXT-ALIGN: center"><!--td colspan="2"><a href="http://community.csdn.net/" target="_blank"><img src="/t/img/topicAD.jpg" width="760" height="300" border="0" /></a></td-->
+    <TD colSpan=2><A href="http://g.csdn.net/5078710" target=_blank><IMG 
+      height=300 
+      src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/20090403.jpg" 
+      width=760 border=0></A></TD></TR></TBODY></TABLE>
+<SCRIPT type=text/javascript>setTimeout("document.getElementById('bigFlash').style.display='none'", 5000);</SCRIPT>
+</DIV>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD><A href="http://community.csdn.net/" rel=external><IMG alt=CSDN社区 
+      src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/logo_csdn.gif"></A></TD>
+    <TD>
+      <SCRIPT type=text/javascript>show_ads_zone(228);</SCRIPT>
+<!--<iframe frameborder="0" width="475" height="60" scrolling="no" src="/t/img/centerAd.htm">
+    </iframe>--></TD>
+    <TD>
+      <SCRIPT type=text/javascript>show_ads_zone(229);</SCRIPT>
+    </TD></TR></TBODY></TABLE><!-- script src="http://notify.hi.csdn.net/PromptInfo.ashx?ForWhat=FullJs"></script --><LINK 
+media=all 
+href="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/csdn_favbykimi.css" 
+type=text/css rel=stylesheet>
+<DIV id=navigation>
+<DIV id=search>
+<DIV id=innerSearch><INPUT id=key onfocus="value=''"><A 
+onclick="return Search()" 
+href="http://topic.csdn.net/t/20050106/15/3704319.html#">搜索</A>&nbsp;<CITE 
+class=fav_csdnstylebykimi><A title=收藏到我的网摘中，并分享给我的朋友 
+href="javascript:d=document;t=d.selection?(d.selection.type!='None'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'');void(saveit=window.open('http://wz.csdn.net/storeit.aspx?t='+escape(d.title)+'&amp;u='+escape(d.location.href)+'&amp;c='+escape(t),'saveit','scrollbars=no,width=590,height=300,left=75,top=20,status=no,resizable=yes'));saveit.focus();">收藏</A></CITE>&nbsp;<A 
+onclick="return Print()" 
+href="http://topic.csdn.net/t/20050106/15/3704319.html#">打印</A>&nbsp;<A 
+onclick="return Close()" 
+href="http://topic.csdn.net/t/20050106/15/3704319.html#">关闭</A> </DIV></DIV>
+<DIV><A class=CSDNRoom href="http://community.csdn.net/" 
+rel=external>CSDN社区</A>&nbsp;&gt;&nbsp; <A 
+href="http://community.csdn.net/Expert/ForumsList.asp?typenum=1&amp;roomid=50" 
+rel=external>VC/MFC</A>&nbsp;&gt;&nbsp; <A 
+href="http://community.csdn.net/Expert/ForumList.asp?typenum=1&amp;roomid=5004" 
+rel=external>网络编程</A> </DIV></DIV>
+<DIV id=mainWrapper>
+<DIV id=pageContent>
+<DIV id=innerContent>
+<H1>求ADSL拨号程序源代码！</H1>
+<DIV class=author><A class=anchor name=Top>楼主</A>taotao7805（韬滔）<INPUT class=user2 title="二级用户 该版得分小于等于500分，大于100分" type=button>2005-01-06 
+15:35:36 在 VC/MFC / 网络编程 提问</DIV>
+<P>哪位知道哪有呀？告诉小弟，先谢了！ <SPAN>问题点数：20、回复次数：6</SPAN><A 
+href="http://topic.csdn.net/t/20050106/15/3704319.html#">Top</A> </P>
+<DIV class=tagad><IFRAME 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/fb2.htm" 
+frameBorder=0 scrolling=no></IFRAME></DIV>
+<H3><STRONG><A class=anchor name=r_26986792>1 楼</A>kingzai（stevenzhu）<INPUT class=star5 title="五星用户 该版得分小于等于200000分，大于100000分" type=button></STRONG><SPAN>回复于 
+2005-01-06 15:40:18 得分 <EM>10</EM></SPAN></H3>
+<P>use &nbsp; RasDial &nbsp; <BR>&nbsp; 
+cnprogram.myrice.com/article/vc/vc521.html &nbsp; <BR>&nbsp; <A 
+href="http://topic.csdn.net/t/20050106/15/3704319.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_26989714>2 楼</A>taotao7805（韬滔）<INPUT class=user2 title="二级用户 该版得分小于等于500分，大于100分" type=button></STRONG><SPAN>回复于 
+2005-01-06 16:52:53 得分 0 </SPAN></H3>
+<P>ADSL能行？<A 
+href="http://topic.csdn.net/t/20050106/15/3704319.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_26991041>3 
+楼</A>alec626（月吻长河Blog:spaces.msn.com/filebase）<INPUT class=star1 title="一星用户 该版得分小于等于10000分，大于5000分" type=button></STRONG><SPAN>回复于 
+2005-01-06 17:24:05 得分 <EM>5</EM></SPAN></H3>
+<P>Linux上有源代码:ra-pppoe &nbsp; 3.5 &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; 
+WINDOWS下提供源码的不多，自己用RAS &nbsp; API写很烦的。<A 
+href="http://topic.csdn.net/t/20050106/15/3704319.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_26991820>4 楼</A>taotao7805（韬滔）<INPUT class=user2 title="二级用户 该版得分小于等于500分，大于100分" type=button></STRONG><SPAN>回复于 
+2005-01-06 17:46:59 得分 0 </SPAN></H3>
+<P>我要的是windows下的原代码，哪有吗？<A 
+href="http://topic.csdn.net/t/20050106/15/3704319.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_27000301>5 楼</A>taotao7805（韬滔）<INPUT class=user2 title="二级用户 该版得分小于等于500分，大于100分" type=button></STRONG><SPAN>回复于 
+2005-01-07 09:16:54 得分 0 </SPAN></H3>
+<P>up<A href="http://topic.csdn.net/t/20050106/15/3704319.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_27014966>6 楼</A>zhangqu_980371（能坚持一辈子的东西太少）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button></STRONG><SPAN>回复于 
+2005-01-07 15:41:15 得分 <EM>5</EM></SPAN></H3>
+<P>[转] &nbsp; <BR>&nbsp; 
+序：近日，有位朋友问到用VC实现拨号上网的程序，今天在网上无意中发现了这篇文章，于是便转载过来，希望对这位朋友有所帮助！ &nbsp; &nbsp; 
+<BR>&nbsp; 正文： &nbsp; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; 
+大家知道，在netants、download &nbsp; 
+expert等软件中都带有定时拨号上网下载软件的功能。而一般用户的拨号上网，利用的是windows的remote &nbsp; access &nbsp; 
+service（ras，远程访问服务）。下面介绍一下其在visual &nbsp; c＋＋下的实现。 &nbsp; &nbsp; <BR>&nbsp; 
+　　visual &nbsp; c＋＋为我们提供了包含ras &nbsp; api声明的“ras.h″头文件。要在程序中实现拨号上网功能，其大致过程如下： 
+&nbsp; &nbsp; <BR>&nbsp; 　　1. &nbsp; 利用modem拨号进行连接，应使用rasdial函数。 &nbsp; &nbsp; 
+<BR>&nbsp; 　　其声明如下： &nbsp; &nbsp; <BR>&nbsp; 　　dword &nbsp; ras &nbsp; 
+dial(lprasdialextensions &nbsp; lpras &nbsp; dialextensions,lpctstr &nbsp; 
+lpszphonebook,lprasdialparams &nbsp; lp &nbsp; ras &nbsp; dialparams,dword 
+&nbsp; dw &nbsp; notifier &nbsp; type,lpvoid &nbsp; lpv &nbsp; notifier, &nbsp; 
+lphrasconn &nbsp; lph &nbsp; ras &nbsp; conn &nbsp; ) &nbsp; &nbsp; <BR>&nbsp; 
+　　参数说明： &nbsp; &nbsp; <BR>&nbsp; 　　lprasdialextensions和lpszphonebook：仅在windows 
+&nbsp; nt下有效，在windows &nbsp; 95下，这两个参数被忽略。 &nbsp; &nbsp; <BR>&nbsp; 
+　　lprasdialparams：这个参数很重要，它指向一个rasdialparams结构，该结构包含以下几个成员： &nbsp; &nbsp; 
+<BR>&nbsp; 　　dwsize：应设定为sizeof（rasdialparams）； &nbsp; &nbsp; <BR>&nbsp; 
+　　szentryname和szphonenumber：这两个参数有联系，szentryname可以指定要建立的连接，比方说“我的连接”等等，这是处理用户已经在“拨号网络”里建立的连接的。这时，modem将拨打你在“我的连接”中设定的isp号码，此时szphonenumber成员设为空字符串“”即可；如果你要在程序中自行指定要拨打的isp号码的话，szentryname可以设定为空字符串“”，此时应设置szphonenumber为你的isp号码（169，663等），特别的，对于用201电话卡来上网的情况，可以设为“201,,,账号，密码＃，，isp号码＃”（其中“，”表示停顿一段时间（以等待确认账号，密码等），你可以根据自己所在位置的线路状况自行调节。 
+&nbsp; szcallbacknumber，szdomain：设为空串“”即可。 &nbsp; 
+szusername，szpassword：登录用户名和密码。如169公用账号guest，guest。 &nbsp; &nbsp; <BR>&nbsp; 
+　　其他成员不必设置。 &nbsp; &nbsp; <BR>&nbsp; 
+　　dwnotifiertype：指定是由窗口还是由回调函数来处理确认消息。通过确认消息我们可以得到rasdial过程的当前状态。如“正在打开段口”，“正在验证用户名和密码”等。也可设为null。 
+&nbsp; dwnotifier：指定处理确认消息的窗口或回调函数。也可设为null。 &nbsp; &nbsp; <BR>&nbsp; 
+　　lphrasconn：指向一个类型为hrasconn的变量。在调用rasdial前必须指定为null，rasdial若成功返回，则将ras连接的句柄存放于它所指向的变量中。我们也可以通过此句柄来断开连接。 
+&nbsp; &nbsp; <BR>&nbsp; 　　只要在程序中适当位置调用rasdial函数即可建立连接。 &nbsp; &nbsp; <BR>&nbsp; 
+　　2. &nbsp; 理确认消息以得到拨号过程的当前状态。 &nbsp; &nbsp; <BR>&nbsp; 
+　　我们以指定窗口来处理确认消息为例说明如何得到拨号过程的当前状态。 &nbsp; &nbsp; <BR>&nbsp; 
+　　在处理确认消息的对话框类（或视图类等）的实现代码中加入： &nbsp; &nbsp; <BR>&nbsp; 　　const &nbsp; uint 
+&nbsp; wm_rasevent &nbsp; = &nbsp; ::registerwindowmessagea(rasdialevent)； 
+&nbsp; &nbsp; <BR>&nbsp; 　　在message &nbsp; map中手工加入消息映射：(＊＊＊＊是你定义的对话框类名称) &nbsp; 
+&nbsp; <BR>&nbsp; 　　begin_message_map(＊＊＊＊, &nbsp; cdialog) &nbsp; &nbsp; 
+<BR>&nbsp; 　　file://afx_msg_map(＊＊＊＊) &nbsp; &nbsp; <BR>&nbsp; 　　…… &nbsp; 
+&nbsp; <BR>&nbsp; 　　on_registered_message(wm_rasevent, &nbsp; 
+onrasdialevent)（&lt;－加入此句） &nbsp; &nbsp; <BR>&nbsp; 　　file://afx_msg_map &nbsp; 
+&nbsp; <BR>&nbsp; 　　end_message_map() &nbsp; &nbsp; <BR>&nbsp; 　　加入成员函数处理消息： 
+&nbsp; &nbsp; <BR>&nbsp; 　　lresult &nbsp; cdialinfo::onrasdialevent(wparam 
+&nbsp; wp, &nbsp; lparam &nbsp; lp) &nbsp; &nbsp; <BR>&nbsp; 　　{ &nbsp; &nbsp; 
+<BR>&nbsp; 　　rasconnstate &nbsp; rasstate= &nbsp; (rasconnstate)wp; &nbsp; 
+&nbsp; <BR>&nbsp; 　　clistbox &nbsp; ＊info &nbsp; =(clistbox &nbsp; 
+＊)getdlgitem(idc_infolist); &nbsp; &nbsp; <BR>&nbsp; 　　file://用listbox &nbsp; 
+控件(id为idc－infolist)来显示状态) &nbsp; &nbsp; <BR>&nbsp; 　　switch(rasstate) &nbsp; 
+&nbsp; <BR>&nbsp; 　　{ &nbsp; &nbsp; <BR>&nbsp; 　　case &nbsp; rascs_openport: 
+&nbsp; &nbsp; <BR>&nbsp; 　　info→addstring(_t(″打开端口……″)); &nbsp; &nbsp; 
+<BR>&nbsp; 　　break; &nbsp; &nbsp; <BR>&nbsp; 　　case &nbsp; rascs_portopened: 
+&nbsp; &nbsp; <BR>&nbsp; 　　info→addstring(_t(″端口已打开.″)); &nbsp; &nbsp; 
+<BR>&nbsp; 　　break; &nbsp; &nbsp; <BR>&nbsp; 　　case &nbsp; rascs_connectdevice: 
+&nbsp; &nbsp; <BR>&nbsp; 　　info→addstring(_t(″连接设备……″)); &nbsp; &nbsp; 
+<BR>&nbsp; 　　break; &nbsp; &nbsp; <BR>&nbsp; 　　case &nbsp; 
+rascs_deviceconnected: &nbsp; &nbsp; <BR>&nbsp; 　　info→addstring(_t(″设备已连接.″)); 
+&nbsp; &nbsp; <BR>&nbsp; 　　break; &nbsp; &nbsp; <BR>&nbsp; 　　case &nbsp; 
+rascs_authenticate: &nbsp; &nbsp; <BR>&nbsp; 　　info→addstring(_t(″验证用户及密码″)); 
+&nbsp; &nbsp; <BR>&nbsp; 　　break; &nbsp; &nbsp; <BR>&nbsp; 　　case &nbsp; 
+rascs_authenticated: &nbsp; &nbsp; <BR>&nbsp; 　　info→addstring(_t(″通过″)); &nbsp; 
+&nbsp; <BR>&nbsp; 　　break; &nbsp; &nbsp; <BR>&nbsp; 　　case &nbsp; 
+rascs_connected: &nbsp; &nbsp; <BR>&nbsp; 　　info－&gt;addstring(_t(″已连接″)); 
+&nbsp; &nbsp; <BR>&nbsp; 　　reak; &nbsp; &nbsp; <BR>&nbsp; 　　case &nbsp; 
+rascs_disconnected: &nbsp; &nbsp; <BR>&nbsp; 　　info－&gt;addstring(_t(″连接已断开″)); 
+&nbsp; &nbsp; <BR>&nbsp; 　　m_hrasconn=null; &nbsp; &nbsp; <BR>&nbsp; 
+　　file://可定义类型为hrasconn的成员变量m_hrasconn来保存ras连接的句柄。 &nbsp; &nbsp; <BR>&nbsp; 
+　　file://在调用rasdial时用指向m_hrasconn的指针作为lphrasconn参数。 &nbsp; &nbsp; <BR>&nbsp; 
+　　file://既然用m_hrasconn来保存连接句柄，连接断开后应重置为null. &nbsp; &nbsp; <BR>&nbsp; 　　break; 
+&nbsp; &nbsp; <BR>&nbsp; 　　default: &nbsp; &nbsp; <BR>&nbsp; 　　return &nbsp; 
+(lresult)0; &nbsp; &nbsp; <BR>&nbsp; 　　} &nbsp; &nbsp; <BR>&nbsp; 　　return 
+&nbsp; (lresult)0; &nbsp; &nbsp; <BR>&nbsp; 　　} &nbsp; &nbsp; <BR>&nbsp; 　　3. 
+&nbsp; 断开连接： &nbsp; &nbsp; <BR>&nbsp; 　　if &nbsp; (m_hrasconn &nbsp; != &nbsp; 
+null) &nbsp; &nbsp; <BR>&nbsp; 　　{ &nbsp; &nbsp; <BR>&nbsp; 
+　　rashangup(m_hrasconn); &nbsp; &nbsp; <BR>&nbsp; 　　m_hrasconn &nbsp; = &nbsp; 
+null; &nbsp; &nbsp; <BR>&nbsp; 　　m_ondial=true; &nbsp; &nbsp; <BR>&nbsp; 
+　　:sleep(2000); &nbsp; &nbsp; <BR>&nbsp; 　　} &nbsp; &nbsp; <BR>&nbsp; 　　注意 
+&nbsp; ： &nbsp; &nbsp; <BR>&nbsp; 
+　　你也许注意到了以上代码中的sleep函数，这里是必需的。需要一定时间来断开连接。如果不等待一段时间，计算机有可能无法正常关闭端口。导致下一次无法拨号，只有重新启动windows才能解决。要预防此问题也可以调用rasgetconnectstatus函数，方法如下： 
+&nbsp; &nbsp; <BR>&nbsp; 　　rasconnstatus &nbsp; rstatus； &nbsp; &nbsp; 
+<BR>&nbsp; 
+　　while（rasgetconnectstatus（m_hrasconn，＆rstatus）！=error_invalid_handle） &nbsp; 
+&nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; 　　{ &nbsp; &nbsp; <BR>&nbsp; 　　：：sleep（0）； 
+&nbsp; &nbsp; <BR>&nbsp; 　　} &nbsp; &nbsp; <BR>&nbsp; 　　4．在以下情况下： &nbsp; &nbsp; 
+<BR>&nbsp; 　　① &nbsp; 浏览网页时有时会出现停止响应，重启explorer后任务栏上的连接状态图标也许会消失。 &nbsp; &nbsp; 
+<BR>&nbsp; 　　② &nbsp; 希望在连接成功后，退出程序，再次执行此程序可选择断开连接。 &nbsp; &nbsp; <BR>&nbsp; 
+　　可以调用rasenumconnection函数来得到当前连接的句柄。 &nbsp; &nbsp; <BR>&nbsp; 　　举例如下： &nbsp; 
+&nbsp; <BR>&nbsp; 　　hrasconn &nbsp; hrasconnect;dword &nbsp; dwbufffersize, 
+&nbsp; dwnumofconnections;//缓冲区大小，连接数 &nbsp; &nbsp; <BR>&nbsp; 　　lprasconn 
+&nbsp; lprasconn; &nbsp; &nbsp; <BR>&nbsp; 　　lprasconn &nbsp; = &nbsp; new 
+&nbsp; rasconn［3】;//最多可得到3个连接句柄，客户端程序其实不必设为3，因连接数有限，大部分仅一个连接。 &nbsp; &nbsp; 
+<BR>&nbsp; 　　lprasconn［0】.dwsize &nbsp; = &nbsp; sizeof(rasconn); &nbsp; &nbsp; 
+<BR>&nbsp; 　　dwbufffersize &nbsp; = &nbsp; 32＊ &nbsp; 
+sizeof(rasconn);//求出由3个rasconn结构构成的缓冲区大小 &nbsp; &nbsp; <BR>&nbsp; 
+　　rasenumconnections(lpras &nbsp; conn, &nbsp; ＆dw &nbsp; buffer &nbsp; size, 
+&nbsp; ＆dw &nbsp; numof &nbsp; connections)；//此函数若成功则返回零。 &nbsp; &nbsp; 
+<BR>&nbsp; 　　for(dword &nbsp; i=0; &nbsp; i &nbsp; 　　{ &nbsp; &nbsp; <BR>&nbsp; 
+　　hrasconnect &nbsp; = &nbsp; 
+lprasconn［i】.hrasconn;//rasconn结构的hrasconn成员为ras连接句柄 &nbsp; &nbsp; <BR>&nbsp; 　　 
+&nbsp; rashangup(hrasconnect); &nbsp; &nbsp; <BR>&nbsp; 　　 &nbsp; ::sleep(2000); 
+&nbsp; &nbsp; <BR>&nbsp; 　　} &nbsp; &nbsp; <BR>&nbsp; 　　delete &nbsp; ［】 &nbsp; 
+lprasconn; &nbsp; &nbsp; <BR>&nbsp; 　　在windows &nbsp; 98，visual &nbsp; c＋＋ 
+&nbsp; 6.0下调试通过。 &nbsp; &nbsp; <BR>&nbsp; 
+　　这样，一个实现基本拨号上网功能的程序就完成了。如果你要了解更多有关情况或服务器端程序设计，可以参考msdn→platform &nbsp; 
+sdk→networking &nbsp; and &nbsp; distributed &nbsp; services→remote &nbsp; 
+access &nbsp; service的有关内容<A 
+href="http://topic.csdn.net/t/20050106/15/3704319.html#">Top</A></P>
+<H4><STRONG>相关问题</STRONG></H4>
+<DIV class=relation>
+<UL>
+  <LI><A href="http://topic.csdn.net/t/20010719/10/200044.html" 
+  rel=external>谁有拨号程序的源代码或相关资料，谢谢了~~~</A> 
+  <LI><A href="http://topic.csdn.net/t/20050117/16/3732314.html" 
+  rel=external>托盘程序源代码!!</A> 
+  <LI><A href="http://topic.csdn.net/t/20020916/08/1026264.html" 
+  rel=external>如何在程序中利用api通过modem拨号 急！！！（最好有源代码）</A> 
+  <LI><A href="http://topic.csdn.net/t/20011028/14/344227.html" 
+  rel=external>求ping程序的源代码。。。！</A> 
+  <LI><A href="http://topic.csdn.net/t/20011028/14/344250.html" 
+  rel=external>求ping程序的源代码！</A> 
+  <LI><A href="http://topic.csdn.net/t/20011028/15/344320.html" 
+  rel=external>求ping程序的源代码。。！</A> 
+  <LI><A href="http://topic.csdn.net/t/20011121/10/380593.html" 
+  rel=external>谁要手机程序的源代码</A> 
+  <LI><A href="http://topic.csdn.net/t/20011215/13/422961.html" 
+  rel=external>交换源程序源代码</A> 
+  <LI><A href="http://topic.csdn.net/t/20020802/09/917509.html" 
+  rel=external>求Spread3.0打印程序源代码！！！！！</A> 
+  <LI><A href="http://topic.csdn.net/t/20050309/16/3837555.html" 
+  rel=external>求画图程序DrawTool的源代码！</A> </LI></UL></DIV></DIV></DIV>
+<DIV id=sidebar>
+<H3>关键词</H3>
+<DIV>
+<UL>
+  <LI><A href="http://tag.csdn.net/tag/连接/" rel=external>连接</A> 
+  <LI><A href="http://tag.csdn.net/tag/函数/" rel=external>函数</A> 
+  <LI><A href="http://tag.csdn.net/tag/消息/" rel=external>消息</A> 
+  <LI><A href="http://tag.csdn.net/tag/代码/" rel=external>代码</A> 
+  <LI><A href="http://tag.csdn.net/tag/结构/" rel=external>结构</A> 
+  <LI><A href="http://tag.csdn.net/tag/hrasconn/" rel=external>hrasconn</A> 
+  <LI><A href="http://tag.csdn.net/tag/句柄/" rel=external>句柄</A> 
+  <LI><A href="http://tag.csdn.net/tag/lprasconn/" rel=external>lprasconn</A> 
+  <LI><A href="http://tag.csdn.net/tag/rasdial/" rel=external>rasdial</A> 
+  <LI><A href="http://tag.csdn.net/tag/rasconn/" rel=external>rasconn</A> 
+</LI></UL></DIV>
+<H3>得分解答快速导航</H3>
+<DIV>
+<UL>
+  <LI>帖主：<A 
+  href="http://topic.csdn.net/t/20050106/15/3704319.html#Top">taotao7805</A> 
+  <LI><A 
+  href="http://topic.csdn.net/t/20050106/15/3704319.html#r_26986792">kingzai</A> 
+
+  <LI><A 
+  href="http://topic.csdn.net/t/20050106/15/3704319.html#r_26991041">alec626</A> 
+
+  <LI><A 
+  href="http://topic.csdn.net/t/20050106/15/3704319.html#r_27014966">zhangqu_980371</A> 
+  </LI></UL></DIV>
+<H3>相关链接</H3>
+<DIV>
+<UL>
+  <LI><A 
+  href="http://www.dearbook.com.cn/Book/SearchBook.aspx?sortid=12&amp;sorttype=smallsort" 
+  target=_blank>Visual C++类图书</A> 
+  <LI><A href="http://www.codechina.net/resource/sort.php/20" 
+  target=_blank>Visual C++类源码下载</A> </LI></UL></DIV>
+<H3>广告也精彩</H3>
+<DIV>
+<SCRIPT 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/show_ads.js" 
+type=text/javascript></SCRIPT>
+</DIV>
+<H3>反馈</H3>
+<DIV>请通过下述方式给我们反馈<BR><IMG alt=反馈 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/feedback.gif"></DIV></DIV>
+<DIV class=clear></DIV></DIV>
+<DIV style="TEXT-ALIGN: center">
+<DIV id=pubfooter style="WIDTH: 770px">
+<DIV id=Float21789 
+style="Z-INDEX: 9; RIGHT: 3px; WIDTH: 190px; POSITION: absolute; TOP: 200px">
+<CENTER>
+<DIV id=AD21789 
+style="FLOAT: none; WIDTH: 190px; HEIGHT: 90px; TEXT-ALIGN: center"><A 
+style="PADDING-RIGHT: 10px; FLOAT: right; CURSOR: pointer" 
+onclick="document.getElementById('Float21789').style.display='none';">x</A> <A 
+href="http://g.csdn.net/5060169" target=_blank><IMG 
+style="PADDING-RIGHT: 3px; WIDTH: 180px; HEIGHT: 50px" alt=提问 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/questions.gif"></A> 
+</DIV></CENTER></DIV>
+<SCRIPT language=JavaScript type=text/javascript>
+    var csdnScrollTop=function(){
+        return document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop;
+        };
+        function mymove21789(){
+        document.getElementById("Float21789").style.top=csdnScrollTop()+100+'px';document.getElementById("Float21789").style.right=3+'px';setTimeout("mymove21789();",50);
+        }
+        mymove21789();
+    </SCRIPT>
+<!--
+    <div id="Float21790" style="position: absolute; z-index: 9; width: 190px; top: 300px;
+        right: 3px;">
+        <center>
+            <div id="AD21790" style="width: 190px; height: 90px; text-align: center; float: none;">
+                <a href="http://vote.csdn.net/VoteList.aspx" target="_blank">
+                    <img src="http://topic.csdn.net/t/img/hotvote.gif" alt="惹火投票。。火热进行中..." style="width: 180px; height: 30px;" /></a>
+            </div>
+        </center>
+    </div>
+
+    <script type="text/javascript" language="JavaScript">
+        function mymove21790(){
+        document.getElementById("Float21790").style.top=csdnScrollTop()+200+'px';document.getElementById("Float21790").style.right=3+'px';setTimeout("mymove21790();",50);
+        }
+        mymove21790();
+    </script>
+	-->
+<SCRIPT 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/fb2.js" 
+type=text/javascript></SCRIPT>
+<LINK 
+href="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/public_header_footer.css" 
+type=text/css rel=stylesheet>
+<DL>
+  <DT>
+  <DD><A href="http://www.csdn.net/help/intro.htm" target=_blank>网站简介</A>|<A 
+  href="http://www.csdn.net/help/ads.htm" target=_blank>广告服务</A>|<A 
+  href="http://www.csdn.net/help/vip.htm" target=_blank>VIP资费标准</A>|<A 
+  href="http://www.csdn.net/help/bankaccount.htm" target=_blank>银行汇款帐号</A>|<A 
+  href="http://www.csdn.net/help/sitemap.htm" target=_blank>网站地图</A>|<A 
+  href="http://www.csdn.net/help/help.htm" target=_blank>帮助</A>|<A 
+  href="http://www.csdn.net/help/contact.htm" target=_blank>联系方式</A>|<A 
+  href="http://job.csdn.net/Jobs/f9c75c9f2ad14404a604669b757b9ed0/viewcompany.aspx" 
+  target=_blank>诚聘英才</A>|<A href="http://www.csdn.net/help/english.htm" 
+  target=_blank>English</A>|<A 
+  onclick="window.location.href='mai'+'lto:'+'webm'+'aster@c'+'sdn.n'+'et?subject=Report To CSDN';return false" 
+  href="http://topic.csdn.net/t/20050106/15/3704319.html#">问题报告</A> 
+  <DD>北京创新乐知广告有限公司 版权所有,&nbsp;京&nbsp;ICP&nbsp;证&nbsp;070598&nbsp;号 
+  <DD>世纪乐知(北京)网络技术有限公司 提供技术支持 
+  <DD>CSDN网站24小时值班电话：13552009689 
+  <DD class=small>Copyright © 2000-2009, CSDN.NET, All Rights Reserved 
+  <DD><A 
+  href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202001032100010" 
+  target=_blank><IMG alt=GongshangLogo 
+  src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/gongshang_logos.gif"></A> 
+  </DD></DL></DIV></DIV><!--google   Analytics begin -->
+<SCRIPT 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/urchin.js" 
+type=text/javascript>
+        </SCRIPT>
+
+<SCRIPT type=text/javascript>
+_uacct = "UA-2688088-7";
+urchinTracker();
+        </SCRIPT>
+<!--google   Analytics end -->
+<SCRIPT 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/counter.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="求ADSL拨号程序源代码！ VC-MFC - 网络编程 - CSDN社区 community_csdn_net.files/clickeye.js"></SCRIPT>
+<!-- Control Code/Caption.Yo-Focus-->
+<SCRIPT language=JavaScript1.1>
+var afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 = "";
+var afp_ad_count = 0;
+var afp_keyword_lenth = 200;
+
+var _YOYI_CONTROL_ = false;
+
+if ((navigator.userAgent.indexOf("MSIE 7.0") != -1) && (navigator.userAgent.indexOf("Windows") != -1))
+{
+	afp_keyword_lenth = 273;
+}
+
+if (document.title != "")
+	afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 = document.title;
+if (window.keywords)
+	afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 += window.keywords.content;
+if (window.description)
+	afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 += window.description.content;
+
+if (document.innerTEXT)
+	afp_all_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 = document.innerTEXT;
+
+if(afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8.length > afp_keyword_lenth) 
+{
+	afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 = afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8.substring(0,afp_keyword_lenth);
+}
+
+document.write("<scr"+"ipt src='http://server.yoyi.com.cn/afp/get/;pl_id=BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8;tp=js;sk=0;ck=0;ext_key="+afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8+";u_id=afu;ex_id=;/?'></scr"+"ipt>");
+</SCRIPT>
+
+<DIV id=ad_right 
+style="DISPLAY: none; LEFT: 10px; WIDTH: 120px; POSITION: absolute; TOP: 184px">
+<SCRIPT type=text/javascript>
+try {
+	var ad_right = "";
+	if (screen.availWidth > 1200) { 
+		ad_right += '<' + 'script type=\"text/javascript\">';
+		ad_right += 'google_ad_client = "pub-1076724771190722";';
+		ad_right += 'google_ad_slot =\"5633584852\";';
+		ad_right += 'google_ad_width = 120;';
+		ad_right += 'google_ad_height = 600;';  
+		ad_right += '</'+'script>';
+		ad_right += '<'+'script type=\"text/javascript\"';
+		ad_right += 'src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">';
+		ad_right += '</'+'script>';
+	}
+	document.write(ad_right);
+	document.getElementById("ad_right").style.display = "";
+}catch(e){}
+</SCRIPT>
+</DIV><!-- Control Code End/No.csdn--></DIV></DIV></DIV></DIV></BODY></HTML>

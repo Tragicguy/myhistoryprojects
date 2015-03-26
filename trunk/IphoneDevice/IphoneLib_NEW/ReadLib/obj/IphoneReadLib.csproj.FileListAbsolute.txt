@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\IphoneLib\ReadLib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\IphoneLib\ReadLib\bin\Release\IphoneReadLib.dll
+C:\Users\Administrator\Desktop\IphoneLib\ReadLib\bin\Release\IphoneReadLib.pdb
+C:\Users\Administrator\Desktop\IphoneLib\ReadLib\obj\Release\IphoneReadLib.dll
+C:\Users\Administrator\Desktop\IphoneLib\ReadLib\obj\Release\IphoneReadLib.pdb

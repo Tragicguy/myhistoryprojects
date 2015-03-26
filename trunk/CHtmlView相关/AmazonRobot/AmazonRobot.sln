@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmazonWrapper", "AmazonWrapper\AmazonWrapper.vcproj", "{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{147A95E8-8C7C-42AE-A04A-8FC774BA0BEA} = {147A95E8-8C7C-42AE-A04A-8FC774BA0BEA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmazonLib", "AmazonLib\AmazonLib.vcproj", "{147A95E8-8C7C-42AE-A04A-8FC774BA0BEA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F47CD999-8DDF-47CE-8034-2291011BC667} = {F47CD999-8DDF-47CE-8034-2291011BC667}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoodBase", "GoodBase\GoodBase.vcproj", "{F47CD999-8DDF-47CE-8034-2291011BC667}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6A520DAC-5FD5-492D-B70E-DA245A95B39C} = {6A520DAC-5FD5-492D-B70E-DA245A95B39C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebBase", "WebBase\WebBase.vcproj", "{6A520DAC-5FD5-492D-B70E-DA245A95B39C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DangdangWindow", "DangdangWindow\DangdangWindow.vcproj", "{19C1FEEC-687E-4441-9556-EBF9AE307028}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F47CD999-8DDF-47CE-8034-2291011BC667} = {F47CD999-8DDF-47CE-8034-2291011BC667}
+		{6A520DAC-5FD5-492D-B70E-DA245A95B39C} = {6A520DAC-5FD5-492D-B70E-DA245A95B39C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}.Debug|Win32.Build.0 = Debug|Win32
+		{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}.Release|Win32.ActiveCfg = Release|Win32
+		{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}.Release|Win32.Build.0 = Release|Win32
+		{147A95E8-8C7C-42AE-A04A-8FC774BA0BEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{147A95E8-8C7C-42AE-A04A-8FC774BA0BEA}.Debug|Win32.Build.0 = Debug|Win32
+		{147A95E8-8C7C-42AE-A04A-8FC774BA0BEA}.Release|Win32.ActiveCfg = Release|Win32
+		{147A95E8-8C7C-42AE-A04A-8FC774BA0BEA}.Release|Win32.Build.0 = Release|Win32
+		{F47CD999-8DDF-47CE-8034-2291011BC667}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F47CD999-8DDF-47CE-8034-2291011BC667}.Debug|Win32.Build.0 = Debug|Win32
+		{F47CD999-8DDF-47CE-8034-2291011BC667}.Release|Win32.ActiveCfg = Release|Win32
+		{F47CD999-8DDF-47CE-8034-2291011BC667}.Release|Win32.Build.0 = Release|Win32
+		{6A520DAC-5FD5-492D-B70E-DA245A95B39C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A520DAC-5FD5-492D-B70E-DA245A95B39C}.Debug|Win32.Build.0 = Debug|Win32
+		{6A520DAC-5FD5-492D-B70E-DA245A95B39C}.Release|Win32.ActiveCfg = Release|Win32
+		{6A520DAC-5FD5-492D-B70E-DA245A95B39C}.Release|Win32.Build.0 = Release|Win32
+		{19C1FEEC-687E-4441-9556-EBF9AE307028}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19C1FEEC-687E-4441-9556-EBF9AE307028}.Debug|Win32.Build.0 = Debug|Win32
+		{19C1FEEC-687E-4441-9556-EBF9AE307028}.Release|Win32.ActiveCfg = Release|Win32
+		{19C1FEEC-687E-4441-9556-EBF9AE307028}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

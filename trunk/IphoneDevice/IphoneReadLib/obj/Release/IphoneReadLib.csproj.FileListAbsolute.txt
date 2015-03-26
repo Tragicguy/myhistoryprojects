@@ -1,0 +1,12 @@
+E:\Work\iphonebrowser\IphoneReadLib\bin\Release\IphoneReadLib.dll
+E:\Work\iphonebrowser\IphoneReadLib\bin\Release\IphoneReadLib.pdb
+E:\Work\iphonebrowser\IphoneReadLib\bin\Release\Manzana.dll
+E:\Work\iphonebrowser\IphoneReadLib\obj\Release\ResolveAssemblyReference.cache
+E:\Work\iphonebrowser\IphoneReadLib\obj\Release\IphoneReadLib.dll
+E:\Work\iphonebrowser\IphoneReadLib\obj\Release\IphoneReadLib.pdb
+C:\Users\shaojun\Desktop\新建文件夹\IphoneReadLib\bin\Release\IphoneReadLib.dll
+C:\Users\shaojun\Desktop\新建文件夹\IphoneReadLib\bin\Release\IphoneReadLib.pdb
+C:\Users\shaojun\Desktop\新建文件夹\IphoneReadLib\bin\Release\Manzana.dll
+C:\Users\shaojun\Desktop\新建文件夹\IphoneReadLib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\shaojun\Desktop\新建文件夹\IphoneReadLib\obj\Release\IphoneReadLib.dll
+C:\Users\shaojun\Desktop\新建文件夹\IphoneReadLib\obj\Release\IphoneReadLib.pdb

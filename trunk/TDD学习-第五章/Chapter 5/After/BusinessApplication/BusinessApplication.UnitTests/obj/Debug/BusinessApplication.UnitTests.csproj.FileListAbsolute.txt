@@ -1,0 +1,27 @@
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.UnitTests.dll
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.UnitTests.pdb
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\nunit.framework.dll
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\obj\Debug\BusinessApplication.UnitTests.dll
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\obj\Debug\BusinessApplication.UnitTests.pdb
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.Core.dll
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\Ninject.dll
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.Core.pdb
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\Ninject.xml
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.UnitTests.dll.config
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\Moq.dll
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\Moq.pdb
+C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\Moq.xml
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.UnitTests.dll.config
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.UnitTests.dll
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.UnitTests.pdb
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.Core.dll
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\Ninject.xml
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.Core.pdb
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\Moq.pdb
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\Moq.xml
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\obj\Debug\BusinessApplication.UnitTests.dll
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\After\BusinessApplication\BusinessApplication.UnitTests\obj\Debug\BusinessApplication.UnitTests.pdb

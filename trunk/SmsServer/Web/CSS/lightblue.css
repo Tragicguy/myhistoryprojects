@@ -1,0 +1,114 @@
+BODY {
+	FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../Service/Image/lightblue/mainbg.gif); MARGIN: 0px; COLOR: #000000; LINE-HEIGHT: 18px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #c1daef; font-familiy: "Arial", "??"
+}
+HTML {
+	SCROLLBAR-FACE-COLOR: #f2fbff; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; OVERFLOW: auto; SCROLLBAR-SHADOW-COLOR: #9bc3e9; SCROLLBAR-3DLIGHT-COLOR: #9bc3e9; SCROLLBAR-ARROW-COLOR: #335498; SCROLLBAR-TRACK-COLOR: #e3f3fd; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #0e6acc; FONT-FAMILY: ??, Arial; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #0e6acc; FONT-FAMILY: ??, Arial; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #0e6acc; FONT-FAMILY: ??, Arial; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #3e9e1d; FONT-FAMILY: ??, Arial; TEXT-DECORATION: underline
+}
+.mainborder {
+	BORDER-RIGHT: #b5cae2 1px solid; BORDER-TOP: #b5cae2 1px solid; BORDER-LEFT: #b5cae2 1px solid; BORDER-BOTTOM: #b5cae2 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.GpSchatborder {
+	BORDER-RIGHT: #bdc7db 1px solid; BORDER-TOP: #bdc7db 1px solid; BORDER-LEFT: #bdc7db 1px solid; BORDER-BOTTOM: #bdc7db 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.mainbordernobg {
+	BORDER-RIGHT: #b5cae2 1px solid; BORDER-TOP: #b5cae2 1px solid; BORDER-LEFT: #b5cae2 1px solid; BORDER-BOTTOM: #b5cae2 1px solid
+}
+.mainborderpadding {
+	BORDER-RIGHT: #b5cae2 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #b5cae2 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #b5cae2 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #b5cae2 1px solid
+}
+.mainborderform {
+	BORDER-RIGHT: #b5cae2 1px solid; BORDER-TOP: #b5cae2 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #b5cae2 1px solid; COLOR: #000000; LINE-HEIGHT: 16px; BORDER-BOTTOM: #b5cae2 1px solid; FONT-FAMILY: "??", Arial
+}
+.mainborderscroll {
+	BORDER-RIGHT: #b5cae2 1px solid; BORDER-TOP: #b5cae2 1px solid; SCROLLBAR-FACE-COLOR: #f2fbff; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; BORDER-LEFT: #b5cae2 1px solid; SCROLLBAR-SHADOW-COLOR: #9bc3e9; SCROLLBAR-3DLIGHT-COLOR: #9bc3e9; SCROLLBAR-ARROW-COLOR: #335498; SCROLLBAR-TRACK-COLOR: #e3f3fd; BORDER-BOTTOM: #b5cae2 1px solid; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+.notefont12 {
+	FONT-SIZE: 12px; COLOR: #996a0e; FONT-FAMILY: "??", Arial
+}
+.notefont12b {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #996a0e; FONT-FAMILY: "??", Arial
+}
+.notefont14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #996a0e; FONT-FAMILY: "??", Arial
+}
+.groupfont14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0f1e67; FONT-FAMILY: "??", Arial
+}
+.csfont12b {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #1e4381; FONT-FAMILY: "??", Arial
+}
+.csfont12 {
+	FONT-SIZE: 12px; COLOR: #1e4381; FONT-FAMILY: "??", Arial
+}
+.csfont12line22 {
+	FONT-SIZE: 12px; COLOR: #1e4381; LINE-HEIGHT: 22px; FONT-FAMILY: "??", Arial
+}
+.dropdownfont {
+	FONT-SIZE: 12px; FONT-FAMILY: "??", Arial
+}
+.textbox {
+	BORDER-RIGHT: #9bc3e9 1px solid; BORDER-TOP: #9bc3e9 1px solid; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../Service/Image/lightblue/textboxbg.gif); VERTICAL-ALIGN: middle; BORDER-LEFT: #9bc3e9 1px solid; COLOR: #000000; LINE-HEIGHT: 17px; BORDER-BOTTOM: #9bc3e9 1px solid; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: "??", Arial; HEIGHT: 17px
+}
+.textarea {
+	BORDER-RIGHT: #9bc3e9 1px solid; BORDER-TOP: #9bc3e9 1px solid; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../Service/Image/lightblue/textareabg.gif); VERTICAL-ALIGN: middle; BORDER-LEFT: #9bc3e9 1px solid; COLOR: #000000; LINE-HEIGHT: 16px; BORDER-BOTTOM: #9bc3e9 1px solid; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: "??", Arial; BACKGROUND-COLOR: #dfeffc
+}
+.titlebar {
+	BACKGROUND-IMAGE: url(../Service/Image/lightblue/titlebarbg.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 24px
+}
+.titlebards {
+	BACKGROUND-IMAGE: url(../Service/Image/lightblue/titlebards.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 5px
+}
+.titlebard {
+	BACKGROUND-IMAGE: url(../Service/Image/lightblue/titlebard.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 5px
+}
+.watermarkmain {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(../Service/Image/lightblue/mainwatermark.gif); BACKGROUND-REPEAT: no-repeat
+}
+.watermarkspinfo {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(../Service/Image/lightblue/cswatermark.gif); BACKGROUND-REPEAT: no-repeat
+}
+.watermarkinfowindow {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(../Service/Image/lightblue/inforwindowwatermark.gif); BACKGROUND-REPEAT: no-repeat
+}
+.watermarkspinfo {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(../Service/Image/lightblue/cswatermark.gif); BACKGROUND-REPEAT: no-repeat
+}
+.csmainbg {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(../Service/Image/lightblue/csmainbg.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #eaf7ff
+}
+.infomainbg {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(../Service/Image/lightblue/infowindowbg.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #eef8ff
+}
+.infoouterbg {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(../Service/Image/lightblue/infowindowbgb.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cce0f1
+}
+.textboxbordernone {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.bordergroupicon {
+	BORDER-RIGHT: #9ab0cb 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #9ab0cb 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #9ab0cb 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #9ab0cb 1px solid
+}
+.borderannouncement {
+	BORDER-RIGHT: #e6e2ca 1px solid; BORDER-TOP: #e6e2ca 1px solid; BORDER-LEFT: #e6e2ca 1px solid; BORDER-BOTTOM: #e6e2ca 1px solid
+}
+.fontannounce {
+	FONT-SIZE: 12px; COLOR: #6d5613; LINE-HEIGHT: 18px; FONT-FAMILY: "??", Arial
+}
+.titlebardbg {
+	BACKGROUND-IMAGE: url(../Service/Image/lightblue/titlebarbg.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 5px
+}
+.titlebardbg {
+	BACKGROUND-IMAGE: url(../Service/Image/lightblue/titlebardbg.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 5px
+}

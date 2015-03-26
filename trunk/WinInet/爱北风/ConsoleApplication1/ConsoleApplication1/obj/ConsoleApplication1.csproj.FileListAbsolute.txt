@@ -1,0 +1,6 @@
+E:\Test Project\ConsoleApplication1\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\Test Project\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\Test Project\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\Test Project\ConsoleApplication1\ConsoleApplication1\bin\Debug\ClassLibrary.dll
+E:\Test Project\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\Test Project\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

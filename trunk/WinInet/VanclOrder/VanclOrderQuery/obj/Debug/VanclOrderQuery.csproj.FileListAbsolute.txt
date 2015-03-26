@@ -1,0 +1,11 @@
+C:\VanclOrder\VanclOrderQuery\obj\Debug\ResolveAssemblyReference.cache
+C:\VanclOrder\VanclOrderQuery\obj\Debug\PcOnlineFresh.Form1.resources
+C:\VanclOrder\VanclOrderQuery\obj\Debug\PcOnlineFresh.Form2.resources
+C:\VanclOrder\VanclOrderQuery\obj\Debug\PcOnlineFresh.Properties.Resources.resources
+C:\VanclOrder\VanclOrderQuery\obj\Debug\VanclOrderQuery.csproj.GenerateResource.Cache
+C:\VanclOrder\VanclOrderQuery\bin\Debug_PcOnline\VanclOrderQuery.exe
+C:\VanclOrder\VanclOrderQuery\bin\Debug_PcOnline\VanclOrderQuery.pdb
+C:\VanclOrder\VanclOrderQuery\bin\Debug_PcOnline\ClassLibrary.dll
+C:\VanclOrder\VanclOrderQuery\bin\Debug_PcOnline\ClassLibrary.pdb
+C:\VanclOrder\VanclOrderQuery\obj\Debug\VanclOrderQuery.exe
+C:\VanclOrder\VanclOrderQuery\obj\Debug\VanclOrderQuery.pdb

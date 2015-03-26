@@ -1,0 +1,144 @@
+#pubfooter {
+	PADDING-RIGHT: 0px; BORDER-TOP: #9ba5c9 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; FONT: 12px verdana,sans-serif; COLOR: #8d8d8d; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+#pubfooter DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#pubfooter DT {
+	DISPLAY: none
+}
+#pubfooter DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#pubfooter DD.small {
+	FONT-SIZE: 9px
+}
+#pubfooter DD A {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; COLOR: #000; PADDING-TOP: 0px
+}
+#pubfooter DD IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.CSDN-PHF {
+	FONT-SIZE: 12px; MARGIN: auto; WIDTH: 770px; FONT-FAMILY: Tahoma, verdana, "Lucida Sans Unicode", sans-serif; TEXT-ALIGN: left
+}
+.CSDN-PHF A {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #003366; LINE-HEIGHT: 18px; FONT-FAMILY: Tahoma, verdana, "Lucida Sans Unicode", sans-serif; TEXT-DECORATION: none
+}
+.CSDN-PHF A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #003366; LINE-HEIGHT: 18px; FONT-FAMILY: Tahoma, verdana, "Lucida Sans Unicode", sans-serif; TEXT-DECORATION: none
+}
+.CSDN-PHF A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #003366; LINE-HEIGHT: 18px; FONT-FAMILY: Tahoma, verdana, "Lucida Sans Unicode", sans-serif; TEXT-DECORATION: none
+}
+.CSDN-PHF A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #003366; LINE-HEIGHT: 18px; FONT-FAMILY: Tahoma, verdana, "Lucida Sans Unicode", sans-serif; TEXT-DECORATION: none
+}
+#CSDNPH {
+	TEXT-ALIGN: center
+}
+#CSDNPF {
+	TEXT-ALIGN: center
+}
+#CSDNPH TABLE {
+	WIDTH: 100%; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 20px; BORDER-BOTTOM-STYLE: none
+}
+#CSDNPH_line1 {
+	HEIGHT: 20px
+}
+#CSDNPH DL {
+	PADDING-LEFT: 160px; BACKGROUND: url(http://www.csdn.net/ui/styles/public_header_footer/logo_csdn.gif) #ffffff no-repeat left top; BORDER-BOTTOM: #4682b4 3px solid
+}
+#CSDNPH DD {
+	BACKGROUND: url(http://www.csdn.net/ui/styles/public_header_footer/bgpheadtop.gif) no-repeat right top; LINE-HEIGHT: 20px; HEIGHT: 60px; TEXT-ALIGN: left
+}
+#data_for_drop_menu {
+	BORDER-RIGHT: #4682b4 1px solid; BORDER-TOP: #4682b4 1px; LEFT: 0px; BORDER-LEFT: #4682b4 1px solid; WIDTH: 64px; BORDER-BOTTOM: #4682b4 1px solid; POSITION: absolute; TOP: 18px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+#data_for_drop_menu DIV {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 0px 1px; PADDING-TOP: 1px; BORDER-BOTTOM: #d4d0c8 1px dotted
+}
+#CSDNPHL TD {
+	BACKGROUND-COLOR: #4682b4; TEXT-ALIGN: center
+}
+#CSDNPH_line2 TD {
+	BACKGROUND-COLOR: #4682b4; TEXT-ALIGN: center
+}
+#CSDNPH_line2 A:link {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+#CSDNPH_line2 A:visited {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+#CSDNPH_line2 A:hover {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+#CSDNPH_line2 A:active {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+#data_for_drop_menu A:link {
+	COLOR: #003366
+}
+#data_for_drop_menu A:visited {
+	COLOR: #003366
+}
+#data_for_drop_menu A:hover {
+	COLOR: #003366
+}
+#data_for_drop_menu A:active {
+	COLOR: #003366
+}
+#factoryArea {
+	WIDTH: 66px; POSITION: relative; TEXT-ALIGN: center
+}
+#CSDNPH_line3 A {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#CSDNPF {
+	OVERFLOW: hidden; LINE-HEIGHT: 120%; TEXT-ALIGN: center
+}
+#CSDNPF .CSDN-PHF {
+	TEXT-ALIGN: center
+}
+#CSDNPF .CSDN-PHF DIV {
+	PADDING-LEFT: 40px
+}
+ HTML #CSDNPF HR {
+	CLEAR: both; BORDER-TOP: #4682b4 1px solid; HEIGHT: 1px
+}
+#CSDNPF A.biaoshi {
+	DISPLAY: block; BACKGROUND: url(http://www.csdn.net/ui/styles/public_header_footer/biaoshi.gif) no-repeat center 50%; LEFT: -9%; FLOAT: right; WIDTH: 40px; POSITION: relative; TOP: 20px; HEIGHT: 48px
+}
+#CSDNPF A {
+	COLOR: #000000
+}
+#CSDNPF A:link {
+	COLOR: #000000
+}
+#CSDNPF A:visited {
+	COLOR: #000000
+}
+#CSDNPF A:active {
+	COLOR: #000000
+}
+#CSDNPHL {
+	HEIGHT: 20px; TEXT-ALIGN: center
+}
+#CSDNPHL A:link {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+#CSDNPHL A:visited {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+#CSDNPHL A:active {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+#CSDNPHL A:hover {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}

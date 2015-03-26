@@ -1,0 +1,10 @@
+LIBRARY DefGetProperty
+
+EXPORTS
+GetEntryProperty
+EnumEntries
+IsConnected
+GetEntryDialParams
+SurrogateDialUP
+GetRasErrorString
+ResetDialConnect

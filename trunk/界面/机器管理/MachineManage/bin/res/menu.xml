@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window>
+<Font name="微软雅黑" size="12" bold="false" default="true" />
+  <Font name="微软雅黑" size="12" bold="true"/>
+  <Default name="Menu" value="inset=&quot;2,2,2,2&quot; itemtextpadding=&quot;30,8,8,8&quot; bkimage=&quot;file=&apos;menu_bk.png&apos; corner=&apos;30,8,8,8&apos;&quot; hole=&quot;false&quot;" />
+  <Menu>
+<MenuElement name="downcenter" bkimage="file='pet.png' dest='2,2,22,22'" height="30"  text="下载中心" itemtextpadding="30,0,0,0">      
+    </MenuElement>
+<MenuElement name="msghistory" bkimage="file='msg.png' dest='2,2,22,22'" height="30"  text="历史记录" itemtextpadding="30,0,0,0">      
+    </MenuElement>
+    <MenuElement name="onlineclass" bkimage="file='msgbox.png' dest='2,2,22,22'" height="30"  text="在线课堂" itemtextpadding="30,0,0,0">      
+    </MenuElement> 
+<MenuElement name="btnmodifypwd" bkimage="file='music.png' dest='2,2,22,22'" height="30"  text="密码修改" itemtextpadding="30,0,0,0">      
+    </MenuElement>
+<MenuElement name="menu_exit" height="30"  text="退出" itemtextpadding="30,0,0,0">      
+    </MenuElement>
+  </Menu>
+</Window>

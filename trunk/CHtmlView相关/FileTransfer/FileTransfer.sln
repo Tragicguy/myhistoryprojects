@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileTransferLib", "FileTransferLib\FileTransferLib.vcproj", "{E1A899EF-4B9D-496A-A5F5-FBCFAE195E7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileTransferTest", "FileTransferTest\FileTransferTest.vcproj", "{0ADCF7B2-EE38-42CD-B2DD-8453DC5A0102}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1A899EF-4B9D-496A-A5F5-FBCFAE195E7A} = {E1A899EF-4B9D-496A-A5F5-FBCFAE195E7A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1A899EF-4B9D-496A-A5F5-FBCFAE195E7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1A899EF-4B9D-496A-A5F5-FBCFAE195E7A}.Debug|Win32.Build.0 = Debug|Win32
+		{E1A899EF-4B9D-496A-A5F5-FBCFAE195E7A}.Release|Win32.ActiveCfg = Release|Win32
+		{E1A899EF-4B9D-496A-A5F5-FBCFAE195E7A}.Release|Win32.Build.0 = Release|Win32
+		{0ADCF7B2-EE38-42CD-B2DD-8453DC5A0102}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0ADCF7B2-EE38-42CD-B2DD-8453DC5A0102}.Debug|Win32.Build.0 = Debug|Win32
+		{0ADCF7B2-EE38-42CD-B2DD-8453DC5A0102}.Release|Win32.ActiveCfg = Release|Win32
+		{0ADCF7B2-EE38-42CD-B2DD-8453DC5A0102}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

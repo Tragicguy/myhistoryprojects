@@ -1,0 +1,246 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 AmazonWrapper"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "AmazonWrapper 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_AMAZONWRAPPER_DIALOG DIALOGEX 0, 0, 447, 224
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "卓越自动下单测试程序"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "下单",IDC_BUTTON1,121,175,52,17
+    LTEXT           "账号:",IDC_STATIC,7,18,21,8
+    LTEXT           "密码:",IDC_STATIC,7,37,21,8
+    LTEXT           "编号:",IDC_STATIC,7,57,21,8
+    LTEXT           "姓名:",IDC_STATIC,7,76,21,8
+    LTEXT           "地址:",IDC_STATIC,7,91,21,8
+    LTEXT           "省:",IDC_STATIC,17,116,13,8
+    LTEXT           "市:",IDC_STATIC,79,114,13,8
+    LTEXT           "区:",IDC_STATIC,136,115,13,8
+    CONTROL         "发票",IDC_CHECKBILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,138,32,10
+    EDITTEXT        IDC_EDITHEADER,81,133,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITCONTENT,160,133,40,14,ES_AUTOHSCROLL
+    LTEXT           "抬头:",IDC_STATIC,59,138,21,8
+    LTEXT           "内容:",IDC_STATIC,135,137,21,8
+    EDITTEXT        IDC_EDITPRO,33,112,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITCITY,92,112,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITTOWN,145,111,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITADDR,30,89,410,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITNAME,30,73,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITNO,29,55,310,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITPWD,29,36,150,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITUSER,29,15,150,14,ES_AUTOHSCROLL
+    LTEXT           "邮编:",IDC_STATIC,191,115,21,8
+    EDITTEXT        IDC_EDITPOSTCODE,214,111,52,14,ES_AUTOHSCROLL
+    LTEXT           "发送类型:",IDC_STATIC,7,159,37,8
+    EDITTEXT        IDC_EDITTYPE,50,155,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "1,2,3,4分别表示从上到下四种类型",IDC_STATIC,96,160,138,8
+    LTEXT           "电话:",IDC_STATIC,99,77,21,8
+    EDITTEXT        IDC_EDITPHONE,122,74,87,14,ES_AUTOHSCROLL
+    LTEXT           "省市区必需严格与网页中的值一致,且邮编也要对应,否则出错",IDC_STATIC,271,115,138,21
+    LTEXT           "结果:",IDC_STATIC,181,184,21,8
+    EDITTEXT        IDC_EDITRESULT,208,180,56,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "显示窗口",IDC_CHECKSHOW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,182,48,10
+    CONTROL         "调试模式",IDC_CHECKDEBUG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,199,48,10
+    PUSHBUTTON      "查询[提供账号密码即可]",IDC_BUTTON2,79,200,106,17
+    LTEXT           "查询类型:",IDC_STATIC,227,159,37,8
+    EDITTEXT        IDC_EDITQUERYTYPE,270,155,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "1,2,3分别表示从上到下三种类型",IDC_STATIC,316,157,117,8
+    EDITTEXT        IDC_EDITORDERNO,213,202,119,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "修改支付方式",IDC_BUTTON3,345,200,60,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "YuTone"
+            VALUE "FileDescription", "AmazonRobot"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "AmazonWrapper.exe"
+            VALUE "LegalCopyright", "(C) YuTone。保留所有权利。"
+            VALUE "OriginalFilename", "AmazonWrapper.exe"
+            VALUE "ProductName", "AmazonRobot"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_AMAZONWRAPPER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 440
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 217
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 AmazonWrapper(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\AmazonWrapper.rc2""  // ? Microsoft Visual C++ ?????\r\n"
+    "#include ""afxres.rc""     // ????\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\AmazonWrapper.ico"
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\AmazonWrapper.rc2"  // ? Microsoft Visual C++ ?????
+#include "afxres.rc"     // ????
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

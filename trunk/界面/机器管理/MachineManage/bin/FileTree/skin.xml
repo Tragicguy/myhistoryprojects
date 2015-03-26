@@ -1,0 +1,48 @@
+﻿<Window size="800,450" caption="0,0,0,40" sizebox="4,4,4,4" roundcorner="4,4,4,4">
+<Font name="新宋体" size="12" bold="false" default="true" />
+<Font name="新宋体" size="13" bold="false"/>
+<Default name="VScrollBar" value="thumbnormalimage=&quot;file='scroll.png' corner='3,3,3,3'&quot; thumbhotimage=&quot;file='scroll.png' corner='3,3,3,3'&quot; thumbpushedimage=&quot;file='scroll.png' corner='3,3,3,3'&quot;" />
+<HorizontalLayout name="bg" bkimage="file='bg.png' corner='4,100,4,4'">
+	
+	<VerticalLayout>
+		<HorizontalLayout height="30">
+			<VerticalLayout width="340"  >
+				<Label padding="8,4" text="FileTree(Tojen) ---- dragable tree node (tragicguy)" />
+			</VerticalLayout>
+			<VerticalLayout />
+			<VerticalLayout width="110">
+				<Button name="minbtn" float="true" pos="0,0,28,19" width="28" height="19" maxheight="19" maxwidth="28"  normalimage="file='btn_mini.png' source='0,0,28,19'" hotimage="file='btn_mini.png' source='28,0,56,19'" pushedimage="file='btn_mini.png' source='56,0,84,19'" />
+				<Button name="maxbtn" float="true" pos="28,0,56,19" width="28" height="19" maxheight="19" maxwidth="28"  normalimage="file='btn_max.png' source='0,0,28,19'" hotimage="file='btn_max.png' source='28,0,56,19'" pushedimage="file='btn_max.png' source='56,0,84,19'"  />
+				<Button name="restorebtn" visible="false" float="true" pos="28,0,56,19" width="28" height="19" maxheight="19" maxwidth="28"  normalimage="file='btn_restore.png' source='0,0,28,19'" hotimage="file='btn_restore.png' source='28,0,56,19'" pushedimage="btn_restore.png' source='56,0,84,19'" />
+				<Button name="closebtn" float="true" pos="56,0,95,19" width="39" height="19" maxheight="19" maxwidth="39"  normalimage="file='btn_close.png' source='0,0,39,19'" hotimage="file='btn_close.png' source='39,0,78,19'" pushedimage="file='btn_close.png' source='78,0,117,19'"  />
+			</VerticalLayout>
+		</HorizontalLayout>
+		
+		
+		<HorizontalLayout height="40" />
+		<HorizontalLayout inset="2,2,2,2">
+			<HorizontalLayout width="250" minwidth="200" maxwidth="520" inset="0,0,3,0" sepimm="true" sepwidth="4">
+				<TreeView name="tree" visiblefolderbtn="true" visiblecheckbtn="false" vscrollbar="true" bordercolor="#ff2582e6" bordersize="1" bkcolor="#ffffffff" inset="1,0,1,1" header="true" headerbkimage="file='list_header_bg.png'"  >
+					<ListHeader text="测试树" height="26">
+					 <Label text="测试树" textpadding="15,0,0,0" textcolor="#FFFFFFFF" align="leftmiddle" width="70" height="20" />
+					</ListHeader>
+				</TreeView>
+				<HorizontalLayout name="drag" float="true" pos="0,0,0,20" bordersize="1" bkcolor="#33FFFF11" bordercolor="#33C1E3FF">     
+				  <Label text="节点拖动中" textpadding="15,0,0,0" textcolor="#FFFFFFFF" align="leftmiddle" width="70" height="20" />
+				</HorizontalLayout>
+			</HorizontalLayout>
+			<VerticalLayout>
+				<List name="file_list"  inset="1,0,1,0" bkcolor="#ffffffff" itemtextpadding="2,0,0,0" itemshowhtml="true" vscrollbar="true" bordercolor="#ff2582e6" bordersize="1" hscrollbar="true" headerbkimage="file='list_header_bg.png'" itemalign="left" hscrollbar="false" menu="true" vscrollbarstyle="width=&quot;6&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot;">
+					<ListHeader height="26" menu="true">
+						<ListHeaderItem text="Name"   sepimage="file='list_header_sep.png'" sepwidth="3"/>
+						<ListHeaderItem text="Time" width="150"   sepimage="file='list_header_sep.png'" sepwidth="3"/>
+						<ListHeaderItem text="Size" width="100"   sepimage="file='list_header_sep.png'" sepwidth="3"/>
+						<ListHeaderItem text="Attrib" width="80"  sepimage="file='list_header_sep.png'" sepwidth="0"/>
+					</ListHeader>
+				</List>
+			</VerticalLayout>
+		</HorizontalLayout>		
+		<HorizontalLayout height="20"/>
+	</VerticalLayout>
+</HorizontalLayout>
+</Window>

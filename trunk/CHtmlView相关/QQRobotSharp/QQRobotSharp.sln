@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQRobotSharp", "QQRobotSharp\QQRobotSharp.csproj", "{F792D919-C500-43EA-8A96-823800AA204B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionCode", "FunctionCode\FunctionCode.csproj", "{82AA1053-EC45-46D0-8596-7628B67ECCDC}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRobot", "AutoRobot\AutoRobot.csproj", "{5CB03CFB-8B76-4D43-B600-582C002B2A45}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F792D919-C500-43EA-8A96-823800AA204B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F792D919-C500-43EA-8A96-823800AA204B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F792D919-C500-43EA-8A96-823800AA204B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F792D919-C500-43EA-8A96-823800AA204B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AA1053-EC45-46D0-8596-7628B67ECCDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AA1053-EC45-46D0-8596-7628B67ECCDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AA1053-EC45-46D0-8596-7628B67ECCDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AA1053-EC45-46D0-8596-7628B67ECCDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB03CFB-8B76-4D43-B600-582C002B2A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB03CFB-8B76-4D43-B600-582C002B2A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB03CFB-8B76-4D43-B600-582C002B2A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB03CFB-8B76-4D43-B600-582C002B2A45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

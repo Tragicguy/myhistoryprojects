@@ -1,0 +1,13 @@
+E:\ASP.NET\SmsServer\DataAdapter\bin\Debug\SmsServer.DataAdapter.dll
+E:\ASP.NET\SmsServer\DataAdapter\bin\Debug\SmsServer.DataAdapter.pdb
+E:\ASP.NET\SmsServer\DataAdapter\obj\Debug\ResolveAssemblyReference.cache
+E:\ASP.NET\SmsServer\DataAdapter\obj\Debug\SmsServer.DataAdapter.dll
+E:\ASP.NET\SmsServer\DataAdapter\obj\Debug\SmsServer.DataAdapter.pdb
+E:\ASP.NET\SmsServer\DataAdapter\bin\Debug\SmsServer.Model.dll
+E:\ASP.NET\SmsServer\DataAdapter\bin\Debug\SmsServer.Model.pdb
+E:\ASP.NET\SmsServer\DataAdapter\bin\Release\SmsServer.DataAdapter.dll
+E:\ASP.NET\SmsServer\DataAdapter\bin\Release\SmsServer.DataAdapter.pdb
+E:\ASP.NET\SmsServer\DataAdapter\bin\Release\SmsServer.Model.dll
+E:\ASP.NET\SmsServer\DataAdapter\obj\Release\ResolveAssemblyReference.cache
+E:\ASP.NET\SmsServer\DataAdapter\obj\Release\SmsServer.DataAdapter.dll
+E:\ASP.NET\SmsServer\DataAdapter\obj\Release\SmsServer.DataAdapter.pdb

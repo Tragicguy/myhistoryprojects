@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window caption="0,0,0,36" roundcorner="0,0" size="300,210" sizebox="6,6,6,6" mininfo="300,210" maxinfo="300,210">
+    <Include source="default.xml" />
+<VerticalLayout  bkcolor="#FFFFFFFF" bordersize="1" bkcolor="#FFFFFFFF" bordercolor="#FF3D9E5D">     
+<Include source="title.xml" />   
+<VerticalLayout name="body" padding="2,0,2,2" bkcolor="#FFFFFFFF" bkcolor2="#ffd5ffff">
+<Control height="30" />
+<HorizontalLayout >
+<Control width="20" />
+<RichEdit name="notice" readonly="true" height="170" width="220"/>
+</HorizontalLayout>
+<Control height="27" />
+<HorizontalLayout>
+<Control width="110" />
+<Button name="ok" text="确定" width="60" height="22" />
+</HorizontalLayout>
+<HorizontalLayout padding="10,10,10,10" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

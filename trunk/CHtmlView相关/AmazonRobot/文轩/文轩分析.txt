@@ -1,0 +1,7 @@
+
+337862
+
+通过如下地址检测是否有快递
+http://www.xinhuabookstore.com/customer/checkout/deliverySetting.htm?areaId=1752&listPrice=50.00&salePrice=25.00&timestamp=1302065372809
+无快递地址：
+北京市其他区台湖镇台湖国际图书城文化创意园

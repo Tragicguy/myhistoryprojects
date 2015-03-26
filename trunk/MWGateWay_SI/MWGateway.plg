@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MWGateway - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MWGateway.res" /d "NDEBUG" "E:\MyProjects\MWGateWayתSIƽ̨\MWGateway.rc"" 
+Creating temporary file "C:\DOCUME~1\shaojun\LOCALS~1\Temp\RSP56.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fr"Release/" /Fp"Release/MWGateway.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\MyProjects\MWGateWayתSIƽ̨\des.c"
+"E:\MyProjects\MWGateWayתSIƽ̨\MWGateway.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\shaojun\LOCALS~1\Temp\RSP56.tmp" 
+Creating temporary file "C:\DOCUME~1\shaojun\LOCALS~1\Temp\RSP57.tmp" with contents
+[
+ws2_32.lib /nologo /base:"0x67600000" /dll /incremental:no /pdb:"Release/MWGateway.pdb" /map:"Release/MWGateway.map" /debug /machine:I386 /def:".\MWGateway.def" /out:"Output/MWGateway.dll" /implib:"Release/MWGateway.lib" /OPT:REF 
+".\Release\des.obj"
+".\Release\MWGateway.obj"
+".\Release\MWGateway.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\shaojun\LOCALS~1\Temp\RSP57.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+des.c
+MWGateway.c
+Linking...
+   Creating library Release/MWGateway.lib and object Release/MWGateway.exp
+
+
+
+<h3>Results</h3>
+MWGateway.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

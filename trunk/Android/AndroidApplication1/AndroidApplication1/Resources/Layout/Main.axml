@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/MyButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="59.3dp"
+        android:text="访问网络拿数据" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="20px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <CheckBox
+            android:text="CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/checkBox1" />
+        <RadioButton
+            android:text="Radio"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/radioButton1" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/spinner1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="20px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:text="Waiting......"
+            android:minHeight="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="75px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6">
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="75px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/listView1"
+            android:layout_marginBottom="11.3dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="20px"
+        android:minHeight="20px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/toggleButton1" />
+        <Button
+            android:text="访问百度"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/button1" />
+    </LinearLayout>
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView1" />
+</LinearLayout>

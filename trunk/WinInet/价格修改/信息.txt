@@ -1,0 +1,56 @@
+账号：heilongjiangjt   
+密码：
+jt13917533008 
+
+
+有钱账号
+修改13601982999  17:26:41
+cdjiuteng
+修改13601982999  17:26:48
+jt13917533008
+登录网址：http://m.pconline.com.cn/member/login.htm
+
+一键刷新:http://m.pconline.com.cn/member/product/ajax_update_data.htm
+{"refreshProductCount":0,"refreshSum":0,"notInPriceSum":0}
+
+
+//用一个TIMER来根据时间来初始化当前需要刷新的成员列表
+线程只有成员列表中有数,就刷新,直到列表为空
+修改价格同理
+通过一个变量[是否已经启动刷新线程]来控制修改完价格是否需要退出线程
+
+21:40刷新过一次
+可以使用新的结构链来保存修改了的商品名,再在原始队列中对比,得到未刷新的商品,提示添加
+
+
+在第一次启动程序时，同步好所有未同步信息的账号的商品信息，保存在文件中
+以后导入等待修改价格的商品时，直接在这个同步文件中比较，如果不存在，则提示需要添加
+
+
+导入同步信息文件时，导入成两个文件，一个[A]以strNo为KEY，另一个[B]以“品牌 型号”为KEY，以此品牌型号下的所有STRNO为VALUE。
+导入等待修改文件时，先在B中找，如果找不到，则添加，如果找到，则添加其下所有STRNO的商品
+http://product.pconline.com.cn/mobile/zte/422265_price.html
+
+
+
+泡泡：
+http://shop.pcpop.com/ 
+账号密码 
+szsm16 
+jt13917533008
+
+
+【中关村在线】 http://dealer.zol.com.cn/merchant_login.php 
+登录后  有一个是  一键刷新 按钮     在 店铺管理>>>报价管理 >>>手机>>>>（手机品牌）三星>>>可以修改价格 以及 刷新 保存   用户名：82864898    这个刷新是30分钟一次 一天可以刷新12次  不用那个做第二种刷新了的  主要是修改价格  
+
+【天极网】每天10次【中关村在线】每天12次 直接一键刷新   这个刷新是30-50分钟一次   不用那个做第二种刷新了的  主要是修改价格  
+
+中关村在线 密码：jtc13601982688  用户名：82864898
+
+http://it365.yesky.com/comcenter/comlogin.do 
+
+fjjtwsm 密码：13917533008
+
+
+http://user.younet.com/login.php
+ http://shop.younet.com/c818/ 用户名：久腾网 密码：jt13917533008

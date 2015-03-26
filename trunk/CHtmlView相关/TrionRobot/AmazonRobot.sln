@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmazonRobot", "AmazonRobot\AmazonRobot.vcproj", "{8A63B8CA-6BD9-4C5E-8CEA-E56E6975B013}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmazonWrapper", "AmazonWrapper\AmazonWrapper.vcproj", "{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}"
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A63B8CA-6BD9-4C5E-8CEA-E56E6975B013}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A63B8CA-6BD9-4C5E-8CEA-E56E6975B013}.Debug|Win32.Build.0 = Debug|Win32
+		{8A63B8CA-6BD9-4C5E-8CEA-E56E6975B013}.Release|Win32.ActiveCfg = Release|Win32
+		{8A63B8CA-6BD9-4C5E-8CEA-E56E6975B013}.Release|Win32.Build.0 = Release|Win32
+		{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}.Debug|Win32.Build.0 = Debug|Win32
+		{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}.Release|Win32.ActiveCfg = Release|Win32
+		{CF560FB9-DE45-42B3-905C-A7D1498A2DBC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

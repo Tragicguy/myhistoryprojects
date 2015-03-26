@@ -1,0 +1,345 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\51jobpost.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\51jobpost.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "关于 凌龙充值器"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "凌龙充值器 V1.0.0.3",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_JOBPOST_DIALOG DIALOGEX 0, 0, 455, 293
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "凌龙充值器"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "开 始",IDC_BTN_START,15,183,34,12
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,4,197,321,93
+    CONTROL         "",IDC_LIST_COUNT,"SysListView32",LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,7,7,441,173
+    PUSHBUTTON      "设 置",IDC_BTN_SET,119,183,35,12
+    PUSHBUTTON      "停 止",IDC_BTN_STOP,62,183,34,12
+    PUSHBUTTON      "",IDC_BTN_CHECKCODE,327,196,122,57
+    PUSHBUTTON      "注 册",IDC_BTN_Registe,403,265,41,12
+    EDITTEXT        IDC_EDIT_CODE,336,265,52,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Button2",IDC_BUTTON2,164,181,50,14,NOT WS_VISIBLE
+END
+
+IDD_DLG_SET DIALOGEX 0, 0, 310, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "账号生成规则",IDC_TAOBAOCOUNT,5,7,298,46,NOT WS_VISIBLE
+    LTEXT           "账号:",IDC_STATIC,25,20,20,8,NOT WS_VISIBLE
+    LTEXT           "密码:",IDC_STATIC,76,7,20,8,NOT WS_VISIBLE
+    LTEXT           "邮箱号码:",IDC_STATIC,120,35,36,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_ACC,147,7,67,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_PWD,169,7,68,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_MAILACC,213,7,63,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_COUNTNUM,48,49,68,13,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_VISIBLE
+    LTEXT           "生成数量:",IDC_STATIC,9,51,36,8,NOT WS_VISIBLE
+    PUSHBUTTON      "生成账号",IDC_BTN_GENCOUNT,219,7,50,14,NOT WS_VISIBLE
+    CONTROL         "验证码错误时重复注册",IDC_CHECK_CHECKERROR,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,131,8,96,
+                    10
+    LTEXT           "*代表字母   ?代表数字",IDC_STATIC,76,7,89,8,NOT 
+                    WS_VISIBLE
+    GROUPBOX        "IP Address",IDC_TAOBAOCOUNT2,5,7,298,37,NOT WS_VISIBLE
+    LTEXT           "身份证号:",IDC_STATIC,120,53,37,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_INTROMAN,155,50,148,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_SHOWWIDTH,208,7,32,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE,WS_EX_RIGHT
+    LTEXT           "宽度显示比例:",IDC_STATIC,42,58,52,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_SHOWHEIGHT,144,7,32,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE,WS_EX_RIGHT
+    LTEXT           "高度显示比例:",IDC_STATIC,31,7,52,8,NOT WS_VISIBLE
+    LTEXT           "%",IDC_STATIC,95,12,8,8,NOT WS_VISIBLE
+    LTEXT           "%",IDC_STATIC,95,26,8,8,NOT WS_VISIBLE
+    PUSHBUTTON      "保存设置",IDC_BTN_SAVE,233,39,53,14
+    CONTROL         "自动切换IP",IDC_CHECK_AUTOIP2,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,20,10,55,11
+    CONTROL         "自动识别验证码",IDC_CHECK_AUTOCHECKCODE2,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,131,25,73,
+                    11
+    EDITTEXT        IDC_EDIT_IPREGNUM,56,52,32,13,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_VISIBLE
+    LTEXT           "每IP注册数:",IDC_STATIC,10,55,43,9,NOT WS_VISIBLE
+    LTEXT           "连接名称:",IDC_STATIC,28,33,37,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_RASNAME,137,7,41,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "拨号账号:",IDC_STATIC,100,10,35,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_RASACC,137,7,47,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "拨号密码:",IDC_STATIC,198,10,35,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_RASPWD,237,7,48,12,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    NOT WS_VISIBLE
+    GROUPBOX        "验证码",IDC_TAOBAOCOUNT3,5,7,298,59,NOT WS_VISIBLE
+    GROUPBOX        "换IP后的检测IP是否变化",IDC_TAOBAOCOUNT4,5,26,298,22,
+                    NOT WS_VISIBLE
+    GROUPBOX        "",IDC_TAOBAOCOUNT5,5,31,298,26,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_TAOBAOCOUNT6,5,14,298,19,NOT WS_VISIBLE
+    CONTROL         "切换方式一",IDC_RADIO_IPCHANGE1,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE,93,22,63,8
+    CONTROL         "切换方式二",IDC_RADIO_IPCHANGE2,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE,163,22,63,8
+    CONTROL         "不检测",IDC_RADIO_CHECKIP3,"Button",BS_AUTORADIOBUTTON | 
+                    NOT WS_VISIBLE,127,38,41,8
+    CONTROL         "检测一",IDC_RADIO_CHECKIP1,"Button",BS_AUTORADIOBUTTON | 
+                    NOT WS_VISIBLE,19,58,41,8
+    CONTROL         "检测二",IDC_RADIO_CHECKIP2,"Button",BS_AUTORADIOBUTTON | 
+                    NOT WS_VISIBLE,72,37,40,8
+    GROUPBOX        "其他",IDC_TAOBAOCOUNT7,5,31,298,27,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_TIMEOUT,131,39,48,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "超时设置:",IDC_STATIC,94,43,36,8
+    EDITTEXT        IDC_EDIT_CHECKIPCHANGENUM,237,34,32,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "检测次数:",IDC_STATIC,196,37,38,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_CODEERRORNUM,251,7,32,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "次数:",IDC_STATIC,229,9,22,9,NOT WS_VISIBLE
+    CONTROL         "测试",IDC_CHECK_TEST,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_TABSTOP,230,25,30,11
+    LTEXT           "@",IDC_STATIC,222,36,8,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_MAILTAIL,232,33,70,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "推荐人:",IDC_STATIC,128,20,28,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_NICKNAME,155,18,63,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    CONTROL         "在账号后加",IDC_CHECK_NAMEADD,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,232,19,55,11
+    LTEXT           "目录:",IDC_STATIC,110,10,20,8,NOT WS_VISIBLE
+    PUSHBUTTON      "浏览",IDC_BTN_FIND,275,7,28,12,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_PICSAVENAME,44,11,70,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "充值账号:",IDC_STATIC,5,15,36,8
+    EDITTEXT        IDC_EDIT_PICPATH,134,7,135,13,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_VISIBLE
+    CONTROL         "龙岩",IDC_RADIO_LONGYAN,"Button",BS_AUTORADIOBUTTON | 
+                    NOT WS_VISIBLE,145,54,32,10
+    CONTROL         "邵武",IDC_RADIO_SHAOWU,"Button",BS_AUTORADIOBUTTON | 
+                    NOT WS_VISIBLE,238,54,32,10
+    CONTROL         "莆田",IDC_RADIO_PUTIAN,"Button",BS_AUTORADIOBUTTON | 
+                    NOT WS_VISIBLE,192,54,32,10
+    CONTROL         "更换MAC地址",IDC_CHECK_CHANGEMAC,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,241,20,60,
+                    11
+    LTEXT           "网卡程序:",IDC_STATIC,103,20,36,8,NOT WS_VISIBLE
+    PUSHBUTTON      "浏览",IDC_BTN_FINDMAC,211,16,28,12,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_MACPATH,141,16,65,13,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_VISIBLE
+    PUSHBUTTON      "导入数据",IDC_BUTTON1,5,39,50,14
+    LTEXT           "请一定填写您要充值的账号,切勿充错!",IDC_STATIC,122,12,
+                    134,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "凌龙充值器"
+            VALUE "FileVersion", "1.0.0.3"
+            VALUE "InternalName", "凌龙充值器"
+            VALUE "ProductName", "凌龙充值器"
+            VALUE "ProductVersion", "1.0.0.3"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_JOBPOST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 448
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 286
+    END
+
+    IDD_DLG_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "........"
+    BEGIN
+        MENUITEM "重新注册",                    ID_MENU_REGISTER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 凌龙充值器(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\51jobpost.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

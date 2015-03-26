@@ -1,0 +1,288 @@
+.CSDN-PHF {
+	FONT-SIZE: 12px; WIDTH: 770px; FONT-FAMILY: Tahoma, ??; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.CSDN-PHF A {
+	FONT-SIZE: 12px; COLOR: #003366; LINE-HEIGHT: 18px; FONT-FAMILY: Tahoma, ??; TEXT-DECORATION: none
+}
+.CSDN-PHF A:link {
+	FONT-SIZE: 12px; COLOR: #003366; LINE-HEIGHT: 18px; FONT-FAMILY: Tahoma, ??; TEXT-DECORATION: none
+}
+.CSDN-PHF A:visited {
+	FONT-SIZE: 12px; COLOR: #003366; LINE-HEIGHT: 18px; FONT-FAMILY: Tahoma, ??; TEXT-DECORATION: none
+}
+.CSDN-PHF A:active {
+	FONT-SIZE: 12px; COLOR: #003366; LINE-HEIGHT: 18px; FONT-FAMILY: Tahoma, ??; TEXT-DECORATION: none
+}
+#CSDNPF A:hover {
+	COLOR: #336699
+}
+#CSDNPHL TD {
+	BACKGROUND-COLOR: #4682b4; TEXT-ALIGN: center
+}
+#CSDNPF {
+	OVERFLOW: hidden; LINE-HEIGHT: 130%
+}
+#CSDNPF DIV {
+	PADDING-RIGHT: 50px
+}
+#CSDNPF HR {
+	CLEAR: both; BORDER-TOP: #4682b4 1px solid; HEIGHT: 1px
+}
+#CSDNPF A.biaoshi {
+	DISPLAY: block; BACKGROUND: url(images/biaoshi.gif) #ffffff no-repeat center 50%; LEFT: -130px; FLOAT: right; WIDTH: 40px; POSITION: relative; TOP: 0px; HEIGHT: 48px
+}
+#CSDNPF A {
+	COLOR: #000000
+}
+#CSDNPF A:link {
+	COLOR: #000000
+}
+#CSDNPF A:visited {
+	COLOR: #000000
+}
+#CSDNPF A:active {
+	COLOR: #000000
+}
+#CSDNPHL {
+	HEIGHT: 20px
+}
+#CSDNPHL A:link {
+	COLOR: #ffffff
+}
+#CSDNPHL A:visited {
+	COLOR: #ffffff
+}
+#CSDNPHL A:active {
+	COLOR: #ffffff
+}
+#CSDNPHL A:hover {
+	COLOR: #ffffff
+}
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px; FONT-FAMILY: ??, Tahoma
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+H1 {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+H3 {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+FORM {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+A {
+	VERTICAL-ALIGN: middle
+}
+FONT {
+	VERTICAL-ALIGN: middle
+}
+IMG {
+	VERTICAL-ALIGN: middle
+}
+INPUT {
+	VERTICAL-ALIGN: middle
+}
+SPAN {
+	VERTICAL-ALIGN: middle
+}
+EM {
+	FONT-WEIGHT: bold; COLOR: #07519a; FONT-STYLE: normal
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000000
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A.CSDNRoom {
+	FONT-WEIGHT: bold; COLOR: #08529b
+}
+#wrapper {
+	BACKGROUND: url(images/bg.gif) #e9e9e9 repeat-y center 50%; TEXT-ALIGN: center
+}
+#innerWrapper {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: auto; WIDTH: 770px; PADDING-TOP: 2px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.clear {
+	CLEAR: both
+}
+#CSDNPF {
+	TEXT-ALIGN: center
+}
+#CSDNPHL {
+	TEXT-ALIGN: center
+}
+.CSDN-PHF {
+	WIDTH: 100%
+}
+#logo {
+	MARGIN-TOP: 2px; PADDING-BOTTOM: 3px; BORDER-BOTTOM: #2277bb 3px solid
+}
+#logo IMG {
+	MARGIN-LEFT: 5px
+}
+.logo {
+	MARGIN-RIGHT: 12px
+}
+UNKNOWN {
+	MARGIN-RIGHT: 16px
+}
+#navigation {
+	BORDER-RIGHT: #93b0da 1px solid; BORDER-TOP: #93b0da 1px solid; MARGIN-TOP: 1px; PADDING-LEFT: 10px; BORDER-LEFT: #93b0da 1px solid; COLOR: #08529b; LINE-HEIGHT: 24px; BORDER-BOTTOM: #93b0da 1px solid; HEIGHT: 25px; BACKGROUND-COLOR: #e2e8f4
+}
+#navigation A {
+	COLOR: #08529b
+}
+#search A {
+	COLOR: #000000
+}
+#search {
+	PADDING-LEFT: 45px; BACKGROUND: url(images/searchjut.gif) no-repeat left center; FLOAT: right; LINE-HEIGHT: 24px; HEIGHT: 25px
+}
+#innerSearch {
+	BACKGROUND-IMAGE: url(images/bgsearch.gif); WIDTH: 280px; HEIGHT: 25px
+}
+UNKNOWN {
+	WIDTH: 300px
+}
+#search INPUT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; MARGIN-LEFT: 20px; WIDTH: 100px; MARGIN-RIGHT: 12px; HEIGHT: 16px; BORDER-RIGHT-WIDTH: 1px
+}
+#pageContent {
+	FLOAT: right; MARGIN-LEFT: -173px; OVERFLOW: hidden; WIDTH: 100%
+}
+ HTML #pageContent {
+	TEXT-OVERFLOW: ellipsis
+}
+#innerContent {
+	MARGIN-LEFT: 173px; OVERFLOW: visible
+}
+#sidebar {
+	FLOAT: left; OVERFLOW: visible; WIDTH: 170px
+}
+#mainWrapper {
+	MARGIN-TOP: 3px
+}
+#sidebar H3 {
+	BORDER-RIGHT: #c2c2c2 1px solid; BORDER-TOP: #b0d0e6 3px solid; MARGIN-TOP: 0px; PADDING-LEFT: 16px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; BORDER-LEFT: #c2c2c2 1px solid; COLOR: #1b478e; LINE-HEIGHT: 22px; BORDER-BOTTOM: #b0d0e6 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #e1eef6
+}
+#sidebar DIV {
+	BORDER-RIGHT: #c2c2c2 1px solid; BORDER-TOP: #c2c2c2 1px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 5px; BORDER-LEFT: #c2c2c2 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #c2c2c2 1px solid
+}
+#sidebar UL {
+	MARGIN-TOP: 0px; LIST-STYLE-IMAGE: url(images/li.gif); MARGIN-BOTTOM: 0px; BORDER-TOP-STYLE: none
+}
+.relation UL {
+	MARGIN-TOP: 0px; LIST-STYLE-IMAGE: url(images/li.gif); MARGIN-BOTTOM: 0px; BORDER-TOP-STYLE: none
+}
+ HTML #sidebar UL {
+	MARGIN-LEFT: 24px
+}
+UNKNOWN {
+	PADDING-LEFT: 24px; MARGIN-LEFT: 0px
+}
+.tagad {
+	CLEAR: both; DISPLAY: block; HEIGHT: 85px; BACKGROUND-COLOR: #f3f9fe
+}
+.tagad IFRAME {
+	OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 100%
+}
+.author {
+	COLOR: #07519a; LINE-HEIGHT: 20px; HEIGHT: 22px; BACKGROUND-COLOR: #f3f9fe
+}
+#pageContent H1 {
+	CLEAR: right; BORDER-BOTTOM: #86b9e4 3px solid; HEIGHT: 24px; BACKGROUND-COLOR: #accfed
+}
+#pageContent H3 {
+	CLEAR: right; BORDER-BOTTOM: #86b9e4 3px solid; HEIGHT: 24px; BACKGROUND-COLOR: #accfed
+}
+#pageContent H1 {
+	PADDING-LEFT: 18px; FONT-SIZE: 12px; BACKGROUND: url(images/topic.gif) #accfed no-repeat 2px 50%; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+#pageContent H3 {
+	FONT-SIZE: 12px
+}
+#pageContent H3 STRONG {
+	DISPLAY: block; FONT-WEIGHT: normal; FLOAT: left; COLOR: #07519a; LINE-HEIGHT: 22px; PADDING-TOP: 5px; HEIGHT: 24px
+}
+#pageContent H3 STRONG A {
+	
+}
+A.anchor {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#pageContent H3 SPAN {
+	DISPLAY: block; FONT-WEIGHT: normal; FLOAT: right; LINE-HEIGHT: 22px; MARGIN-RIGHT: 10px; PADDING-TOP: 3px; HEIGHT: 24px
+}
+#innerContent P {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 2px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 20px
+}
+#innerContent P SPAN {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 16px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; COLOR: #999999; PADDING-TOP: 3px; TEXT-ALIGN: right
+}
+#pageContent P A {
+	PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px dotted; DISPLAY: block; FONT-WEIGHT: bold; COLOR: #666666; PADDING-TOP: 2px; TEXT-ALIGN: right
+}
+#pageContent INPUT {
+	BACKGROUND-POSITION: center 50%; BORDER-TOP-STYLE: none; BACKGROUND-REPEAT: no-repeat; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 12px; BACKGROUND-COLOR: transparent; BORDER-BOTTOM-STYLE: none
+}
+INPUT.user1 {
+	BACKGROUND-IMAGE: url(images/user1.gif); WIDTH: 20px
+}
+INPUT.user2 {
+	BACKGROUND-IMAGE: url(images/user2.gif); WIDTH: 25px
+}
+INPUT.user3 {
+	BACKGROUND-IMAGE: url(images/user3.gif); WIDTH: 35px
+}
+INPUT.user4 {
+	BACKGROUND-IMAGE: url(images/user4.gif); WIDTH: 45px
+}
+INPUT.user5 {
+	BACKGROUND-IMAGE: url(images/user5.gif); WIDTH: 55px
+}
+INPUT.star1 {
+	BACKGROUND-IMAGE: url(images/star1.gif); WIDTH: 15px
+}
+INPUT.star2 {
+	BACKGROUND-IMAGE: url(images/star2.gif); WIDTH: 25px
+}
+INPUT.star3 {
+	BACKGROUND-IMAGE: url(images/star3.gif); WIDTH: 35px
+}
+INPUT.star4 {
+	BACKGROUND-IMAGE: url(images/star4.gif); WIDTH: 45px
+}
+INPUT.star5 {
+	BACKGROUND-IMAGE: url(images/star5.gif); WIDTH: 55px
+}
+INPUT.diam1 {
+	BACKGROUND-IMAGE: url(images/diam1.gif); WIDTH: 16px; HEIGHT: 16px
+}
+INPUT.diam2 {
+	BACKGROUND-IMAGE: url(images/diam2.gif); WIDTH: 33px; HEIGHT: 16px
+}
+INPUT.diam3 {
+	BACKGROUND-IMAGE: url(images/diam3.gif); WIDTH: 49px; HEIGHT: 16px
+}
+INPUT.diam4 {
+	BACKGROUND-IMAGE: url(images/diam4.gif); WIDTH: 65px; HEIGHT: 16px
+}
+INPUT.diam5 {
+	BACKGROUND-IMAGE: url(images/diam5.gif); WIDTH: 80px; HEIGHT: 16px
+}
+#pageContent H4 {
+	BORDER-RIGHT: #cccccc 1px dotted; BORDER-TOP: #cccccc 1px dotted; MARGIN-TOP: 0px; PADDING-LEFT: 10px; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; BORDER-LEFT: #cccccc 1px dotted; COLOR: #07519a; LINE-HEIGHT: 22px; BORDER-BOTTOM: #cccccc 1px dotted; HEIGHT: 22px; BACKGROUND-COLOR: #86b9e4
+}
+.relation {
+	BORDER-RIGHT: #cccccc 1px dotted; PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 1px dotted; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; BORDER-LEFT: #cccccc 1px dotted; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px dotted; BACKGROUND-COLOR: #f3f9fe
+}

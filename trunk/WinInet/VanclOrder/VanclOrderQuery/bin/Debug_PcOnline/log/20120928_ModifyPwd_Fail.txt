@@ -1,0 +1,2 @@
+2012-09-28 14:39:58	shaojun.hnist@gmail.com    wawawo22     wawawo22    登录失败：输入的验证码错误，请重试
+2012-09-28 14:47:30	shaojun.hnist@gmail.com    wawawo22     wawawo22    登录失败：输入的验证码错误，请重试

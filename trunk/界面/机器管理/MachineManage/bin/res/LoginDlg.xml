@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window caption="0,0,0,100" size="350,250" >
+    <Include source="default.xml" />
+    <VerticalLayout bordersize="1" bkimage="file=&apos;login_bk.png&apos; corner=&apos;350,93,1,1&apos;" bkcolor="#FFFFFFFF" bordercolor="#FF3D9E5D">
+	<HorizontalLayout name="header" height="36" >
+            <HorizontalLayout height="36">
+               <Control width="10"/>
+		<Control name="applogo" width="16" height="16" bkimage="file='slider_thumb.png'" source="0,3,16,16"/>
+                <Label name="apptitle" text="" width="363" height="25" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" font="1" />
+            </HorizontalLayout>
+            <HorizontalLayout width="96" height="25">
+		<HorizontalLayout height="36" />
+                <Button name="minbtn" tooltip="最小化" width="26" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;minimize.png&apos;" hotimage="file=&apos;minimize_h.png&apos;" pushedimage="file=&apos;minimize_p.png&apos;" />
+                <Button name="maxbtn" tooltip="最大化" width="25" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;maximize.png&apos;" hotimage="file=&apos;maximize_h.png&apos;" pushedimage="file=&apos;maximize_p.png&apos;" />
+                <Button name="restorebtn" tooltip="恢复" visible="false" width="25" height="18" align="center" normalimage="file=&apos;restore.png&apos;" hotimage="file=&apos;restore_h.png&apos;" pushedimage="file=&apos;restore_p.png&apos;" />
+		<Button name="closebtn" tooltip="关闭" width="43" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;close.png&apos;" hotimage="file=&apos;close_h.png&apos;" pushedimage="file=&apos;close_p.png&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout> 
+        <VerticalLayout name="body" padding="2,0,2,2" >
+<Control height="75" />
+<HorizontalLayout >
+<Label text="用户名:" align="rightbottom" width="120" height="20" />
+<Control width="15" />
+<Edit name="userid" height="22" width="120"/><Control width="10" />
+<Button name="reguser" width="50" height="18" normalimage="" hotimage="" pushedimage="" text="{u}{l}注册账号{/l}{/u}" showhtml="true" textcolor="#FF337833" />
+</HorizontalLayout>
+<Control height="8" />
+<HorizontalLayout>
+<Label text="密码:" align="rightbottom" width="120" height="20" />
+<Control width="15" />
+<Edit name="password" password="true" height="22" width="120" />
+</HorizontalLayout>
+<Control height="8" />
+<HorizontalLayout>
+<Control width="100" />
+<CheckBox name="autologin" text="开机启动" width="100" height="20"  />
+<Control width="10" />
+<Button name="login" text="登录" width="50" height="22" />
+<Button name="login1" text="11" visible="false" width="50" height="22" />
+
+<Button name="exit" text="退出" visible="false" width="50" height="22" />
+</HorizontalLayout>
+<HorizontalLayout padding="10,10,10,10" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,15 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\SmsServer.DAL.dll
+bin\Debug\SmsServer.DAL.pdb
+bin\Debug\SmsServer.Model.dll
+bin\Debug\SmsServer.Model.pdb
+obj\Debug\SmsServer.DAL.dll
+obj\Debug\SmsServer.DAL.pdb
+bin\Debug\NBear.Mapping.dll
+bin\Debug\NBear.Core.dll
+bin\Debug\NBear.Core.pdb
+bin\Debug\NBear.Mapping.pdb
+bin\Debug\NBear.Mapping.xml
+bin\Debug\NBearLite.dll
+bin\Debug\NBearLite.pdb
+bin\Debug\NBearLite.xml

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PowerSet.aspx.cs" Inherits="SmsServer.Web.Data.SmsManager.PowerSet" %>

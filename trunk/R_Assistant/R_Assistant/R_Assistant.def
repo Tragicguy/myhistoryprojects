@@ -1,0 +1,3 @@
+LIBRARY	R_Assistant
+EXPORTS
+Calculate @1

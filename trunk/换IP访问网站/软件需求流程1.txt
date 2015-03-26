@@ -1,0 +1,23 @@
+在软件运行之前能让我设置获取ip速度毫秒数,和选择在获取ip软件里的proxylist还是在todaylist获取ip,之后运行了就开始下
+边的步骤:
+
+1.	首先打开banet,点击mac addr,然后点击random mac,接着在下边的modify options 勾选那三
+个框(disk serialum new sid auto reboot),基本就直接勾选new sid就可以了,其他两个框是默认勾选
+好的. 然后在下拉列表选择English(United States).,最后点击modify hotkey,,可能其间会弹出一
+个erro的对话框,直接点击ok,
+
+2.打开tracks eraser pro这个清除浏览器cookie的软件,,单击软件上的Erase Now,接着
+在弹出的对话框上单击ok.
+
+3.打开获取ip的软件上的(proxyclient)这个获取ip,然后在user agent setting随机双击点取任意的浏览
+器版本,然后,然后点击软件里的application选项,随机双击打开任意一个浏览器.
+
+
+
+4.在打开的浏览器中输入我给定的txt文档中的网址,,会有多列网址,大概有5,6个网址,一一输入运
+行之后(输入网址点击运行等待3-5秒就更换网址).关闭浏览器重复1步骤.
+
+
+以上提到的软件,banet,tracks eraser pro和获取 ip的软件,我会提供.还有虚拟机的精简系统iso也提供一份给予测试.
+
+baina02  密码37940weiji 

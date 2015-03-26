@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VjiaHot", "VjiaHot\VjiaHot.csproj", "{295635C7-423F-4F86-94FB-AEBFC077B490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug PAOPAO|Any CPU = Debug PAOPAO|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release PAOPAO|Any CPU = Release PAOPAO|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}.Debug PAOPAO|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}.Debug PAOPAO|Any CPU.Build.0 = Debug|Any CPU
+		{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}.Release PAOPAO|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}.Release PAOPAO|Any CPU.Build.0 = Release|Any CPU
+		{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295635C7-423F-4F86-94FB-AEBFC077B490}.Debug PAOPAO|Any CPU.ActiveCfg = Debug PAOPAO|Any CPU
+		{295635C7-423F-4F86-94FB-AEBFC077B490}.Debug PAOPAO|Any CPU.Build.0 = Debug PAOPAO|Any CPU
+		{295635C7-423F-4F86-94FB-AEBFC077B490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295635C7-423F-4F86-94FB-AEBFC077B490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295635C7-423F-4F86-94FB-AEBFC077B490}.Release PAOPAO|Any CPU.ActiveCfg = Release PAOPAO|Any CPU
+		{295635C7-423F-4F86-94FB-AEBFC077B490}.Release PAOPAO|Any CPU.Build.0 = Release PAOPAO|Any CPU
+		{295635C7-423F-4F86-94FB-AEBFC077B490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295635C7-423F-4F86-94FB-AEBFC077B490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

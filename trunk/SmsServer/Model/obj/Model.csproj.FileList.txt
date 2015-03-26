@@ -1,0 +1,5 @@
+bin\Debug\SmsServer.Model.dll
+bin\Debug\SmsServer.Model.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SmsServer.Model.dll
+obj\Debug\SmsServer.Model.pdb

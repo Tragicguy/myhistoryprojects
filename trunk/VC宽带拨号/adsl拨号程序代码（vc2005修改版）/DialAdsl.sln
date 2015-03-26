@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DialAdsl", "DialAdsl\DialAdsl.vcproj", "{5FD752F4-5059-4F06-B662-32875000186D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DefGetProperty", "DefGetProperty\DefGetProperty.vcproj", "{44263FB4-9312-449D-BDFA-1598DB0FBC2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FD752F4-5059-4F06-B662-32875000186D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FD752F4-5059-4F06-B662-32875000186D}.Debug|Win32.Build.0 = Debug|Win32
+		{5FD752F4-5059-4F06-B662-32875000186D}.Release|Win32.ActiveCfg = Release|Win32
+		{5FD752F4-5059-4F06-B662-32875000186D}.Release|Win32.Build.0 = Release|Win32
+		{44263FB4-9312-449D-BDFA-1598DB0FBC2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44263FB4-9312-449D-BDFA-1598DB0FBC2A}.Debug|Win32.Build.0 = Debug|Win32
+		{44263FB4-9312-449D-BDFA-1598DB0FBC2A}.Release|Win32.ActiveCfg = Release|Win32
+		{44263FB4-9312-449D-BDFA-1598DB0FBC2A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

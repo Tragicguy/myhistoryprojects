@@ -1,0 +1,431 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 非特定语言(系统默认值) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_FILEASK DIALOGEX 0, 0, 186, 121
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Shell Dlg", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "??",IDOK,11,88,50,14
+    PUSHBUTTON      "??",IDCANCEL,126,88,50,14
+    PUSHBUTTON      "???",IDC_BUTTON_SAVEAS,68,88,50,14
+    LTEXT           "message",IDC_STATIC_ASKMSG,166,33,13,13
+    PUSHBUTTON      "Button1",IDC_CANCEL2,164,3,15,14
+    CONTROL         "",IDC_RICHEDIT2_MSG,"RichEdit20A",ES_MULTILINE | ES_READONLY | WS_VSCROLL | WS_TABSTOP,23,24,140,48
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_FILEASK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        BOTTOMMARGIN, 113
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 非特定语言(系统默认值) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_FILE DIALOGEX 0, 0, 467, 319
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST_LOCAL,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,10,64,220,147
+    CONTROL         "",IDC_LIST_REMOTE,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,237,64,220,147
+    LTEXT           "本地文件数量",IDC_STATIC_REMOTEPATH2,13,213,212,11
+    LTEXT           "远程文件数量",IDC_STATIC_REMOTEPATH3,239,213,212,11
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",WS_BORDER,22,233,422,13,WS_EX_TRANSPARENT
+    PUSHBUTTON      "New",ID_BUTTON_NEW,22,255,82,17
+    PUSHBUTTON      "Delete",ID_BUTTON_DELETE,109,255,82,17
+    PUSHBUTTON      "Send",ID_BUTTON_SEND,294,255,46,17
+    PUSHBUTTON      "Recv",ID_BUTTON_RECEIVE,346,255,46,17
+    PUSHBUTTON      "Stop",ID_BUTTON_STOP,397,255,46,17
+    COMBOBOX        IDC_COMBO_HISTORY,53,294,393,142,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_LOCALDRIVE,10,30,67,112,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_BUTTON_ROOT,184,45,12,12
+    PUSHBUTTON      "Button1",IDC_BUTTON_UP,200,45,12,12
+    PUSHBUTTON      "Ref",IDC_BUTTON_REFRESH,216,45,12,12
+    PUSHBUTTON      "Ref",IDC_BUTTON_REF_REMOTE,442,45,12,12
+    PUSHBUTTON      "-",IDC_BUTTON_MIN,434,4,11,10
+    PUSHBUTTON      "X",IDCANCEL,449,4,11,10
+    LTEXT           "静态",IDC_STATIC_REMOTEPATH,238,45,201,11,0,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_DESTDRIVER,238,45,167,66,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_BUTTON_ROOT1,408,45,12,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Button2",IDC_BUTTON_UP1,425,45,12,14,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_STATUS,22,277,273,11
+    COMBOBOX        IDC_COMBO1,0,0,48,30,CBS_DROPDOWN | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_LOCALFPATH,10,45,171,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "静态",IDC_STATIC_EUNAME,62,8,161,8
+END
+
+IDD_DIALOG_NAME DIALOGEX 0, 0, 188, 103
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,60,52,100,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,63,72,42,14
+    PUSHBUTTON      "取消",IDCANCEL,112,72,42,14
+    PUSHBUTTON      "Button1",IDC_CANCEL2,173,4,11,10
+END
+
+IDD_DIALOG_SERVER DIALOGEX 0, 0, 254, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "添加文件",IDC_BUTTON_ADDFILE,11,10,50,14
+    PUSHBUTTON      "全选",IDC_BUTTON_SELALL,70,10,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "取消",IDC_BUTTON_CANCEL,123,7,50,14
+    CONTROL         "",IDC_LIST_FILES,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_TABSTOP,10,27,211,76
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",0x0,10,133,211,14
+    PUSHBUTTON      "终断当前任务",IDC_BUTTON_STOPSERVER,175,157,56,14
+    PUSHBUTTON      "_",IDC_BUTTON_MINIMIZE,177,7,16,14
+    PUSHBUTTON      "X",IDC_BUTTON_CCLOSE,208,7,16,14
+    LTEXT           "状态：先响应提示再操作。",IDC_STATIC_STATUS,14,160,125,8
+END
+
+IDD_DIALOG_PROMPT DIALOGEX 0, 0, 186, 92
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,68,50,14
+    PUSHBUTTON      "取消",IDCANCEL,60,68,50,14
+    CONTROL         "",IDC_RICHEDIT2_MSG,"RichEdit20A",ES_MULTILINE | ES_READONLY | WS_VSCROLL | WS_TABSTOP,7,26,152,39
+    PUSHBUTTON      "X",IDC_BUTTON_CLOSE,131,7,17,14
+    PUSHBUTTON      "MessageOK",IDC_BUTTON_OK,113,68,50,14
+END
+
+IDD_BASEDLG DIALOG  0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话框"
+FONT 9, "宋体, MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,129,7,50,16
+    PUSHBUTTON      "取消",IDCANCEL,129,26,50,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_FILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 460
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 312
+    END
+
+    IDD_DIALOG_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_DIALOG_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_DIALOG_PROMPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_BASEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\FileTransferLib.rc2""  // ???????????§?????????????§????? Microsoft Visual C++ ???????????ì?????????????¨????????????¨??????????????¨???????????????§?????????????§?????-|??????????ì?????????????????ì?????????????¨????|??????????¨?????o???\r\n"
+    "#include ""afxres.rc""     // ???????????ì?????????????¨????????????¨??????????????¨?????o???????????ì?????????????¨????|????????????ì?????????????¨????|??????????¨?????|?t\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,10,7,25
+ PRODUCTVERSION 2,10,7,25
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "深圳市汉维高新技术有限公司"
+            VALUE "FileDescription", "文件传输模块"
+            VALUE "FileVersion", "2.10.7.25"
+            VALUE "InternalName", "FileTransferLib.dll"
+            VALUE "LegalCopyright", "深圳市汉维高新技术有限公司，保留所有权利。"
+            VALUE "OriginalFilename", "FileTransferLib.dll"
+            VALUE "ProductName", "File Transfer Library"
+            VALUE "ProductVersion", "2.10.7.25"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_CLOSE1       BITMAP                  "res\\bclose1.bmp"
+IDB_BITMAP_CLOSE2       BITMAP                  "res\\bclose2.bmp"
+IDB_BITMAP_MIN1         BITMAP                  "res\\bminimum1.bmp"
+IDB_BITMAP_MIN2         BITMAP                  "res\\bminimum2.bmp"
+IDB_BITMAP_DELETE1      BITMAP                  "res\\ftbdel1.bmp"
+IDB_BITMAP_DELETE2      BITMAP                  "res\\ftbdel2.bmp"
+IDB_BITMAP_NEW1         BITMAP                  "res\\ftbnew1.bmp"
+IDB_BITMAP_NEW2         BITMAP                  "res\\ftbnew2.bmp"
+IDB_BITMAP_SEND1        BITMAP                  "res\\ftbsend1.bmp"
+IDB_BITMAP_SEND2        BITMAP                  "res\\ftbsend2.bmp"
+IDB_BITMAP_STOP1        BITMAP                  "res\\ftbstop1.bmp"
+IDB_BITMAP_STOP2        BITMAP                  "res\\ftbstop2.bmp"
+IDB_BITMAP_UP1          BITMAP                  "res\\parent1.bmp"
+IDB_BITMAP_UP2          BITMAP                  "res\\parent2.bmp"
+IDB_BITMAP_ROOT1        BITMAP                  "res\\root1.bmp"
+IDB_BITMAP_ROOT2        BITMAP                  "res\\root2.bmp"
+IDB_BITMAP_CANCEL1      BITMAP                  "res\\b3cancel1.bmp"
+IDB_BITMAP_CANCEL2      BITMAP                  "res\\b3cancel2.bmp"
+IDB_BITMAP_OK1          BITMAP                  "res\\b3confirm1.bmp"
+IDB_BITMAP_OK2          BITMAP                  "res\\b3confirm2.bmp"
+IDB_BITMAP_RECV1        BITMAP                  "res\\ftbrecive1.bmp"
+IDB_BITMAP_RECV2        BITMAP                  "res\\ftbrecive2.bmp"
+IDB_BITMAP_Refresh1     BITMAP                  "res\\refresh1.bmp"
+IDB_BITMAP_Refresh2     BITMAP                  "res\\refresh2.bmp"
+IDB_BITMAP_SCROLLBAR    BITMAP                  "res\\Common\\ScrollBar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\filetransfer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIFMAP
+//
+
+IDR_GIFMAPBG            GIFMAP                  "res\\filetransferback.gif"
+IDR_GIFMAPBG_EX         GIFMAP                  "res\\filetransferbackex.gif"
+IDR_GIFMAP_FOLDERBG     GIFMAP                  "res\\newfolderback.gif"
+IDR_GIFMAP_SSBK         GIFMAP                  "res\\FileServerDlg\\filetransferclientbg.gif"
+IDR_GIFMAP_SSBKEN       GIFMAP                  "res\\FileServerDlg\\filetransferclientbgEn.gif"
+IDR_GIFMAP_CASK         GIFMAP                  "res\\FileServerDlg\\infobg.gif"
+IDR_GIFMAP_CASKEN       GIFMAP                  "res\\FileServerDlg\\infobgEn.gif"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_ACCEPT1      BITMAP                  "res\\btnAccept_01.bmp"
+IDB_BITMAP_ACCEPT2      BITMAP                  "res\\btnAccept_02.bmp"
+IDB_BITMAP_REJECT1      BITMAP                  "res\\btnReject_01.bmp"
+IDB_BITMAP_REJECT2      BITMAP                  "res\\btnReject_02.bmp"
+IDB_BITMAP_SAVEAS1      BITMAP                  "res\\btnSaveas_01.bmp"
+IDB_BITMAP_SAVEAS2      BITMAP                  "res\\btnSaveas_02.bmp"
+IDB_BITMAP_ADDFILE01    BITMAP                  "res\\FileServerDlg\\btnClientAdd01.bmp"
+IDB_BITMAP_ADDFILE02    BITMAP                  "res\\FileServerDlg\\btnClientAdd02.bmp"
+IDB_BITMAP_SELALL01     BITMAP                  "res\\FileServerDlg\\btnClientSelectall01.bmp"
+IDB_BITMAP_SELALL02     BITMAP                  "res\\FileServerDlg\\btnClientSelectall02.bmp"
+IDB_BITMAP_CCANCEL01    BITMAP                  "res\\FileServerDlg\\btnClientCancel01.bmp"
+IDB_BITMAP_CCANCEL02    BITMAP                  "res\\FileServerDlg\\btnClientCancel02.bmp"
+IDB_BITMAP_STOP01       BITMAP                  "res\\FileServerDlg\\btnClientStop01.bmp"
+IDB_BITMAP_STOP02       BITMAP                  "res\\FileServerDlg\\btnClientStop02.bmp"
+IDB_BITMAP_MINIMIZE01   BITMAP                  "res\\FileServerDlg\\btnClientmini01.bmp"
+IDB_BITMAP_MINIMIZE02   BITMAP                  "res\\FileServerDlg\\btnClientmini02.bmp"
+IDB_BITMAP_CCLOSE01     BITMAP                  "res\\FileServerDlg\\btnClientclose01.bmp"
+IDB_BITMAP_CCLOSE02     BITMAP                  "res\\FileServerDlg\\btnClientclose02.bmp"
+IDB_BITMAP_CACCEPT01    BITMAP                  "res\\FileServerDlg\\btnClientAccept01.bmp"
+IDB_BITMAP_CACCEPT02    BITMAP                  "res\\FileServerDlg\\btnClientAccept02.bmp"
+IDB_BITMAP_CREJECT01    BITMAP                  "res\\FileServerDlg\\btnClientReject01.bmp"
+IDB_BITMAP_CREJECT02    BITMAP                  "res\\FileServerDlg\\btnClientReject02.bmp"
+IDB_BITMAP_MSGOK01      BITMAP                  "res\\FileServerDLg\\btnClientOK01.bmp"
+IDB_BITMAP_MSGOK02      BITMAP                  "res\\FileServerDLg\\btnClientOK02.bmp"
+IDB_BITMAP_ACCEPTEN1    BITMAP                  "res\\btnAcceptEn01.bmp"
+IDB_BITMAP_ACCEPTEN2    BITMAP                  "res\\btnAcceptEn02.bmp"
+IDB_BITMAP_REJECTEN1    BITMAP                  "res\\btnRejectEn01.bmp"
+IDB_BITMAP_REJECTEN2    BITMAP                  "res\\btnRejectEn02.bmp"
+IDB_BITMAP_SAVEASEN1    BITMAP                  "res\\btnSaveasEn01.bmp"
+IDB_BITMAP_SAVEASEN2    BITMAP                  "res\\btnSaveasEn02.bmp"
+IDB_BITMAP_ADDFILEEN01  BITMAP                  "res\\FileServerDlg\\btnClientAddEn01.bmp"
+IDB_BITMAP_ADDFILEEN02  BITMAP                  "res\\FileServerDlg\\btnClientAddEn02.bmp"
+IDB_BITMAP_SELALLEN01   BITMAP                  "res\\FileServerDlg\\btnClientSelectallEn01.bmp"
+IDB_BITMAP_SELALLEN02   BITMAP                  "res\\FileServerDlg\\btnClientSelectallEn02.bmp"
+IDB_BITMAP_CCANCELEN01  BITMAP                  "res\\FileServerDlg\\btnClientCancelEn01.bmp"
+IDB_BITMAP_CCANCELEN02  BITMAP                  "res\\FileServerDlg\\btnClientCancelEn02.bmp"
+IDB_BITMAP_STOPEN01     BITMAP                  "res\\FileServerDlg\\btnClientStopEn01.bmp"
+IDB_BITMAP_STOPEN02     BITMAP                  "res\\FileServerDlg\\btnClientStopEn02.bmp"
+IDB_BITMAP_CACCEPTEN01  BITMAP                  "res\\FileServerDlg\\btnClientAcceptEn01.bmp"
+IDB_BITMAP_CACCEPTEN02  BITMAP                  "res\\FileServerDlg\\btnClientAcceptEn02.bmp"
+IDB_BITMAP_CREJECTEN01  BITMAP                  "res\\FileServerDlg\\btnClientRejectEn01.bmp"
+IDB_BITMAP_CREJECTEN02  BITMAP                  "res\\FileServerDlg\\btnClientRejectEn02.bmp"
+IDB_BITMAP_MSGOKEN01    BITMAP                  "res\\FileServerDLg\\btnClientOKEn01.bmp"
+IDB_BITMAP_MSGOKEN02    BITMAP                  "res\\FileServerDLg\\btnClientOKEn02.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIFMAP
+//
+
+IDR_GIFMAP_ASK          GIFMAP                  "res\\AskDlg.gif"
+IDR_GIFMAP_ASK_EN       GIFMAP                  "res\\AskDlgEn.gif"
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\FileTransferLib.rc2"  // ???????????§?????????????§????? Microsoft Visual C++ ???????????ì?????????????¨????????????¨??????????????¨???????????????§?????????????§?????-|??????????ì?????????????????ì?????????????¨????|??????????¨?????o???
+#include "afxres.rc"     // ???????????ì?????????????¨????????????¨??????????????¨?????o???????????ì?????????????¨????|????????????ì?????????????¨????|??????????¨?????|?t
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

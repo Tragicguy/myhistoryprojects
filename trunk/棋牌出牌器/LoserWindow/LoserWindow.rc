@@ -1,0 +1,264 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\LoserWindow.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\LoserWindow.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "关于 刷分器"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "刷分器 V1.0.1.1",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_LOSERWINDOW_DIALOG DIALOGEX 0, 0, 419, 303
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "刷分客户端"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_ACC,"SysListView32",LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,7,28,254,154
+    PUSHBUTTON      "开始",IDC_BTN_START,7,7,32,14
+    PUSHBUTTON      "停止",IDC_BTN_STOP,51,7,35,14
+    PUSHBUTTON      "退出",IDC_BTN_EXIT,138,7,34,14
+    PUSHBUTTON      "Button2",IDC_BUTTON2,50,281,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Button1",IDC_BUTTON1,117,251,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Button3",IDC_BUTTON3,7,270,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Button4",IDC_BUTTON4,105,282,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Button5",IDC_BUTTON5,228,266,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Button6",IDC_BUTTON6,61,255,50,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1,137,267,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT2,183,265,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "Button7",IDC_BUTTON7,7,254,50,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST_INFO,"SysListView32",LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,7,197,254,50
+    PUSHBUTTON      "导入",IDC_BTN_INPORT,94,7,32,14
+    LTEXT           "房间密码:",IDC_STATIC,272,26,31,8
+    EDITTEXT        IDC_EDIT_ROOMPWD,305,23,31,12,ES_AUTOHSCROLL
+    LTEXT           "桌号:",IDC_STATIC,285,43,17,8
+    EDITTEXT        IDC_EDIT_DESKNUM,305,39,30,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "座位号:",IDC_STATIC,279,59,24,8
+    EDITTEXT        IDC_EDIT_SETNUM,305,57,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "从桌最下面一个座位开始顺时针1到6",IDC_STATIC,274,71,112,
+                    8
+    LTEXT           "刷分局数:",IDC_STATIC,340,197,31,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_LOSENUM,371,193,25,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE
+    CONTROL         "输",IDC_RADIO_LOSE,"Button",BS_AUTORADIOBUTTON,281,105,
+                    23,10
+    CONTROL         "赢",IDC_RADIO_WIN,"Button",BS_AUTORADIOBUTTON,281,123,
+                    20,10
+    PUSHBUTTON      "保存",IDC_BTN_SAVE,282,191,34,14
+    LTEXT           "游戏路径:",IDC_STATIC,273,88,31,8
+    EDITTEXT        IDC_EDIT_EXEPATH,305,86,88,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "浏览",IDC_BTN_FIND,398,85,18,14
+    LTEXT           "分辨率一定要设置到1024*768\r\n热键信息:\r\nHOME 退出程序\r\nEND   停止线程",
+                    IDC_STATIC,281,234,123,33
+    PUSHBUTTON      "Button8",IDC_BUTTON8,192,7,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Button9",IDC_BUTTON9,249,7,50,14,NOT WS_VISIBLE
+    LTEXT           "余额小于",IDC_STATIC,314,105,28,8
+    EDITTEXT        IDC_EDIT_MINNUM,344,102,30,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "时退出",IDC_STATIC,377,105,22,8
+    LTEXT           "余额大于",IDC_STATIC,314,123,28,8
+    EDITTEXT        IDC_EDIT_MAXNUM,344,120,30,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "时退出",IDC_STATIC,377,123,22,8
+    CONTROL         "客服来时暂停刷分",IDC_CHECK_GMCHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,281,138,66,10
+    CONTROL         "",IDC_SLIDER_SPEED,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,279,221,132,12
+    LTEXT           "刷分速度控制:       慢-------------------快",IDC_STATIC,
+                    281,209,130,8
+    CONTROL         "隐藏游戏窗口",IDC_CHECK_HIDEWINDOW,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,283,178,53,
+                    10
+    LTEXT           "暂停",IDC_STATIC,352,139,15,8
+    EDITTEXT        IDC_EDIT_STOPMINUTES,369,136,19,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "分钟",IDC_STATIC,390,140,15,8
+    LTEXT           "间隔",IDC_STATIC,352,152,15,8
+    EDITTEXT        IDC_EDIT_CHECKINTERVAL,369,149,19,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "秒",IDC_STATIC,390,152,8,8
+    CONTROL         "等待时检测客服",IDC_CHECK_GMCHECKWAIT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,281,152,66,10
+    LTEXT           "客服特征:",IDC_STATIC,283,166,31,8
+    EDITTEXT        IDC_EDIT_GMSTR,315,164,35,12,ES_AUTOHSCROLL
+    LTEXT           "[包含字符串]",IDC_STATIC,351,166,41,8
+    CONTROL         "设置密码",IDC_CHECK_SETPWD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,347,25,40,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,1
+ PRODUCTVERSION 1,0,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "刷分器"
+            VALUE "FileVersion", "1.0.1.1"
+            VALUE "InternalName", "刷分器.exe"
+            VALUE "OriginalFilename", "刷分器.exe"
+            VALUE "ProductName", "刷分器"
+            VALUE "ProductVersion", "1.0.1.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_LOSERWINDOW_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 412
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 296
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 刷分器(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\LoserWindow.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

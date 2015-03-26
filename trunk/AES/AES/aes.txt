@@ -1,0 +1,95 @@
+
+An AES (Rijndael) Implementation in C/C++ (as specified in FIPS-197)
+--------------------------------------------------------------------
+
+The AES source code files are as follows:
+
+1.  aes.h            the header file needed to use AES in C
+2.  aesopt.h         the header file for setting options (and some common code)
+3.  aestab.h         the header file for the AES table declaration
+4.  aescrypt.c       the main C source code file for encryption and decryption
+5.  aeskey.c         the main C source code file for the key schedule
+6.  aestab.c         the main file for the AES tables
+7.  aescrypt.asm     alternative to 4 above in assembler (using NASM)
+8.  aescrypt.mmx.asm alternative to 4 above in assembler using MMX (using NASM)
+9.  aescpp.h         the header file required with to use AES in C++
+
+Other associated files for testing and support are:
+
+10.  aesxam.c        an example of AES use
+11.  tablegen.c      a program to generate a simplified 'aestab.c' file for
+                     use with compilers that find aestab.c too complex
+12.  aestst.cpp      a simple test program for quick tests of the AES code
+13.  aestst.h        a header file for setting the testing environment
+14.  aesgav.cpp      a program to generate and verify the test vector files
+15.  aesrav.cpp      a program to verify output against the test vector files
+16.  aestmr.cpp      a program to time the code on x86 systems
+17.  vb.txt          a demonstration of AES DLL use from Visual Basic
+18.  aes.txt         this file
+
+
+The VC++ AES Development Project
+--------------------------------
+
+The VC++ Solution contains the following sub-projects
+
+1. aes_asm      this project tests the assembler code implementation
+2. aes_dll      this project builds the DLL version
+3. aes_gav      this project re-creates the test vector files and
+                optionally checks them against a reference set
+4. aes_rav      this project checks the values produced by the code
+                against the values in the test vector files
+5. aes_tables   generates a simplified 'aestab.c' file (called asestab2.c)
+6. aes_tmr      this project measures the speed of the code on x86 systems
+7. aes_tst      this project is set up to run simple tests on the normal, the
+                DLL or the C++ versions of the AES code
+8. aes_xam      this project builds the example of AES use in a
+                simple file encryption program
+
+Notes:
+
+1. AES_ASM      must be defined if using the assembler code and the options
+                in the assember file used must match those in aes.h
+2. AES_DLL      must be defined to generate the DLL version of the code and
+                to run tests on it
+3. AES_CPP      must be defined in order to run tests on the C++ version
+                of the code
+4. Directories  the paths for the various directories for test vector input
+                and output have to be set in aestst.h
+
+The assembler code uses the NASM assembler with the command line for the
+custom build step:
+
+nasm -O2 -Xvc -f win32 -o "$(TargetDir)\$(InputName).obj" "$(InputPath)"
+
+The VC++ project files are set up to include the C code for encryption and
+decryption (aescrypt.c) with both assembler versions (aescrypt.asm and
+aescrypt.mmax.asm) excluded.  To use the assembler versions, aescrypt.c has
+to be excluded from the build and the desired of the assembler version
+included.  When building the AES DLL using the assembler, it is important
+that AES_DLL is defined in the assembler files or on the NASM command line.
+It is also important to ensure that the options defined in the assembler
+file matches those set in aes.h.
+
+The AES Test Vector Files
+-------------------------
+
+These files fall in the following groups (where <nn> is a two digit
+number):
+
+1. ecbvk<nn>.txt  ECB vectors with variable key
+2. ecbvt<nn>.txt  ECB vectors with variable text
+3. ecbnk<nn>.txt  new ECB vectors with variable key
+4. ecbnt<nn>.txt  new ECB vectors with variable text
+5. ecbme<nn>.txt  ECB monte carlo encryption test vectors
+6. ecbmd<nn>.txt  ECB monte carlo decryption test vectors
+7. cbcme<nn>.txt  CBC monte carlo encryption test vectors
+8. cbcmd<nn>.txt  CBC monte carlo decryption test vectors
+
+The first digit of the numeric suffix on the filename gives the
+block size in 32bit units and the second numeric digit gives the
+key size.  For example, the file ecbvk44.txt provides the test
+vectors for ECB encryption with a 128 bit block size and a 128
+bit key size.
+
+   Brian Gladman  21/01/2004

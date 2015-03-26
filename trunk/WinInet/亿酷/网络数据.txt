@@ -1,0 +1,36 @@
+GET /JH_UserConfig/DayPay.Aspx?UserID=4974619&PassWord=9ab50b8e55bdf45adb12de33a2279273 HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, application/x-silverlight, */*
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; EmbeddedWB 14.52 from: http://www.bsalsa.com/ EmbeddedWB 14.52; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: www.eku8.com
+Connection: Keep-Alive
+
+
+
+GET /JH_UserConfig/FundCode.aspx HTTP/1.1
+Accept: */*
+Referer: http://www.eku8.com/JH_UserConfig/DayPay.Aspx?UserID=4974619&PassWord=9ab50b8e55bdf45adb12de33a2279273
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: www.eku8.com
+Connection: Keep-Alive
+Cookie: ASP.NET_SessionId=pzgibwaoyjodeb3tjp1xg4vs
+
+
+
+POST /JH_UserConfig/DayPay.Aspx?UserID=4974619&PassWord=9ab50b8e55bdf45adb12de33a2279273 HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, application/x-silverlight, */*
+Referer: http://www.eku8.com/JH_UserConfig/DayPay.Aspx?UserID=4974619&PassWord=9ab50b8e55bdf45adb12de33a2279273
+Accept-Language: zh-cn
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: www.eku8.com
+Content-Length: 484
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: ASP.NET_SessionId=pzgibwaoyjodeb3tjp1xg4vs
+
+__EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2FwEPDwUJNzUzODI5NTgyD2QWAgIBD2QWCGYPDxYCHgRUZXh0BQQzNjY2ZGQCAQ8PFgIfAAUa6LaF6L%2BHJm5ic3A7MzAmbmJzcDvliIbpkp9kZAICDw8WAh8ABQEwZGQCBg8PFgIfAAVC5oGt5Zac5oKo77yM5Y%2Bv5Lul6aKG5Y%2BW5pys5qyh5Lq%2F6YW35Z%2B66YeR77yM56Wd5oKo5ri45oiP5oSJ5b%2Br44CCZGRkwe%2B5z7zLYOxBemwppDuvteJdX88%3D&__EVENTVALIDATION=%2FwEWBAKY1rHwDgLLm6aZAgKLrJurCQK3mOX7CY8J7OhkQg%2BM1bOc%2Bi8PBFmRn4BE&txt_Code=9705&bt_submit=%C1%EC%C8%A1%B1%BE%B4%CE%D2%DA%BF%E1%BB%F9%BD%F0

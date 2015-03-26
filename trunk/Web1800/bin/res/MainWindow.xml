@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="900,680" caption="0,0,0,100" roundcorner="5,5">
+    <Font name="微软雅黑" size="12" bold="false" italic="false" default="true" />
+    <Font name="微软雅黑" size="12" bold="true" italic="false" />
+    <Default name="Label" value="colorhsl=&quot;true&quot; textcolor=&quot;#FF4775CC&quot; font=&quot;1&quot; " />
+    <Default name="VScrollBar" value="button1normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,90,16,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button1hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,90,34,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button1pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,90,52,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button1disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,90,70,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button2normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,108,16,124&apos; mask=&apos;#FFFF00FF&apos;&quot; button2hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,108,34,124&apos; mask=&apos;#FFFF00FF&apos;&quot; button2pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,108,52,124&apos; mask=&apos;#FFFF00FF&apos;&quot; button2disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,108,70,124&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,126,16,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,126,34,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,126,52,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,126,70,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,144,16,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,144,34,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,144,52,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; raildisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,144,70,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bknormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,162,16,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,162,34,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,162,52,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,162,70,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+    <Default name="HScrollBar" value="button1normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,0,34,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,0,52,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,0,70,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button2normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,18,16,34&apos; mask=&apos;#FFFF00FF&apos;&quot; button2hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,18,34,34&apos; mask=&apos;#FFFF00FF&apos;&quot; button2pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,18,52,34&apos; mask=&apos;#FFFF00FF&apos;&quot; button2disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,18,70,34&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,36,16,52&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,36,34,52&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,36,52,52&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,36,70,52&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,54,16,70&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,54,34,70&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,54,52,70&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; raildisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,54,70,70&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bknormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,72,16,88&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,72,34,88&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,72,52,88&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,72,70,88&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+    <Default name="Slider" value="thumbsize=&quot;10,10&quot; bkimage=&quot;file=&apos;bg.bmp&apos; corner=&apos;6,0,6,0&apos; mask=&apos;#FFFF00FF&apos;&quot; foreimage=&quot;file=&apos;fg.bmp&apos; corner=&apos;6,0,6,0&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbimage=&quot;file=&apos;thumb.bmp&apos; source=&apos;30,0,40,10&apos; mask=&apos;#FFDAEBF9&apos;&quot; thumbhotimage=&quot;file=&apos;thumb.bmp&apos; source=&apos;10,0,20,10&apos; mask=&apos;#FFDAEBF9&apos;&quot; " />
+    <Default name="Edit" value="colorhsl=&quot;true&quot; bordersize=&quot;1&quot; bordercolor=&quot;#FF4775CC&quot; showhtml=&quot;true&quot;" />
+    <Default name="Combo" value="textpadding=&quot;4,4,4,4&quot; normalimage=&quot;file=&apos;combo.png&apos; source=&apos;0,0,100,22&apos; corner=&apos;2,2,20,2&apos;&quot; hotimage=&quot;file=&apos;combo.png&apos; source=&apos;0,22,100,44&apos; corner=&apos;2,2,22,2&apos;&quot; pushedimage=&quot;file=&apos;combo.png&apos; source=&apos;0,44,100,66&apos; corner=&apos;2,2,22,2&apos;&quot;" />
+    <VerticalLayout name="bg" bkimage="file=&apos;bg0.png&apos; corner=&apos;600,200,1,1&apos;">
+        <HorizontalLayout name="controlbar" height="36">
+            <Label text="    远 程 服 务 台" width="150" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" font="1" />
+            <Control height="36" />
+            <Button name="minbtn" tooltip="最小化" width="26" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;minimize.png&apos;" hotimage="file=&apos;minimize_h.png&apos;" pushedimage="file=&apos;minimize_p.png&apos;" />
+            <Button name="maxbtn" tooltip="最大化" width="25" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;maximize.png&apos;" hotimage="file=&apos;maximize_h.png&apos;" pushedimage="file=&apos;maximize_p.png&apos;" />
+            <Button name="restorebtn" tooltip="恢复" visible="false" width="25" height="18" align="center" normalimage="file=&apos;restore.png&apos;" hotimage="file=&apos;restore_h.png&apos;" pushedimage="file=&apos;restore_p.png&apos;" />
+            <Button name="closebtn" tooltip="关闭" width="43" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;close.png&apos;" hotimage="file=&apos;close_h.png&apos;" pushedimage="file=&apos;close_p.png&apos;" />
+        </HorizontalLayout>
+        <HorizontalLayout>
+            <VerticalLayout name="simplepanel" width="230" bordercolor="#000000FF">
+                <VerticalLayout name="supporterinfo" height="75" bkimage="file=&apos;supporterlogo.png&apos; dest=&apos;0,30,40,70&apos;">
+                    <HorizontalLayout height="48" inset="40,20,0,0">
+                        <Label text="经理:  张先生" width="75" height="19" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" font="0" align="bottom" />
+                        <Control width="5" />
+                        <Button text=" 在线状态  ▼ " width="75" height="20" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,2,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,8,2,2&apos;" />
+                    </HorizontalLayout>
+                    <HorizontalLayout height="32" inset="40,0,0,0">
+                        <Label text="2012年6月9日 星期六" width="150" height="16" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" font="0" />
+                        <Control height="10" />
+                    </HorizontalLayout>
+                </VerticalLayout>
+                <VerticalLayout name="splist_show">
+                    <HorizontalLayout height="32" inset="0,3,0,0" bkimage="file=&apos;btn_push.png&apos; source=&apos;2,2,15,15&apos; corner=&apos;2,2,2,2&apos;">
+                        <Control />
+                        <Option width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                        <Option width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                        <Button name="bkskinbtn" text="{i skin.png}{/i}" width="24" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="center" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,8,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" />
+                        <Button name="colorskinbtn" width="24" height="20" bkimage="file=&apos;colour.png&apos; dest=&apos;2,1,22,19&apos; mask=&apos;0xffffffff&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,2,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" />
+                        <Button name="hideleft" width="24" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;main_tabbtn_leftnormal.png&apos; dest=&apos;1,1,19,19&apos; mask=&apos;0xffffffff&apos;" hotimage="file=&apos;main_tabbtn_lefthighlight.png&apos; dest=&apos;1,1,19,19&apos; mask=&apos;0xffffffff&apos;" pushedimage="file=&apos;main_tabbtn_lefthighlight.png&apos; dest=&apos;1,1,19,19&apos; mask=&apos;0xffffffff&apos;" />
+                        <Button name="showleft" visible="false" width="24" height="20" align="center" normalimage="file=&apos;main_tabbtn_rightnormal.png&apos; dest=&apos;1,1,19,19&apos; mask=&apos;0xffffffff&apos;" hotimage="file=&apos;main_tabbtn_righthighlight.png&apos; dest=&apos;1,1,19,19&apos; mask=&apos;0xffffffff&apos;" pushedimage="file=&apos;main_tabbtn_righthighlight.png&apos; dest=&apos;1,1,19,19&apos; mask=&apos;0xffffffff&apos;" />
+                    </HorizontalLayout>
+<TabLayout name="tabs" bkimage="file='list_bk.png'">
+<HorizontalLayout >
+              <FriendList name="friends" header="hidden" itemshowhtml="true" vscrollbar="true"  />
+            </HorizontalLayout>
+</TabLayout>
+                    <VerticalLayout height="200" />
+                </VerticalLayout>
+                <HorizontalLayout name="bottomstatusbar" height="25" inset="60,0,0,0">
+                    <Label name="loginstatus" text="已登录 ......" width="124" height="25" bkimage="file=&apos;status.png&apos; dest=&apos;0,0,32,32&apos;" textpadding="40,0,0,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" font="0" />
+                </HorizontalLayout>
+            </VerticalLayout>            
+            <VerticalLayout name="servicepanel">
+                <HorizontalLayout name="right_header" height="75" inset="2,0,0,0">
+<VerticalLayout width="2" bkimage="file=&apos;btn_push.png&apos; source=&apos;4,2,5,10&apos;" />
+                    <Control width="38" height="48" />
+                    <Button text="任务管理" tooltip="任务管理" width="60" height="70" bkimage="file=&apos;task.png&apos; dest=&apos;6,6,54,54&apos;" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" align="centerbottom" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,8,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,8,2,2&apos;" />
+                    <Control width="10" height="48" />
+                    <Button name="btncustomer" text="客户管理" tooltip="客户管理" width="60" height="70" bkimage="file=&apos;customer.png&apos; dest=&apos;6,6,52,52&apos;" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" align="centerbottom" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,8,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,8,2,2&apos;" />
+                    <Control width="10" height="48" />
+                    <Button text="客服管理" tooltip="客服管理" width="60" height="70" bkimage="file=&apos;supporter.png&apos; dest=&apos;6,6,54,54&apos;" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" align="centerbottom" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,8,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,8,2,2&apos;" />
+                    <Control width="10" height="48" />
+                    <Button text="服务记录" tooltip="服务记录" width="60" height="70" bkimage="file=&apos;servicelog.png&apos; dest=&apos;6,6,54,54&apos;" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" align="centerbottom" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,8,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,8,2,2&apos;" />
+                    <Control width="10" height="48" />
+                    <Button text="统计分析" tooltip="统计分析" width="60" height="70" bkimage="file=&apos;analyze.png&apos; dest=&apos;6,6,54,54&apos;" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" align="centerbottom" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,8,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,8,2,2&apos;" />
+                    <Control width="10" height="48" />
+                    <Button text="知识库" tooltip="知识库" width="60" height="70" bkimage="file=&apos;knowledge.png&apos; dest=&apos;6,6,54,54&apos;" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" align="centerbottom" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,8,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,8,2,2&apos;" />
+                    <Control width="10" height="48" />
+                    <Button text="参数设置" tooltip="参数设置" width="60" height="70" bkimage="file=&apos;set.png&apos; dest=&apos;6,6,54,54&apos;" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" align="centerbottom" hotimage="file=&apos;btn_hot.png&apos; corner=&apos;2,8,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,8,2,2&apos;" />
+                    <Control width="10" height="48" />
+                </HorizontalLayout>
+                <HorizontalLayout name="workbanner" inset="2,0,0,0" height="32" bkimage="file=&apos;btn_push.png&apos; source=&apos;2,2,15,15&apos; corner=&apos;2,2,2,2&apos;">
+<Control width="2" bkimage="file=&apos;btn_push.png&apos; source=&apos;4,10,5,11&apos;" />
+</HorizontalLayout>
+                <HorizontalLayout name="work_area" />
+                <HorizontalLayout name="versionbar" height="25" inset="15,0,0,0">
+                    <Label name="mainversion" text="主程序版本号:   3.1.22.73      " height="25" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" font="0" align="right" />
+                </HorizontalLayout>
+            </VerticalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

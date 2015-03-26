@@ -1,0 +1,520 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0048)http://topic.csdn.net/t/20030123/13/1386335.html -->
+<HTML lang=zh-CN xml:lang="zh-CN" 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>ADSL拨号怎么得到其IP?? VC/MFC / 基础类 - CSDN社区 community.csdn.net</TITLE>
+<META content=all name=robots>
+<META http-equiv=Content-Language content=zh-CN>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
+href="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/topic.css" 
+type=text/css rel=stylesheet>
+<SCRIPT 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/Topic.js" 
+type=text/javascript></SCRIPT>
+
+<META 
+content="adsl ip 主机 stripitem rpi paddbuffer strbroadcastaddr strsubnetmask zeromemory stripaddress VC/MFC 基础类" 
+name=Keywords>
+<META 
+content="ADSL拨号的时候，我想得到它的动态分配的IP地址，可老得到的是：10.155.80.75，这是用如下代码得到的:// 获得主机名.char hostname[256];int res = gethostname(hostname, sizeof(hostname));// 根据主机名获取主机信息. hostent* pHostent = gethostbyname(hostname);// 解析返回的hostent信息.TCHAR pAddBuffer[BUFFER_SIZE];ZeroMemory(pAddBuffer, sizeof(pAddBuffer));hostent&amp; he = *pHostent;&#9;&#9;sockaddr_in sa;for (int nAdapter=0; he.h_addr_list[nAdapter]; nAdapter++) {&#9;// 输出机器的IP地址.&#9;memcpy ( &amp;sa.sin_addr.s_addr, he.h_addr_list[nAdapter],he.h_length);&#9;wsprintf(pAddBuffer, " 
+name=description>
+<META content="MSHTML 6.00.2900.5848" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=wrapper>
+<DIV id=innerWrapper>
+<DIV id=logo>
+<SCRIPT 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/csdn_ggmm.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>show_ads_zone(230);</SCRIPT>
+<IMG style="DISPLAY: none" alt="" 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/pv.htm"> 
+<DIV>
+<TABLE class=CSDN-PHF id=CSDNPHL cellSpacing=1 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD><A href="http://www.csdn.net/" rel=external>CSDN首页</A></TD>
+    <TD><A href="http://hi.csdn.net/" rel=external>空间</A></TD>
+    <TD><A href="http://news.csdn.net/" rel=external>新闻</A></TD>
+    <TD><A href="http://bbs.csdn.net/" rel=external>论坛</A></TD>
+    <TD><A href="http://blog.csdn.net/" rel=external>Blog</A></TD>
+    <TD><A href="http://download.csdn.net/" rel=external>下载</A></TD>
+    <TD><A href="http://book.csdn.net/" rel=external>读书</A></TD>
+    <TD><A href="http://wz.csdn.net/" rel=external>网摘</A></TD>
+    <TD><A href="http://search.csdn.net/" rel=external>搜索</A></TD>
+    <TD><A href="http://dotnet.csdn.net/" rel=external>.NET</A></TD>
+    <TD><A href="http://java.csdn.net/" rel=external>Java</A></TD>
+    <TD><A href="http://live.csdn.net/" rel=external>视频</A></TD>
+    <TD><A href="http://prj.csdn.net/" rel=external>接项目</A></TD>
+    <TD><A href="http://job.csdn.net/" rel=external>求职</A></TD>
+    <TD><A href="http://www.itcast.net/" rel=external>在线学习</A></TD>
+    <TD><A href="http://www.dearbook.com.cn/" rel=external>买书</A></TD>
+    <TD><A href="http://www.programmer.com.cn/" rel=external>程序员</A></TD>
+    <TD><A href="http://hi.csdn.net/Admin/NotifyList.aspx"><SPAN 
+      id=notifyPrompt>通知</SPAN></A></TD></TR></TBODY></TABLE>
+<DIV id=logo>
+<TABLE cellSpacing=0 cellPadding=0 width=760 border=0>
+  <TBODY>
+  <TR style="TEXT-ALIGN: center">
+    <TD style="MARGIN: auto; VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #026994" 
+    align=middle width=380 height=36><!--a href="http://community.csdn.net/Games/GamesList.aspx/" target="_blank"><font size="3px" color="white"><strong>可用分押宝游戏火热进行中...</strong></font></a--><A 
+      href="http://www.uplooking.com/" target=_blank><FONT color=white 
+      size=3><STRONG>5-8万年薪顶级嵌入式，京沪深就业地</STRONG></FONT></A> </TD>
+    <TD style="MARGIN: auto; VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #026994" 
+    align=middle width=380 height=36><A href="http://g.csdn.net/5085045" 
+      target=_blank><FONT color=white 
+      size=3><STRONG>浅谈并行编程中的任务分解模式</STRONG></FONT></A> </TD></TR>
+  <TR id=bigFlash style="TEXT-ALIGN: center"><!--td colspan="2"><a href="http://community.csdn.net/" target="_blank"><img src="/t/img/topicAD.jpg" width="760" height="300" border="0" /></a></td-->
+    <TD colSpan=2><A href="http://g.csdn.net/5078710" target=_blank><IMG 
+      height=300 
+      src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/20090403.jpg" 
+      width=760 border=0></A></TD></TR></TBODY></TABLE>
+<SCRIPT type=text/javascript>setTimeout("document.getElementById('bigFlash').style.display='none'", 5000);</SCRIPT>
+</DIV>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD><A href="http://community.csdn.net/" rel=external><IMG alt=CSDN社区 
+      src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/logo_csdn.gif"></A></TD>
+    <TD>
+      <SCRIPT type=text/javascript>show_ads_zone(228);</SCRIPT>
+<!--<iframe frameborder="0" width="475" height="60" scrolling="no" src="/t/img/centerAd.htm">
+    </iframe>--></TD>
+    <TD>
+      <SCRIPT type=text/javascript>show_ads_zone(229);</SCRIPT>
+    </TD></TR></TBODY></TABLE><!-- script src="http://notify.hi.csdn.net/PromptInfo.ashx?ForWhat=FullJs"></script --><LINK 
+media=all 
+href="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/csdn_favbykimi.css" 
+type=text/css rel=stylesheet>
+<DIV id=navigation>
+<DIV id=search>
+<DIV id=innerSearch><INPUT id=key onfocus="value=''"><A 
+onclick="return Search()" 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">搜索</A>&nbsp;<CITE 
+class=fav_csdnstylebykimi><A title=收藏到我的网摘中，并分享给我的朋友 
+href="javascript:d=document;t=d.selection?(d.selection.type!='None'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'');void(saveit=window.open('http://wz.csdn.net/storeit.aspx?t='+escape(d.title)+'&amp;u='+escape(d.location.href)+'&amp;c='+escape(t),'saveit','scrollbars=no,width=590,height=300,left=75,top=20,status=no,resizable=yes'));saveit.focus();">收藏</A></CITE>&nbsp;<A 
+onclick="return Print()" 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">打印</A>&nbsp;<A 
+onclick="return Close()" 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">关闭</A> </DIV></DIV>
+<DIV><A class=CSDNRoom href="http://community.csdn.net/" 
+rel=external>CSDN社区</A>&nbsp;&gt;&nbsp; <A 
+href="http://community.csdn.net/Expert/ForumsList.asp?typenum=1&amp;roomid=50" 
+rel=external>VC/MFC</A>&nbsp;&gt;&nbsp; <A 
+href="http://community.csdn.net/Expert/ForumList.asp?typenum=1&amp;roomid=5001" 
+rel=external>基础类</A> </DIV></DIV>
+<DIV id=mainWrapper>
+<DIV id=pageContent>
+<DIV id=innerContent>
+<H1>ADSL拨号怎么得到其IP??</H1>
+<DIV class=author><A class=anchor name=Top>楼主</A>tleon（澎蜞）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button>2003-01-23 
+13:09:39 在 VC/MFC / 基础类 提问</DIV>
+<P>ADSL拨号的时候，我想得到它的动态分配的IP地址，可老得到的是：10.155.80.75，这是用如下代码得到的: &nbsp; <BR>&nbsp; 
+// &nbsp; 获得主机名. &nbsp; <BR>&nbsp; char &nbsp; hostname[256]; &nbsp; <BR>&nbsp; 
+int &nbsp; res &nbsp; = &nbsp; gethostname(hostname, &nbsp; sizeof(hostname)); 
+&nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; // &nbsp; 根据主机名获取主机信息. &nbsp; &nbsp; 
+<BR>&nbsp; hostent* &nbsp; pHostent &nbsp; = &nbsp; gethostbyname(hostname); 
+&nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; // &nbsp; 解析返回的hostent信息. &nbsp; <BR>&nbsp; 
+TCHAR &nbsp; pAddBuffer[BUFFER_SIZE]; &nbsp; <BR>&nbsp; ZeroMemory(pAddBuffer, 
+&nbsp; sizeof(pAddBuffer)); &nbsp; <BR>&nbsp; hostent&amp; &nbsp; he &nbsp; = 
+&nbsp; *pHostent; &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; sockaddr_in &nbsp; sa; 
+&nbsp; <BR>&nbsp; for &nbsp; (int &nbsp; nAdapter=0; &nbsp; 
+he.h_addr_list[nAdapter]; &nbsp; nAdapter++) &nbsp; &nbsp; <BR>&nbsp; { &nbsp; 
+<BR>&nbsp; // &nbsp; 输出机器的IP地址. &nbsp; <BR>&nbsp; memcpy &nbsp; ( &nbsp; 
+&amp;sa.sin_addr.s_addr, &nbsp; he.h_addr_list[nAdapter],he.h_length); &nbsp; 
+<BR>&nbsp; wsprintf(pAddBuffer, &nbsp; "%s\n%s", &nbsp; pAddBuffer, &nbsp; 
+inet_ntoa(sa.sin_addr)); &nbsp; &nbsp; <BR>&nbsp; } &nbsp; <BR>&nbsp; &nbsp; 
+<BR>&nbsp; 而使用RAS也不能得到: &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; int &nbsp; 
+GetIPAddress(TCHAR* &nbsp; ServerIP, &nbsp; TCHAR* &nbsp; ClientIP) &nbsp; 
+<BR>&nbsp; { &nbsp; &nbsp; &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; &nbsp; &nbsp; 
+RASPPPIP &nbsp; rpi; &nbsp; <BR>&nbsp; &nbsp; &nbsp; RASCONN &nbsp; &nbsp; rc; 
+&nbsp; <BR>&nbsp; &nbsp; &nbsp; DWORD &nbsp; &nbsp; &nbsp; &nbsp; size; &nbsp; 
+<BR>&nbsp; &nbsp; &nbsp; DWORD &nbsp; &nbsp; &nbsp; &nbsp; cnt; &nbsp; 
+<BR>&nbsp; &nbsp; &nbsp; &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; ZeroMemory(&amp;rc, 
+&nbsp; sizeof(rc)); &nbsp; <BR>&nbsp; size &nbsp; = &nbsp; rc.dwSize &nbsp; = 
+&nbsp; sizeof(rc); &nbsp; <BR>&nbsp; RasEnumConnections(&amp;rc, &nbsp; 
+&amp;size, &nbsp; &amp;cnt); &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; if &nbsp; (cnt 
+&nbsp; == &nbsp; 0) &nbsp; <BR>&nbsp; return &nbsp; 0; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; //如果没有拨号连接 &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; if 
+&nbsp; (cnt &nbsp; &gt; &nbsp; 0) &nbsp; <BR>&nbsp; { &nbsp; <BR>&nbsp; 
+ZeroMemory(&amp;rpi, &nbsp; sizeof(rpi)); &nbsp; <BR>&nbsp; size &nbsp; = &nbsp; 
+rpi.dwSize &nbsp; = &nbsp; sizeof(rpi); &nbsp; <BR>&nbsp; // &nbsp; 获得远程服务器的信息； 
+&nbsp; <BR>&nbsp; RasGetProjectionInfo(rc.hrasconn, &nbsp; RASP_PppIp, &nbsp; 
+&amp;rpi, &nbsp; &amp;size); &nbsp; <BR>&nbsp; } &nbsp; <BR>&nbsp; &nbsp; 
+<BR>&nbsp; wsprintf(ServerIP, &nbsp; "%s", &nbsp; rpi.szServerIpAddress); &nbsp; 
+<BR>&nbsp; wsprintf(ClientIP, &nbsp; "%s", &nbsp; rpi.szIpAddress); &nbsp; 
+<BR>&nbsp; return &nbsp; 1; &nbsp; <BR>&nbsp; } &nbsp; <BR>&nbsp; &nbsp; 
+<BR>&nbsp; 请教，还有其他方法吗？ <SPAN>问题点数：100、回复次数：13</SPAN><A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A> </P>
+<DIV class=tagad><IFRAME 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/fb2.htm" 
+frameBorder=0 scrolling=no></IFRAME></DIV>
+<H3><STRONG><A class=anchor name=r_9054327>1 楼</A>jemmylau（枕头）<INPUT class=star2 title="二星用户 该版得分小于等于30000分，大于10000分" type=button></STRONG><SPAN>回复于 
+2003-01-23 13:21:38 得分 0 </SPAN></H3>
+<P>是不是ADSL的IP是固定的？<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9054359>2 楼</A>jemmylau（枕头）<INPUT class=star2 title="二星用户 该版得分小于等于30000分，大于10000分" type=button></STRONG><SPAN>回复于 
+2003-01-23 13:22:26 得分 <EM>20</EM></SPAN></H3>
+<P>GetIPAddress这个方法是对的<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9054950>3 楼</A>tleon（澎蜞）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button></STRONG><SPAN>回复于 
+2003-01-23 13:35:52 得分 0 </SPAN></H3>
+<P>jemmylau(枕头) &nbsp; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; 
+看了很多资料，好象是小猫拨号可以，ADSL测试过了，行不通 &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; 另一种方法： &nbsp; 
+<BR>&nbsp; // &nbsp; TODO: &nbsp; 获得本机的IP地址。子网掩码。广播地址 &nbsp; <BR>&nbsp; 
+STDMETHODIMP &nbsp; CSysInfo::GetIPsAddress(BSTR &nbsp; *pIPAddress,BSTR &nbsp; 
+*pSubnetVal,BSTR &nbsp; *pBroadcastAddr,int* &nbsp; pIPsCounter) &nbsp; 
+<BR>&nbsp; { &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; wchar_t &nbsp; strIPAddress[1000]; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; ::ZeroMemory(&amp;strIPAddress,sizeof(strIPAddress)); &nbsp; <BR>&nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; wchar_t &nbsp; strSubnetMask[1000]; &nbsp; 
+<BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+::ZeroMemory(&amp;strSubnetMask,sizeof(strSubnetMask)); &nbsp; <BR>&nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; wchar_t &nbsp; strBroadcastAddr[1000]; &nbsp; <BR>&nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; 
+::ZeroMemory(&amp;strBroadcastAddr,sizeof(strBroadcastAddr)); &nbsp; <BR>&nbsp; 
+&nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; char &nbsp; cBuffer[10000]; &nbsp; 
+<BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+::ZeroMemory(&amp;cBuffer,sizeof(cBuffer)); &nbsp; <BR>&nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; PMIB_IPADDRTABLE &nbsp; pTable &nbsp; = &nbsp; 
+(PMIB_IPADDRTABLE)cBuffer; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DWORD 
+&nbsp; dwSize &nbsp; = &nbsp; sizeof(cBuffer); &nbsp; <BR>&nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; if(GetIpAddrTable(pTable,&amp;dwSize,FALSE) &nbsp; == &nbsp; 
+NO_ERROR) &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { &nbsp; <BR>&nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; wchar_t &nbsp; 
+strIPItem[100]; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *pIPsCounter 
+&nbsp; = &nbsp; pTable-&gt;dwNumEntries; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for(int &nbsp; i=0;i&lt; &nbsp; 
+*pIPsCounter;i++) &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; { &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DWORD &nbsp; addr &nbsp; = &nbsp; 
+pTable-&gt;table[i].dwAddr; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DWORD &nbsp; subnet &nbsp; = 
+&nbsp; pTable-&gt;table[i].dwMask; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DWORD &nbsp; broadcast 
+&nbsp; = &nbsp; pTable-&gt;table[i].dwBCastAddr; &nbsp; <BR>&nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // &nbsp; 
+Filter &nbsp; 127.0.0.1 &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if &nbsp; (addr &nbsp; != 
+&nbsp; 0x0100007f) &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { &nbsp; <BR>&nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; ::ZeroMemory(&amp;strIPItem,sizeof(strIPItem)); &nbsp; 
+<BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+swprintf(strIPItem,L"%d.%d.%d.%d",(addr &nbsp; &amp; &nbsp; 0xFF),((addr &nbsp; 
+&gt;&gt; &nbsp; 8) &nbsp; &amp; &nbsp; 0xFF),((addr &nbsp; &gt;&gt; &nbsp; 16) 
+&nbsp; &amp; &nbsp; 0xFF),((addr &nbsp; &gt;&gt; &nbsp; 24) &nbsp; &amp; &nbsp; 
+0xFF)); &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+wcscat(strIPAddress,strIPItem); &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; ::ZeroMemory(&amp;strIPItem,sizeof(strIPItem)); &nbsp; <BR>&nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; swprintf(strIPItem,L"%d.%d.%d.%d",(subnet &nbsp; 
+&amp; &nbsp; 0xFF),((subnet &nbsp; &gt;&gt; &nbsp; 8) &nbsp; &amp; &nbsp; 
+0xFF),((subnet &nbsp; &gt;&gt; &nbsp; 16) &nbsp; &amp; &nbsp; 0xFF),((subnet 
+&nbsp; &gt;&gt; &nbsp; 24) &nbsp; &amp; &nbsp; 0xFF)); &nbsp; <BR>&nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; wcscat(strSubnetMask,strIPItem); &nbsp; <BR>&nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+::ZeroMemory(&amp;strIPItem,sizeof(strIPItem)); &nbsp; <BR>&nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; swprintf(strIPItem,L"%d.%d.%d.%d",(broadcast &nbsp; &amp; 
+&nbsp; 0xFF),((broadcast &nbsp; &gt;&gt; &nbsp; 8) &nbsp; &amp; &nbsp; 
+0xFF),((broadcast &nbsp; &gt;&gt; &nbsp; 16) &nbsp; &amp; &nbsp; 
+0xFF),((broadcast &nbsp; &gt;&gt; &nbsp; 24) &nbsp; &amp; &nbsp; 0xFF)); &nbsp; 
+<BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; wcscat(strBroadcastAddr,strIPItem); 
+&nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; } &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; } &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } &nbsp; 
+<BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *pIPAddress &nbsp; = &nbsp; 
+SysAllocString(strIPAddress); &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+*pSubnetVal &nbsp; = &nbsp; SysAllocString(strSubnetMask); &nbsp; <BR>&nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; *pBroadcastAddr &nbsp; = &nbsp; 
+SysAllocString(strBroadcastAddr); &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+return &nbsp; S_OK; &nbsp; <BR>&nbsp; } &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; 
+却找不到包含文件Iphlpapi.h<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9055137>4 楼</A>masterz（www.fruitfruit.com）<INPUT class=star5 title="五星用户 该版得分小于等于200000分，大于100000分" type=button></STRONG><SPAN>回复于 
+2003-01-23 13:40:54 得分 <EM>30</EM></SPAN></H3>
+<P>http://www.codeproject.com/internet/getipnr.asp &nbsp; <BR>&nbsp; Get &nbsp; 
+all &nbsp; IP &nbsp; numbers &nbsp; of &nbsp; your &nbsp; machine &nbsp; and 
+&nbsp; how &nbsp; to &nbsp; pass &nbsp; through &nbsp; an &nbsp; authenticating 
+&nbsp; proxy &nbsp; <BR>&nbsp; By &nbsp; Nico &nbsp; Cuppen &nbsp; &nbsp; 
+<BR>&nbsp; External &nbsp; IP &nbsp; numbers &nbsp; <BR>&nbsp; External &nbsp; 
+IP &nbsp; numbers &nbsp; are &nbsp; reported &nbsp; by &nbsp; function &nbsp; 
+FindWebAddress(). &nbsp; It &nbsp; does &nbsp; this &nbsp; by &nbsp; making 
+&nbsp; a &nbsp; connection &nbsp; to &nbsp; URL &nbsp; 'checkip.dyndns.org'. 
+&nbsp; To &nbsp; see &nbsp; why, &nbsp; open &nbsp; this &nbsp; URL &nbsp; in 
+&nbsp; your &nbsp; browser. &nbsp; It &nbsp; returns &nbsp; the &nbsp; IP &nbsp; 
+number &nbsp; of &nbsp; your &nbsp; machine &nbsp; as &nbsp; seen &nbsp; from 
+&nbsp; this &nbsp; site. &nbsp; If &nbsp; your &nbsp; machine &nbsp; is &nbsp; 
+behind &nbsp; a &nbsp; firewall/router &nbsp; this &nbsp; number &nbsp; will 
+&nbsp; differ &nbsp; from &nbsp; the &nbsp; internal &nbsp; IP &nbsp; numbers 
+&nbsp; found &nbsp; earlier. &nbsp; Of &nbsp; course &nbsp; in &nbsp; this 
+&nbsp; case &nbsp; the &nbsp; IP &nbsp; number &nbsp; found &nbsp; will &nbsp; 
+in &nbsp; fact &nbsp; be &nbsp; the &nbsp; IP &nbsp; number &nbsp; of &nbsp; 
+your &nbsp; router/firewall. &nbsp; <BR>&nbsp; &nbsp; <BR>&nbsp; 
+FindWebAddress() &nbsp; uses &nbsp; the &nbsp; WinINet &nbsp; API &nbsp; to 
+&nbsp; make &nbsp; a &nbsp; connection &nbsp; to &nbsp; 'checkip.dyndns.org' 
+&nbsp; and &nbsp; to &nbsp; read &nbsp; and &nbsp; parse &nbsp; its &nbsp; HTML 
+&nbsp; source &nbsp; to &nbsp; find &nbsp; the &nbsp; IP &nbsp; number &nbsp; 
+hidden &nbsp; in &nbsp; this &nbsp; HTML &nbsp; source. &nbsp; <BR>&nbsp; &nbsp; 
+<BR>&nbsp; <A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9056655>5 楼</A>tleon（澎蜞）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button></STRONG><SPAN>回复于 
+2003-01-23 14:18:24 得分 0 </SPAN></H3>
+<P>masterz(MS &nbsp; MVP) &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+不行，不能访问checkip.dyndns.org<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9058627>6 楼</A>tleon（澎蜞）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button></STRONG><SPAN>回复于 
+2003-01-23 15:12:47 得分 0 </SPAN></H3>
+<P>123<A href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9061569>7 楼</A>Laney（6吨大笨猫）<INPUT class=user1 title="一级用户 该版得分小于等于100分" type=button></STRONG><SPAN>回复于 
+2003-01-23 16:40:54 得分 <EM>10</EM></SPAN></H3>
+<P>去www.sky.net.cn看一下就知道你的ip了<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9074446>8 楼</A>tleon（澎蜞）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button></STRONG><SPAN>回复于 
+2003-01-24 09:33:55 得分 0 </SPAN></H3>
+<P>Laney(弱智中的Genius) &nbsp; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; 程序中使用的<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9075456>9 楼</A>pcitman（不缺分只缺钱）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button></STRONG><SPAN>回复于 
+2003-01-24 09:56:47 得分 <EM>10</EM></SPAN></H3>
+<P>gz.<A href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9075923>10 楼</A>jamesking（James）<INPUT class=user3 title="三级用户 该版得分小于等于1000分，大于500分" type=button></STRONG><SPAN>回复于 
+2003-01-24 10:09:14 得分 <EM>30</EM></SPAN></H3>
+<P>ADSL拨号的时候用的是ppp &nbsp; over &nbsp; 
+lan协议，因此你得到的IP地址是lan网卡的地址，你可以通过iphelpapi枚举网卡，获得自动分配的IP地址。<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9076416>11 楼</A>tleon（澎蜞）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button></STRONG><SPAN>回复于 
+2003-01-24 10:20:48 得分 0 </SPAN></H3>
+<P>jamesking(James) &nbsp; &nbsp; <BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+我编译的时候少了Iphlpapi.h和Iphlpapi.lib，请问在那里有？？<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9086730>12 楼</A>tleon（澎蜞）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button></STRONG><SPAN>回复于 
+2003-01-24 14:32:09 得分 0 </SPAN></H3>
+<P>搞不定了，GetIpAddrTable也不行，GetAdaptersAddresses又没有找不到 &nbsp; <BR>&nbsp; &nbsp; 
+<BR>&nbsp; 那位大哥有代码或者是资料或者是好的方法，出500分报答<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H3><STRONG><A class=anchor name=r_9125224>13 楼</A>tleon（澎蜞）<INPUT class=user5 title="五级用户 该版得分小于等于5000分，大于2000分" type=button></STRONG><SPAN>回复于 
+2003-01-27 09:56:11 得分 0 </SPAN></H3>
+<P>没办法了吗？？我都灰心了，失败<A 
+href="http://topic.csdn.net/t/20030123/13/1386335.html#">Top</A></P>
+<H4><STRONG>相关问题</STRONG></H4>
+<DIV class=relation>
+<UL>
+  <LI><A href="http://topic.csdn.net/t/20050719/19/4155052.html" 
+  rel=external>我用ADSL拨号，想在不拨号的电脑上通过映射得到外部IP，不知如何映射？</A> 
+  <LI><A href="http://topic.csdn.net/t/20020920/22/1041224.html" 
+  rel=external>怎样获得ADSL的拨号IP地址？</A> 
+  <LI><A href="http://topic.csdn.net/t/20011226/17/443597.html" 
+  rel=external>：：：：：：：：：：紧急求救：如何得到拨号服务器的ip地址，（UP有分）</A> 
+  <LI><A href="http://topic.csdn.net/t/20020821/13/958215.html" 
+  rel=external>ADSL拨号问题！</A> 
+  <LI><A href="http://topic.csdn.net/t/20030104/12/1325943.html" 
+  rel=external>ADSL拨号，怪怪！</A> 
+  <LI><A href="http://topic.csdn.net/t/20010616/16/160754.html" 
+  rel=external>各位大侠: 怎样得到一台普通拨号上网的电脑的IP地址（已知其名字）。</A> 
+  <LI><A href="http://topic.csdn.net/t/20011030/12/347566.html" 
+  rel=external>如何得到局域网上某一客户机拨号到另一远程服务器时的IP地址？</A> 
+  <LI><A href="http://topic.csdn.net/t/20010117/08/59654.html" 
+  rel=external>ADSL大虾帮忙!---------请问如果用ADSL拨号上网,用户的IP还是动态的吗?....&lt;&lt;-----&lt;--&lt;</A> 
+
+  <LI><A href="http://topic.csdn.net/t/20050228/11/3811570.html" 
+  rel=external>关于得到ADSL拨号连接用户名和密码的问题?（请高手赐教)</A> 
+  <LI><A href="http://topic.csdn.net/t/20050311/17/3844107.html" 
+  rel=external>正利用RAS API做ADSL拨号程序(SDK)，无法得到状态信息、请教。高分必送.</A> 
+</LI></UL></DIV></DIV></DIV>
+<DIV id=sidebar>
+<H3>关键词</H3>
+<DIV>
+<UL>
+  <LI><A href="http://tag.csdn.net/tag/adsl/" rel=external>adsl</A> 
+  <LI><A href="http://tag.csdn.net/tag/ip/" rel=external>ip</A> 
+  <LI><A href="http://tag.csdn.net/tag/主机/" rel=external>主机</A> 
+  <LI><A href="http://tag.csdn.net/tag/stripitem/" rel=external>stripitem</A> 
+  <LI><A href="http://tag.csdn.net/tag/rpi/" rel=external>rpi</A> 
+  <LI><A href="http://tag.csdn.net/tag/paddbuffer/" rel=external>paddbuffer</A> 
+  <LI><A href="http://tag.csdn.net/tag/strbroadcastaddr/" 
+  rel=external>strbroadcastaddr</A> 
+  <LI><A href="http://tag.csdn.net/tag/strsubnetmask/" 
+  rel=external>strsubnetmask</A> 
+  <LI><A href="http://tag.csdn.net/tag/zeromemory/" rel=external>zeromemory</A> 
+  <LI><A href="http://tag.csdn.net/tag/stripaddress/" 
+  rel=external>stripaddress</A> </LI></UL></DIV>
+<H3>得分解答快速导航</H3>
+<DIV>
+<UL>
+  <LI>帖主：<A 
+  href="http://topic.csdn.net/t/20030123/13/1386335.html#Top">tleon</A> 
+  <LI><A 
+  href="http://topic.csdn.net/t/20030123/13/1386335.html#r_9054359">jemmylau</A> 
+
+  <LI><A 
+  href="http://topic.csdn.net/t/20030123/13/1386335.html#r_9055137">masterz</A> 
+  <LI><A 
+  href="http://topic.csdn.net/t/20030123/13/1386335.html#r_9061569">Laney</A> 
+  <LI><A 
+  href="http://topic.csdn.net/t/20030123/13/1386335.html#r_9075456">pcitman</A> 
+  <LI><A 
+  href="http://topic.csdn.net/t/20030123/13/1386335.html#r_9075923">jamesking</A> 
+  </LI></UL></DIV>
+<H3>相关链接</H3>
+<DIV>
+<UL>
+  <LI><A 
+  href="http://www.dearbook.com.cn/Book/SearchBook.aspx?sortid=12&amp;sorttype=smallsort" 
+  target=_blank>Visual C++类图书</A> 
+  <LI><A href="http://www.codechina.net/resource/sort.php/20" 
+  target=_blank>Visual C++类源码下载</A> </LI></UL></DIV>
+<H3>广告也精彩</H3>
+<DIV>
+<SCRIPT 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/show_ads.js" 
+type=text/javascript></SCRIPT>
+</DIV>
+<H3>反馈</H3>
+<DIV>请通过下述方式给我们反馈<BR><IMG alt=反馈 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/feedback.gif"></DIV></DIV>
+<DIV class=clear></DIV></DIV>
+<DIV style="TEXT-ALIGN: center">
+<DIV id=pubfooter style="WIDTH: 770px">
+<DIV id=Float21789 
+style="Z-INDEX: 9; RIGHT: 3px; WIDTH: 190px; POSITION: absolute; TOP: 200px">
+<CENTER>
+<DIV id=AD21789 
+style="FLOAT: none; WIDTH: 190px; HEIGHT: 90px; TEXT-ALIGN: center"><A 
+style="PADDING-RIGHT: 10px; FLOAT: right; CURSOR: pointer" 
+onclick="document.getElementById('Float21789').style.display='none';">x</A> <A 
+href="http://g.csdn.net/5060169" target=_blank><IMG 
+style="PADDING-RIGHT: 3px; WIDTH: 180px; HEIGHT: 50px" alt=提问 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/questions.gif"></A> 
+</DIV></CENTER></DIV>
+<SCRIPT language=JavaScript type=text/javascript>
+    var csdnScrollTop=function(){
+        return document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop;
+        };
+        function mymove21789(){
+        document.getElementById("Float21789").style.top=csdnScrollTop()+100+'px';document.getElementById("Float21789").style.right=3+'px';setTimeout("mymove21789();",50);
+        }
+        mymove21789();
+    </SCRIPT>
+<!--
+    <div id="Float21790" style="position: absolute; z-index: 9; width: 190px; top: 300px;
+        right: 3px;">
+        <center>
+            <div id="AD21790" style="width: 190px; height: 90px; text-align: center; float: none;">
+                <a href="http://vote.csdn.net/VoteList.aspx" target="_blank">
+                    <img src="http://topic.csdn.net/t/img/hotvote.gif" alt="惹火投票。。火热进行中..." style="width: 180px; height: 30px;" /></a>
+            </div>
+        </center>
+    </div>
+
+    <script type="text/javascript" language="JavaScript">
+        function mymove21790(){
+        document.getElementById("Float21790").style.top=csdnScrollTop()+200+'px';document.getElementById("Float21790").style.right=3+'px';setTimeout("mymove21790();",50);
+        }
+        mymove21790();
+    </script>
+	-->
+<SCRIPT 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/fb2.js" 
+type=text/javascript></SCRIPT>
+<LINK 
+href="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/public_header_footer.css" 
+type=text/css rel=stylesheet>
+<DL>
+  <DT>
+  <DD><A href="http://www.csdn.net/help/intro.htm" target=_blank>网站简介</A>|<A 
+  href="http://www.csdn.net/help/ads.htm" target=_blank>广告服务</A>|<A 
+  href="http://www.csdn.net/help/vip.htm" target=_blank>VIP资费标准</A>|<A 
+  href="http://www.csdn.net/help/bankaccount.htm" target=_blank>银行汇款帐号</A>|<A 
+  href="http://www.csdn.net/help/sitemap.htm" target=_blank>网站地图</A>|<A 
+  href="http://www.csdn.net/help/help.htm" target=_blank>帮助</A>|<A 
+  href="http://www.csdn.net/help/contact.htm" target=_blank>联系方式</A>|<A 
+  href="http://job.csdn.net/Jobs/f9c75c9f2ad14404a604669b757b9ed0/viewcompany.aspx" 
+  target=_blank>诚聘英才</A>|<A href="http://www.csdn.net/help/english.htm" 
+  target=_blank>English</A>|<A 
+  onclick="window.location.href='mai'+'lto:'+'webm'+'aster@c'+'sdn.n'+'et?subject=Report To CSDN';return false" 
+  href="http://topic.csdn.net/t/20030123/13/1386335.html#">问题报告</A> 
+  <DD>北京创新乐知广告有限公司 版权所有,&nbsp;京&nbsp;ICP&nbsp;证&nbsp;070598&nbsp;号 
+  <DD>世纪乐知(北京)网络技术有限公司 提供技术支持 
+  <DD>CSDN网站24小时值班电话：13552009689 
+  <DD class=small>Copyright © 2000-2009, CSDN.NET, All Rights Reserved 
+  <DD><A 
+  href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202001032100010" 
+  target=_blank><IMG alt=GongshangLogo 
+  src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/gongshang_logos.gif"></A> 
+  </DD></DL></DIV></DIV><!--google   Analytics begin -->
+<SCRIPT 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/urchin.js" 
+type=text/javascript>
+        </SCRIPT>
+
+<SCRIPT type=text/javascript>
+_uacct = "UA-2688088-7";
+urchinTracker();
+        </SCRIPT>
+<!--google   Analytics end -->
+<SCRIPT 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/counter.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="ADSL拨号怎么得到其IP VC-MFC - 基础类 - CSDN社区 community_csdn_net.files/clickeye.js"></SCRIPT>
+<!-- Control Code/Caption.Yo-Focus-->
+<SCRIPT language=JavaScript1.1>
+var afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 = "";
+var afp_ad_count = 0;
+var afp_keyword_lenth = 200;
+
+var _YOYI_CONTROL_ = false;
+
+if ((navigator.userAgent.indexOf("MSIE 7.0") != -1) && (navigator.userAgent.indexOf("Windows") != -1))
+{
+	afp_keyword_lenth = 273;
+}
+
+if (document.title != "")
+	afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 = document.title;
+if (window.keywords)
+	afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 += window.keywords.content;
+if (window.description)
+	afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 += window.description.content;
+
+if (document.innerTEXT)
+	afp_all_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 = document.innerTEXT;
+
+if(afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8.length > afp_keyword_lenth) 
+{
+	afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8 = afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8.substring(0,afp_keyword_lenth);
+}
+
+document.write("<scr"+"ipt src='http://server.yoyi.com.cn/afp/get/;pl_id=BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8;tp=js;sk=0;ck=0;ext_key="+afp_keyword_BDA9CBA6_5658_A4DB_7E1D_1B781AF3DEE8+";u_id=afu;ex_id=;/?'></scr"+"ipt>");
+</SCRIPT>
+
+<DIV id=ad_right 
+style="DISPLAY: none; LEFT: 10px; WIDTH: 120px; POSITION: absolute; TOP: 184px">
+<SCRIPT type=text/javascript>
+try {
+	var ad_right = "";
+	if (screen.availWidth > 1200) { 
+		ad_right += '<' + 'script type=\"text/javascript\">';
+		ad_right += 'google_ad_client = "pub-1076724771190722";';
+		ad_right += 'google_ad_slot =\"5633584852\";';
+		ad_right += 'google_ad_width = 120;';
+		ad_right += 'google_ad_height = 600;';  
+		ad_right += '</'+'script>';
+		ad_right += '<'+'script type=\"text/javascript\"';
+		ad_right += 'src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">';
+		ad_right += '</'+'script>';
+	}
+	document.write(ad_right);
+	document.getElementById("ad_right").style.display = "";
+}catch(e){}
+</SCRIPT>
+</DIV><!-- Control Code End/No.csdn--></DIV></DIV></DIV></DIV></BODY></HTML>

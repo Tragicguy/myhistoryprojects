@@ -1,0 +1,69 @@
+overall  全部的
+outlined	概述（outline的过去式及过去分词）；轮廓
+progression	前进；连续
+Item Type	物品类型 ；项目类型 ；项类型 
+stray far from	远离
+beneath		在…之下
+stub   
+n. 存根；烟蒂；树桩；断株
+vt. 踩熄；连根拔除
+stub it out 存起来
+discipline	n. 纪律；学科；训练；惩罚
+desirable	值得要的；令人满意的
+behavior - driven development (BDD).	
+put forth	提出；发表；启航；（植物等）长出；放出
+specifications	说明书；规格（specification的复数形式）
+domain-specific language	特定领域语言
+are conditioned to	习惯于
+hurdle		障碍；跳栏；栏
+
+
+
+
+
+Features should be small,simple, isolated, and testable.
+An item type entity and a persistence layer that can store the item entity in the data store
+An item type domain service that can provide a list of item types in the data store
+A user interface to enable business users to list existing item types and create new ones
+
+you need to determine in what order you ’ ll build them.
+
+I fi nd it is generally easier to start
+by building features that are closest to the core of the application and then build out
+
+This enables you to keep the core of the application as simple as possible.
+
+从UI开始
+
+In cases where you are focusing on a set of libraries that will be consumed by a wide variety of consumers,
+I fi nd the bottom - up approach more effi cient. In any case, feel free to try both, and do what works
+best for you.
+
+I fi nd it desirable to give my tests names that are meaningful and
+
+BDD stresses stakeholder involvement in the software development process with both the technical and nontechnical groups.
+BDD is about making your class, method, and variable names mirror plain English as much as possible.
+
+命名是见名知意：when_working_with_the_item_type_repository
+
+NBehave is a BDD framework for .NET that allows developers to
+create specifications (business rules written in plain English) and link them to executable test code.
+
+NBehave
+
+将测试代码写在一个类中
+
+But remember that a key ideal of TDD is to write only code that is essential, and
+to not write that code until you need it.
+
+Because_of
+RGF过程
+
+IMPLEMENTING THE FUNCTIONALITY
+Writing the Simplest Thing That Could Possibly Work
+It's important to meet only the current business requirement and not try to guess what will be
+needed in the future.
+
+尝试频繁的跑单元测试
+Resharper
+FNH

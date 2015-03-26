@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window caption="0,0,0,36" roundcorner="0,0" size="550,600" >
+    <Include source="default.xml" />
+    <VerticalLayout bordersize="1" bkcolor="#FFFFFFFF" bordercolor="#FF3D9E5D">
+	<Include source="title.xml" />        
+        <VerticalLayout name="body" padding="2,0,2,2" bkcolor="#FFFFFFFF" bkcolor2="#ffd5ffff">
+<HorizontalLayout inset="2,2,2,2" >
+<WebBrowser name="ie" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" delaycreate="false"/>
+</HorizontalLayout>
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

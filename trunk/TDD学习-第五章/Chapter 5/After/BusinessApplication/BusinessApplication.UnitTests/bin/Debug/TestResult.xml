@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.UnitTests.dll" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2010-11-04" time="09:40:17">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.4952" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files\NUnit 2.5.7\bin\net-2.0" machine-name="JAMES-PC" user="James" user-domain="James-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\bin\Debug\BusinessApplication.UnitTests.dll" executed="True" result="Failure" success="False" time="2.069" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="BusinessApplication" executed="True" result="Failure" success="False" time="2.062" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="UnitTests" executed="True" result="Failure" success="False" time="2.054" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="PersonServiceTests" executed="True" result="Failure" success="False" time="2.053" asserts="0">
+                <results>
+                  <test-case name="BusinessApplication.UnitTests.PersonServiceTests.ShouldBeAbleToCallPersonServiceAndGetPerson" executed="True" result="Failure" success="False" time="2.025" asserts="2">
+                    <failure>
+                      <message><![CDATA[  Expected string length 4 but was 3. Strings differ at index 0.
+  Expected: "John"
+  But was:  "Bob"
+  -----------^
+]]></message>
+                      <stack-trace><![CDATA[at BusinessApplication.UnitTests.PersonServiceTests.ShouldBeAbleToCallPersonServiceAndGetPerson() in C:\Users\James\Desktop\TddBook\Chapter 5\CodeSample\After\BusinessApplication\BusinessApplication.UnitTests\PersonServiceTests.cs:line 27
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

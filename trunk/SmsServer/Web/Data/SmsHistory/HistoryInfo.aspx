@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HistoryInfo.aspx.cs" Inherits="SmsServer.Web.Data.SmsHistory.HistoryInfo" %>

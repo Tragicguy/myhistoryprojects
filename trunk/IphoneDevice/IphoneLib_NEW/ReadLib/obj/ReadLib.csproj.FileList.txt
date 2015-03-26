@@ -1,0 +1,5 @@
+bin\Release\ReadLib.dll
+bin\Release\ReadLib.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ReadLib.dll
+obj\Release\ReadLib.pdb

@@ -1,0 +1,217 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{858C4C33-839D-4C82-A065-34D2D028F749}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebPage</RootNamespace>
+    <AssemblyName>WebPage</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\000.gif" />
+    <Content Include="images\002.gif" />
+    <Content Include="images\003.gif" />
+    <Content Include="images\420x200.swf" />
+    <Content Include="images\ad.gif" />
+    <Content Include="images\alipay_1.gif" />
+    <Content Include="images\banner - 副本 - 副本 %282%29.jpg" />
+    <Content Include="images\banner - 副本 - 副本.jpg" />
+    <Content Include="images\banner - 副本.jpg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\banner1.jpg" />
+    <Content Include="images\beijing.gif" />
+    <Content Include="images\beilongshang.gif" />
+    <Content Include="images\beilongshang.jpg" />
+    <Content Include="images\bio1.gif" />
+    <Content Include="images\bio2.gif" />
+    <Content Include="images\bio3.gif" />
+    <Content Include="images\bottom_bg.gif" />
+    <Content Include="images\buohai.gif" />
+    <Content Include="images\chinamobile.gif" />
+    <Content Include="images\chinatelecom.gif" />
+    <Content Include="images\chinaunicom.gif" />
+    <Content Include="images\common.js" />
+    <Content Include="images\cyberpolice_0803_01.gif" />
+    <Content Include="images\cz.gif" />
+    <Content Include="images\footlove.gif" />
+    <Content Include="images\getcode.png" />
+    <Content Include="images\GNXS-NET.png" />
+    <Content Include="images\gongshang.gif" />
+    <Content Include="images\gr.css" />
+    <Content Include="images\guangda.gif" />
+    <Content Include="images\guangfa.gif" />
+    <Content Include="images\hangzhou.gif" />
+    <Content Include="images\hflogodx.gif" />
+    <Content Include="images\hj01.jpg" />
+    <Content Include="images\hj02.jpg" />
+    <Content Include="images\hj03.jpg" />
+    <Content Include="images\hj04.jpg" />
+    <Content Include="images\hj05.jpg" />
+    <Content Include="images\huaxia.gif" />
+    <Content Include="images\index01.gif" />
+    <Content Include="images\index_51.gif" />
+    <Content Include="images\index_53.gif" />
+    <Content Include="images\index_54.gif" />
+    <Content Include="images\index_57.gif" />
+    <Content Include="images\index_59.gif" />
+    <Content Include="images\jianshe.gif" />
+    <Content Include="images\jiaotong.gif" />
+    <Content Include="images\jquery.js" />
+    <Content Include="images\laba.gif" />
+    <Content Include="images\lijichongzhi.gif" />
+    <Content Include="images\logo-yy.gif" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\logo_chinamobile.gif" />
+    <Content Include="images\logo_chinaunicom.gif" />
+    <Content Include="images\logo_yeepay.gif" />
+    <Content Include="images\minsheng.gif" />
+    <Content Include="images\mobileChargeValidate.js" />
+    <Content Include="images\mobile_07.gif" />
+    <Content Include="images\mobile_09.gif" />
+    <Content Include="images\mobile_14.gif" />
+    <Content Include="images\mobile_yh_090708.css" />
+    <Content Include="images\ningbo.gif" />
+    <Content Include="images\nongye.gif" />
+    <Content Include="images\ny01.gif" />
+    <Content Include="images\ny02.gif" />
+    <Content Include="images\ny04.gif" />
+    <Content Include="images\ny06.gif" />
+    <Content Include="images\ny08.gif" />
+    <Content Include="images\ny09.gif" />
+    <Content Include="images\pingan.gif" />
+    <Content Include="images\prototype.js" />
+    <Content Include="images\rising.gif" />
+    <Content Include="images\service.gif" />
+    <Content Include="images\shanghaibank.gif" />
+    <Content Include="images\shangpufa.gif" />
+    <Content Include="images\shenfa.gif" />
+    <Content Include="images\SHRCB-NET.png" />
+    <Content Include="images\sinahome_ws_033.gif" />
+    <Content Include="images\sinahome_ws_035.gif" />
+    <Content Include="images\sinahome_ws_036.gif" />
+    <Content Include="images\top.jpg" />
+    <Content Include="images\wangjianranhuaxia.gif" />
+    <Content Include="images\wangjianranwanghuitong.jpg" />
+    <Content Include="images\xingye.gif" />
+    <Content Include="images\youzheng.gif" />
+    <Content Include="images\zc_ano.png" />
+    <Content Include="images\zhaohang.gif" />
+    <Content Include="images\zhongguo.gif" />
+    <Content Include="images\zhongxin.gif" />
+    <Content Include="index.aspx" />
+    <Content Include="index.htm" />
+    <Content Include="logo-yy.gif" />
+    <Content Include="ny\fzlc.html" />
+    <Content Include="ny\gshj.html" />
+    <Content Include="ny\gsjs.html" />
+    <Content Include="ny\lxwm.html" />
+    <Content Include="ny\ofys.html" />
+    <Content Include="ny\youxing.html" />
+    <Content Include="pay\index.aspx" />
+    <Content Include="pay\pay.aspx" />
+    <Content Include="pay\wjrloading.gif" />
+    <Content Include="ShowCode.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pay\index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pay\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pay\pay.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>pay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pay\pay.aspx.designer.cs">
+      <DependentUpon>pay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowCode.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ShowCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowCode.aspx.designer.cs">
+      <DependentUpon>ShowCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj">
+      <Project>{3CAAC857-D650-4760-AD7F-EDB6C2AF4DE4}</Project>
+      <Name>ClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1444</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SmsManagerInfo.aspx.cs" Inherits="SmsServer.Web.Data.SmsManager.SmsManagerInfo" %>

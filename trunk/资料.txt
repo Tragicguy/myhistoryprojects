@@ -1,0 +1,84 @@
+1． iPhone手机介绍
+首先需要了解和破解iPhone手机，下面一个帖子介绍很详细：
+iPhone最权威 [入门] [破解] [扫盲] [资源] [修砖] 总汇帖
+http://www.weiphone.com/thread-41690-1-1.html
+
+iPhone手机手册的中文翻译
+http://down.tgbus.com/soft/16820.shtml
+
+
+2． Unix常见命令
+iPhone手机的操作系统是Mac OS X，内核是unix，所以可以iPhone手机上运行unix命令。
+http://www.weiphone.com/thread-15894-1-1.html
+
+3． Windows平台上iPhone开发环境搭建
+见笔者的文章《Windows平台上iPhone基于cygwin开发环境的搭建方法》，文件链接：
+http://canco.javaeye.com/admin/blogs/199106
+
+4． Toolchain和iPhone SDK
+Toolchain与官方iPhone SDK的比较请见文章：
+《比较官方iPhone SDK和开源工具链》，文章链接：http://www.cocoachina.com/index.php/archives/cocoachina_149.html
+iPhone SDK介绍和分析
+见西西河的AllenKids先生的2篇文章：
+iPhoneSDK观察 - 舞姿飘忽，苹果的探戈
+http://www.20ju.com/content/V19377.htm
+iPhone SDK 观察二：舞台宽广，才能跳得欢畅
+http://www.cnbeta.com/articles/55055.htm
+
+iPhone SDK, Toolchain, Windows Mobile, SymbianOS S60的比较
+http://www.rsslite.com/post/1889.html
+
+
+
+iPhone用户界面指导原则
+http://www.20ju.com/content/V22381.htm
+
+5． iPhone开发语言：Objective-C
+iPhone原生程序开发语言主要是用Objective-C语言，如果你熟悉C/C++语言，则能很快掌握Objective-C。Objective-C语言主要要理解可变参数，Categories, Posing， Protocols等特性。
+Objective-C初學者指南（繁体）
+http://www.otierney.net/objective-c.html.zh-tw.big5Objective-C语法快速参考
+http://www.cocoachina.com/index.php/archives/cocoachina_122.html
+Learn Objective-C
+http://cocoadevcentral.com/d/learn_objectivec/
+
+The Objective-C 2.0 Programming Language
+http://developer.apple.com/iphone/（注：需要注册为apple会员才可以下载）
+
+6． iPhone开发书籍、文章和源代码
+由iPhone开发和破解领路人Jonathan Zdziarski著作，最最重要、最值得推荐和唯一的开发书籍《iPhone Open Application Development》，可通过google下载电子版。
+
+
+Creating an iPhone Application
+iPhone OS Overview
+iPhone OS Programming Guide
+iPhone Human Interface Guidelines
+Cocoa Fundamentals Guide
+http://developer.apple.com/iphone/（注：需要注册为apple会员才可以下载）
+
+
+Lucas Newman 的18页iPhone开发PDF教学
+http://lucasnewman.com/phonedev.pdf
+
+學習怎樣在 iPhone/iPod Touch 上開發自制遊戲全記錄
+http://www.weiphone.com/thread-81192-1-2.html
+
+CocoaChina整理的开源iPhone程序不完全列表
+http://www.cocoachina.com/index.php/archives/cocoachina_143.html
+
+几个源码例子
+http://lucasnewman.com/phonedemos.zip
+
+
+
+7． iPhone论坛和网站
+平果开发中文站－最好的中文iPhone开发网站！
+http://www.cocoachina.com/
+
+苹果官方的开发网站：
+http://developer.apple.com/iphone/
+
+Weiphone
+http://www.weiphone.com/index.php
+
+苹果fans成立的网站：
+http://apple4.us/

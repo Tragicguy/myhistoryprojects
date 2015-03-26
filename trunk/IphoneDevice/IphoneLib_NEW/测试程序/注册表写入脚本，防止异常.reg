@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Apple Inc.\Apple Application Support] 
+"InstallDir"="C:\\Program Files (x86)\\Common Files\\Apple\\Apple Application Support\\" 
+"Version"="3.2.0.47" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Apple Inc.\Apple Mobile Device Support\Shared] 
+"iTunesMobileDeviceDLL"="C:\\Program Files (x86)\\Common Files\\Apple\\Mobile Device Support\\iTunesMobileDevice.dll" 
+"ASMapiInterfaceDLL"="C:\\Program Files (x86)\\Common Files\\Apple\\Mobile Device Support\\AppleSyncMapiInterface.dll" 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Apple Mobile Device] 
+"Type"=dword:00000010 
+"Start"=dword:00000002 
+"ErrorControl"=dword:00000001 
+"ImagePath"=hex(2):22,00,43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,\ 
+  6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,5c,00,43,00,6f,00,6d,00,6d,00,6f,\ 
+  00,6e,00,20,00,46,00,69,00,6c,00,65,00,73,00,5c,00,41,00,70,00,70,00,6c,00,\ 
+  65,00,5c,00,4d,00,6f,00,62,00,69,00,6c,00,65,00,20,00,44,00,65,00,76,00,69,\ 
+  00,63,00,65,00,20,00,53,00,75,00,70,00,70,00,6f,00,72,00,74,00,5c,00,41,00,\ 
+  70,00,70,00,6c,00,65,00,4d,00,6f,00,62,00,69,00,6c,00,65,00,44,00,65,00,76,\ 
+  00,69,00,63,00,65,00,53,00,65,00,72,00,76,00,69,00,63,00,65,00,2e,00,65,00,\ 
+  78,00,65,00,22,00,00,00 
+"DisplayName"="Apple Mobile Device" 
+"DependOnService"=hex(7):54,00,63,00,70,00,69,00,70,00,00,00,00,00 
+"ObjectName"="LocalSystem" 
+"Description"="给 Apple 移动设备提供接口。" 
+"FailureActions"=hex:80,51,01,00,01,00,00,00,01,00,00,00,03,00,00,00,14,00,00,\ 
+  00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Apple Mobile Device\Parameters] 

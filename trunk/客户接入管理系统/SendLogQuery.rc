@@ -1,0 +1,361 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\SendLogQuery.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SendLogQuery.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SendLogQuery"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "发送日志查询 V1.0.1.2",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_SENDLOGQUERY_DIALOG DIALOGEX 0, 0, 571, 245
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "客户接入管理系统"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESSBAR,"msctls_progress32",0x1,7,60,68,6,WS_EX_TRANSPARENT
+    PUSHBUTTON      "查询",IDC_BTN_QUERY,280,19,29,12
+    CONTROL         "",IDC_LIST_SHOW,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,12,70,60,50
+    GROUPBOX        "查询选项",IDC_FRAME_QUERY,1,2,371,60
+    GROUPBOX        "操作",IDC_FRAME_Oprate,272,6,95,54
+    PUSHBUTTON      "导出",IDC_BTN_OUTPORT,325,19,29,12
+    LTEXT           "开始日期:",IDC_STATIC,318,116,31,8,NOT WS_VISIBLE
+    CONTROL         "",IDC_DATE_DATESTART,"SysDateTimePick32",DTS_RIGHTALIGN | NOT WS_VISIBLE | WS_TABSTOP,351,113,54,12
+    LTEXT           "结束日期:",IDC_STATIC,318,128,32,8,NOT WS_VISIBLE
+    CONTROL         "",IDC_DATE_DATEEND,"SysDateTimePick32",DTS_RIGHTALIGN | NOT WS_VISIBLE | WS_TABSTOP,351,126,54,12
+    PUSHBUTTON      "停止",IDC_BTN_STOP,353,77,29,12,NOT WS_VISIBLE
+    LTEXT           "提示:",IDC_STATIC,10,52,19,9
+    LTEXT           "...",IDC_INFO_SHOW,31,52,154,9
+    LTEXT           "公司名:",IDC_STATIC,20,12,26,8
+    EDITTEXT        IDC_EDIT_COMNAME,44,9,42,12,ES_AUTOHSCROLL
+    GROUPBOX        "接入日期",IDC_FRAME_RESULT2,302,108,106,32,NOT WS_VISIBLE
+    LTEXT           "接入类型:",IDC_STATIC,93,11,33,8
+    LTEXT           "使用语言:",IDC_STATIC,186,11,35,8
+    LTEXT           "联系人:",IDC_STATIC,20,26,26,8
+    EDITTEXT        IDC_EDIT_LINKMAN,44,23,42,12,ES_AUTOHSCROLL
+    LTEXT           "电话:",IDC_STATIC,106,26,18,8
+    EDITTEXT        IDC_EDIT_LINKPHONE,124,23,56,12,ES_AUTOHSCROLL
+    LTEXT           "QQ:",IDC_STATIC,203,24,14,8
+    EDITTEXT        IDC_EDIT_QQ,217,22,47,12,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_COMBO_LANGUAGE,217,7,48,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ACCTYPE,124,8,56,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "账号:",IDC_STATIC,27,40,18,8
+    EDITTEXT        IDC_EDIT_ACCOUNT,44,37,42,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_LIST_SHOW3,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,375,7,182,54
+    LTEXT           "月发送量:",IDC_STATIC,92,40,31,8
+    EDITTEXT        IDC_EDIT_SENDNUM,124,37,56,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "业务员:",IDC_STATIC,193,40,24,8
+    PUSHBUTTON      "添加客户",IDC_BTN_ADD,278,43,38,12
+    PUSHBUTTON      "刷新类型",IDC_BTN_FRESH,324,43,38,12
+    EDITTEXT        IDC_EDIT_SALEMAN,217,37,47,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_INFO DIALOGEX 0, 0, 428, 358
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "客户详细信息管理"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "客户基本信息",IDC_STATIC,17,10,403,58
+    GROUPBOX        "接入类型",IDC_STATIC,17,72,403,41
+    GROUPBOX        "接入账号及密码",IDC_STATIC,17,118,403,29
+    GROUPBOX        "我司业务人员",IDC_STATIC,18,151,403,48
+    GROUPBOX        "客户服务器信息",IDC_STATIC,18,201,403,49
+    GROUPBOX        "备注说明",IDC_STATIC,18,254,403,66
+    LTEXT           "公司名:",IDC_STATIC,33,24,28,8
+    EDITTEXT        IDC_EDIT_COMNAME,66,21,90,12,ES_AUTOHSCROLL
+    LTEXT           "联系人:",IDC_STATIC,234,22,28,8
+    EDITTEXT        IDC_EDIT_LINKMAN,268,19,90,12,ES_AUTOHSCROLL
+    LTEXT           "电话:",IDC_STATIC,41,41,20,8
+    EDITTEXT        IDC_EDIT_LINKPHONE,66,38,90,12,ES_AUTOHSCROLL
+    LTEXT           "QQ:",IDC_STATIC,248,39,14,8
+    EDITTEXT        IDC_EDIT_LINKQQ,268,36,90,12,ES_AUTOHSCROLL
+    LTEXT           "Email:",IDC_STATIC,41,57,20,8
+    EDITTEXT        IDC_EDIT_LINKEMAIL,65,54,90,12,ES_AUTOHSCROLL
+    LTEXT           "月使用量:",IDC_STATIC,226,56,36,8
+    EDITTEXT        IDC_EDIT_SENDNUM,268,53,90,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "接入类型:",IDC_STATIC,27,84,36,8
+    EDITTEXT        IDC_EDIT_TYPE,65,98,90,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,65,80,90,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "删除此类型",IDC_BTN_DELETETYPE,161,79,50,14
+    PUSHBUTTON      "添加类型",IDC_BTN_ADDTYPE,162,97,50,14
+    LTEXT           "接入类型:",IDC_STATIC,230,84,36,8
+    EDITTEXT        IDC_EDIT_LANG,268,98,90,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO2,268,80,90,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "删除此语言",IDC_BTN_DELETELANG,365,80,50,14
+    PUSHBUTTON      "添加语言",IDC_BTN_ADDLANG,365,97,50,14
+    LTEXT           "账号:",IDC_STATIC,41,133,20,8
+    EDITTEXT        IDC_EDIT_ACCOUNT,65,130,90,12,ES_AUTOHSCROLL
+    LTEXT           "密码:",IDC_STATIC,244,132,20,8
+    EDITTEXT        IDC_EDIT_PWD,268,129,90,12,ES_AUTOHSCROLL
+    LTEXT           "联系人:",IDC_STATIC,31,166,28,8
+    EDITTEXT        IDC_EDIT_SALEMAN,63,163,90,12,ES_AUTOHSCROLL
+    LTEXT           "电话:",IDC_STATIC,242,166,20,8
+    EDITTEXT        IDC_EDIT_SALEPHONE,267,163,90,12,ES_AUTOHSCROLL
+    LTEXT           "QQ:",IDC_STATIC,44,185,14,8
+    EDITTEXT        IDC_EDIT_SALEQQ,63,182,90,12,ES_AUTOHSCROLL
+    LTEXT           "Email:",IDC_STATIC,243,184,20,8
+    EDITTEXT        IDC_EDIT_SALEEMAIL,267,181,90,12,ES_AUTOHSCROLL
+    LTEXT           "服务器IP:",IDC_STATIC,23,215,34,8
+    EDITTEXT        IDC_EDIT_SERVERIP,62,212,90,12,ES_AUTOHSCROLL
+    LTEXT           "登录账号:",IDC_STATIC,22,235,36,8
+    EDITTEXT        IDC_EDIT_SERVERACC,62,232,90,12,ES_AUTOHSCROLL
+    LTEXT           "密码:",IDC_STATIC,242,234,20,8
+    EDITTEXT        IDC_EDIT_SERVERPWD,266,231,90,12,ES_AUTOHSCROLL
+    LTEXT           "端口:",IDC_STATIC,242,215,20,8
+    EDITTEXT        IDC_EDIT_SERVERPORT,266,212,90,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REVERSE,27,266,390,48,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON      "添加",IDC_BTN_ADD,223,330,50,14
+    PUSHBUTTON      "保存",IDC_BTN_SAVE,293,329,50,14
+    PUSHBUTTON      "取消",IDC_BTN_CANCLE,357,329,50,14
+    LTEXT           "日期:",IDC_STATIC_TIMESHOW,43,327,20,8
+    CONTROL         "",IDC_DATE_TIMESTART,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,69,325,66,12
+END
+
+IDD_DLG_DETAIL DIALOGEX 0, 0, 503, 337
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_SHOW,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,36,72,70,54
+END
+
+IDD_DLG_DETAIL_EDIT DIALOGEX 0, 0, 398, 174
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "保存",IDC_BTN_SAVE,217,134,50,14
+    LTEXT           "时间:",IDC_STATIC,23,10,20,8
+    EDITTEXT        IDC_EDIT_TIME,47,7,118,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加",IDC_BTN_ADD,137,134,50,14
+    PUSHBUTTON      "取消",IDC_BTN_EXIT,289,134,50,14
+    LTEXT           "详细信息:",IDC_STATIC,7,39,36,8
+    EDITTEXT        IDC_EDIT_DETAIL,47,34,291,79,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,3
+ PRODUCTVERSION 1,0,1,3
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "Montnets"
+            VALUE "FileDescription", "客户接入管理系统"
+            VALUE "FileVersion", "1.0.1.3"
+            VALUE "InternalName", "发送日志查询.exe"
+            VALUE "LegalCopyright", "(C) <梦网科技>。保留所有权利。"
+            VALUE "OriginalFilename", "客户接入管理系统.exe"
+            VALUE "ProductName", "客户接入管理系统"
+            VALUE "ProductVersion", "1.0.1.3"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SENDLOGQUERY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 564
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 238
+    END
+
+    IDD_DIALOG_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 421
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 351
+    END
+
+    IDD_DLG_DETAIL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 496
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 330
+    END
+
+    IDD_DLG_DETAIL_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 391
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "................."
+    BEGIN
+        MENUITEM "查看\\编辑",                      IDR_MENU_EDIT
+        MENUITEM "删除",                          IDR_MENU_DELETE
+    END
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP ".............."
+    BEGIN
+        MENUITEM "添加",                          IDR_DETAIL_ADD
+        MENUITEM "编辑",                          IDR_DETAIL_EDIT
+        MENUITEM "删除",                          IDR_DETAIL_DELETE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 发送日志查询工具(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\SendLogQuery.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

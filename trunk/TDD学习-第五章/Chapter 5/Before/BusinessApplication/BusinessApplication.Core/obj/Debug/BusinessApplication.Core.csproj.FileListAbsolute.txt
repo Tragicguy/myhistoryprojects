@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\Before\BusinessApplication\BusinessApplication.Core\bin\Debug\BusinessApplication.Core.dll
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\Before\BusinessApplication\BusinessApplication.Core\bin\Debug\BusinessApplication.Core.pdb
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\Before\BusinessApplication\BusinessApplication.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\Before\BusinessApplication\BusinessApplication.Core\obj\Debug\BusinessApplication.Core.dll
+C:\Documents and Settings\Administrator\桌面\643204_chapter 5 code\Chapter 5\Before\BusinessApplication\BusinessApplication.Core\obj\Debug\BusinessApplication.Core.pdb

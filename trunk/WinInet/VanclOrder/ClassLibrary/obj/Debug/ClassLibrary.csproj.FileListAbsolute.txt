@@ -1,0 +1,15 @@
+C:\VanklOrder\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\VanklOrder\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\VanklOrder\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\VanklOrder\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\VanklOrder\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\VanclOrder\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\VanclOrder\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\VanclOrder\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\VanclOrder\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\VanclOrder\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\Work\MyCodes\trunk\WinInet\VanclOrder\ClassLibrary\obj\Debug\ClassLibrary.pdb

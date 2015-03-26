@@ -1,0 +1,75 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aes_asm", "aes_asm\aes_asm.vcproj", "{A5CD8D1F-F829-41CF-842E-C8B8FAAED876}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aes_dll", "aes_dll\aes_dll.vcproj", "{B46DE84B-A556-4E82-822C-D91C836650F8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aes_gav", "aes_gav\aes_gav.vcproj", "{FC03B972-7683-467E-8829-4C3B282B3238}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aes_rav", "aes_rav\aes_rav.vcproj", "{0F879726-DB15-40D1-AA6B-A6EE80CD58AD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aes_tables", "aes_tables\aes_tables.vcproj", "{B6EC003A-2AF5-43D7-ACAB-29769CEBABC9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aes_tst", "aes_tst\aes_tst.vcproj", "{0164B21C-FACB-4534-B708-C5EBF31343CD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aes_xam", "aes_xam\aes_xam.vcproj", "{FF11E62F-24B1-4DCE-AF58-697326EA2D5F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aes_tmr", "..\aes_tmr\aes_tmr.vcproj", "{09196EF6-EE6F-4C27-92B0-1F120DAB63AD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AESEncryptionTest", "C:\Documents and Settings\Administrator\×ÀÃæ\AESEncryptionTest\AESEncryptionTest.vcproj", "{867D839F-7828-45A6-9CAE-7E9B2590DEB7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A5CD8D1F-F829-41CF-842E-C8B8FAAED876}.Debug.ActiveCfg = Debug|Win32
+		{A5CD8D1F-F829-41CF-842E-C8B8FAAED876}.Release.ActiveCfg = Release|Win32
+		{B46DE84B-A556-4E82-822C-D91C836650F8}.Debug.ActiveCfg = Debug|Win32
+		{B46DE84B-A556-4E82-822C-D91C836650F8}.Release.ActiveCfg = Release|Win32
+		{FC03B972-7683-467E-8829-4C3B282B3238}.Debug.ActiveCfg = Debug|Win32
+		{FC03B972-7683-467E-8829-4C3B282B3238}.Release.ActiveCfg = Release|Win32
+		{0F879726-DB15-40D1-AA6B-A6EE80CD58AD}.Debug.ActiveCfg = Debug|Win32
+		{0F879726-DB15-40D1-AA6B-A6EE80CD58AD}.Release.ActiveCfg = Release|Win32
+		{B6EC003A-2AF5-43D7-ACAB-29769CEBABC9}.Debug.ActiveCfg = Debug|Win32
+		{B6EC003A-2AF5-43D7-ACAB-29769CEBABC9}.Release.ActiveCfg = Release|Win32
+		{0164B21C-FACB-4534-B708-C5EBF31343CD}.Debug.ActiveCfg = Debug|Win32
+		{0164B21C-FACB-4534-B708-C5EBF31343CD}.Release.ActiveCfg = Release|Win32
+		{FF11E62F-24B1-4DCE-AF58-697326EA2D5F}.Debug.ActiveCfg = Debug|Win32
+		{FF11E62F-24B1-4DCE-AF58-697326EA2D5F}.Release.ActiveCfg = Release|Win32
+		{09196EF6-EE6F-4C27-92B0-1F120DAB63AD}.Debug.ActiveCfg = Debug|Win32
+		{09196EF6-EE6F-4C27-92B0-1F120DAB63AD}.Release.ActiveCfg = Release|Win32
+		{867D839F-7828-45A6-9CAE-7E9B2590DEB7}.Debug.ActiveCfg = Debug|Win32
+		{867D839F-7828-45A6-9CAE-7E9B2590DEB7}.Debug.Build.0 = Debug|Win32
+		{867D839F-7828-45A6-9CAE-7E9B2590DEB7}.Release.ActiveCfg = Release|Win32
+		{867D839F-7828-45A6-9CAE-7E9B2590DEB7}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		aes.txt = aes.txt
+		vb.txt = vb.txt
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

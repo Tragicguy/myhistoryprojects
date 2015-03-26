@@ -1,0 +1,5 @@
+E:\myhistoryproject\TestFunAmazon\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\myhistoryproject\TestFunAmazon\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\myhistoryproject\TestFunAmazon\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\myhistoryproject\TestFunAmazon\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\myhistoryproject\TestFunAmazon\ClassLibrary\obj\Debug\ClassLibrary.pdb

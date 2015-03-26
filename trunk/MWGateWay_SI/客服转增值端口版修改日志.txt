@@ -1,0 +1,44 @@
+2008-10-9
+#客服端口转增值端口
+MongateCsSPSendSms
+MongateCsGetSmsEx
+接收信息时保存号码到列表和匹配码，发送信息读取
+MongateVasGetSms
+MongateVasSendSms
+
+DllMain增加linkid表文件保存
+和文件读取
+
+10-27
+增加子端口从配置文件中读取
+11-21
+1、增加是否走增值端口和单发走增值端口，群发走客服端口
+MongateCsSPSendSms
+//08-11-21修改
+//MongateTestMsgEx
+//功能：检测是否含关键字，返回关键字
+//输入：sock 连接句柄;pStrMessage 输入信息;keywords输出关键字 
+//输出：返回1为无关键字;-10033为有关键字(通过keywords返回);其他值为其他错误
+//
+
+2、增加信息验证关键字，增加返回关键字
+MongateTestMsgEx
+MongateTestMsgExHttp
+
+3、增加接口函数调用限制
+2008-12-8
+{3, 1, 3, 3}
+修正发送子端口重叠的问题
+#2008-12-15
+{3, 1, 3, 4}
+从配置文件中读取9160端口号码
+#2008-12-30
+{3, 1, 3, 5}
+MongateCsSPSendSmsEx
+添加51号协议命令：子端口发送，判断是否9160端口，否则以客服端口发送双向信息
+#2009-2-16
+{3, 1, 3, 6}
+解除增殖端口群发限制，更改为少于5个号码的群发
+#2009-2-19
+{3, 1, 3, 7}
+客服端口转增殖端口MongateCsSPSendSms处理子端口为-1的情况

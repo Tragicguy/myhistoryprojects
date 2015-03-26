@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: aes_rav - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\BRIANG~1.FOR\LOCALS~1\Temp\RSP4A.tmp" with contents
+[
+/nologo /ML /W3 /GX /Od /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\cpp\aes\aesaux.cpp"
+"D:\cpp\aes\aescrypt.c"
+"D:\cpp\aes\aeskey.c"
+"D:\cpp\aes\aesrav.cpp"
+"D:\cpp\aes\aestab.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\BRIANG~1.FOR\LOCALS~1\Temp\RSP4A.tmp" 
+Creating temporary file "C:\DOCUME~1\BRIANG~1.FOR\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/aes_rav.pdb" /map:"Release/aes_rav.map" /machine:I386 /out:"Release/aes_rav.exe" 
+.\Release\aesaux.obj
+.\Release\aescrypt.obj
+.\Release\aeskey.obj
+.\Release\aesrav.obj
+.\Release\aestab.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\BRIANG~1.FOR\LOCALS~1\Temp\RSP4B.tmp"
+<h3>Output Window</h3>
+Compiling...
+aesaux.cpp
+Generating Code...
+Compiling...
+aescrypt.c
+aeskey.c
+Generating Code...
+Compiling...
+aesrav.cpp
+Generating Code...
+Compiling...
+aestab.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+aes_rav.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

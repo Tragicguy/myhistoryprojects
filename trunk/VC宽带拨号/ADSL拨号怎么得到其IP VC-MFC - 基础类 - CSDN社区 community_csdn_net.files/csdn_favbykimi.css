@@ -1,0 +1,19 @@
+CITE.fav_csdnstylebykimi {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 5px; PADDING-TOP: 0px; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+CITE.fav_csdnstylebykimi A {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 10px; BACKGROUND: url(http://www.csdn.net/images/share-add.gif) no-repeat 0px 0px; PADDING-BOTTOM: 1px; FONT: 12px Tahoma,sans-serif; PADDING-TOP: 0px
+}
+UNKNOWN {
+	PADDING-RIGHT: 25px! important; PADDING-LEFT: 10px! important; PADDING-BOTTOM: 0px! important; PADDING-TOP: 2px! important
+}
+
+@media Unknown    
+{
+CITE.fav_csdnstylebykimi A {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 10px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+    }
+CITE.fav_csdnstylebykimi A:hover {
+	CLEAR: both; BACKGROUND: url(http://www.csdn.net/images/share-add.gif) no-repeat 0px 100%; COLOR: #fff; TEXT-DECORATION: none
+}

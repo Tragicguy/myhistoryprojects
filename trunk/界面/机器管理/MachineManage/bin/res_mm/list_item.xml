@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+  <ListContainerElement>
+    <VerticalLayout padding="2,2,2,2">
+      <VerticalLayout>
+<HorizontalLayout height="30">
+	    <Label name="companyname" font="2" textcolor="#00000000" />
+            </HorizontalLayout>
+            <HorizontalLayout height="30">              
+            <Label width="81" text="纳税人识别号：" textcolor="#00000000" /><Control height="7" width="3" /><Label name="nsrsbh" textcolor="#00000000" /><Control width="3" height="7" />
+	    <Button name="faxsubmit" text="认证" width="53" height="22" /><Control height="7" width="5" />
+            </HorizontalLayout>
+            <HorizontalLayout height="30">              
+	    <Label name="password" text="密码：******" textcolor="#00000000" /><Control height="7"  />
+	    <Button name="listmodifypwd" text="修改密码" width="60" height="22" /><Control height="7" width="5" />
+            </HorizontalLayout>
+      </VerticalLayout>
+    <HorizontalLayout bkcolor="#FFFFFFFF" height="1" bordercolor="#FF768D9B" bordersize="1">
+    </HorizontalLayout>
+    </VerticalLayout>
+  </ListContainerElement>
+</Window>

@@ -1,0 +1,10 @@
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\bin\Debug\TestFunAmazon.exe
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\bin\Debug\TestFunAmazon.pdb
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\obj\Debug\ResolveAssemblyReference.cache
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\obj\Debug\TestFunAmazon.Properties.Resources.resources
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\obj\Debug\TestFunAmazon.csproj.GenerateResource.Cache
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\obj\Debug\TestFunAmazon.exe
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\obj\Debug\TestFunAmazon.pdb
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\obj\Debug\TestFunAmazon.Form1.resources
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\bin\Debug\ClassLibrary.dll
+E:\myhistoryproject\TestFunAmazon\TestFunAmazon\bin\Debug\ClassLibrary.pdb

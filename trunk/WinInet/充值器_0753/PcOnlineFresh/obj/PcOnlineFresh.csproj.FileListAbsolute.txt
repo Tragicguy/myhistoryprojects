@@ -1,0 +1,53 @@
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\ResolveAssemblyReference.cache
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\PcOnlineFresh.Form1.resources
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\PcOnlineFresh.Form2.resources
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\PcOnlineFresh.Properties.Resources.resources
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\PcOnlineFresh.csproj.GenerateResource.Cache
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\bin\Debug_PcOnline\GoodsFresh.exe
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\bin\Debug_PcOnline\GoodsFresh.pdb
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\bin\Debug_PcOnline\ClassLibrary.dll
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\GoodsFresh.exe
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\GoodsFresh.pdb
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\bin\Release_PcOnline\GoodsFresh.exe
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\bin\Release_PcOnline\GoodsFresh.pdb
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\bin\Release_PcOnline\ClassLibrary.dll
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\ResolveAssemblyReference.cache
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\PcOnlineFresh.Form1.resources
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\PcOnlineFresh.Form2.resources
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\PcOnlineFresh.Properties.Resources.resources
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\PcOnlineFresh.csproj.GenerateResource.Cache
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\GoodsFresh.exe
+E:\myhistoryproject\WinInet\价格修改\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\GoodsFresh.pdb
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\GoodsFresh.exe
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\GoodsFresh.pdb
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\bin\Debug_PcOnline\GoodsFresh.exe
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\bin\Debug_PcOnline\GoodsFresh.pdb
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\bin\Debug_PcOnline\ClassLibrary.dll
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\PcOnlineFresh.Form1.resources
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\PcOnlineFresh.Form2.resources
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\PcOnlineFresh.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Debug\PcOnlineFresh.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\bin\Debug_PcOnline\tessnet2_32.dll
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\bin\Release_PcOnline\ClassLibrary.dll
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\bin\Release_PcOnline\tessnet2_32.dll
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\PcOnlineFresh.Form1.resources
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\PcOnlineFresh.Form2.resources
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\PcOnlineFresh.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\PcOnlineFresh.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\bin\Release_PcOnline\充值器.exe
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\bin\Release_PcOnline\充值器.pdb
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\充值器.exe
+C:\Documents and Settings\Administrator\桌面\PcOnlineFresh_AD\PcOnlineFresh\obj\Release\充值器.pdb
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\obj\Release\充值器.exe
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\obj\Release\充值器.pdb
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\bin\Release_PcOnline\充值器.exe
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\bin\Release_PcOnline\充值器.pdb
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\bin\Release_PcOnline\ClassLibrary.dll
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\bin\Release_PcOnline\tessnet2_32.dll
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\obj\Release\ResolveAssemblyReference.cache
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\obj\Release\PcOnlineFresh.Form1.resources
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\obj\Release\PcOnlineFresh.Form2.resources
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\obj\Release\PcOnlineFresh.Properties.Resources.resources
+E:\myhistoryproject\WinInet\充值器_0753\PcOnlineFresh\obj\Release\PcOnlineFresh.csproj.GenerateResource.Cache

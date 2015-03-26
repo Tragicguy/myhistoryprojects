@@ -1,0 +1,24 @@
+FTP IP： 221.235.53.238
+
+账号：tragicguy
+
+密码：wawa851227
+
+数据库 IP：221.235.53.238
+
+账号：SmsPlatForm
+
+密码：wawa851227
+
+
+管理地址： http://www.wh100idc.com/cp/
+select top 20 * from smslog order by id desc
+
+test:
+http://tragicguy.motoxun.com/
+
+
+工信部：
+http://211.94.161.70/
+ee0103
+wawa851227

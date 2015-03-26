@@ -1,0 +1,167 @@
+/************************************************************************/
+/*                                                                      */
+/************************************************************************/
+//找茬操作
+void CzhaochaDlg::OnBnClickedBtnFind()
+{
+		
+		//PostMessage(WM_MY_MESSAGE,0,(LPARAM)GetDlgItem(IDC_BTN_SHOWWAWA));		//控制图标显示状态(与找茬本身无关)
+		IplImage *Img;
+		HWND hackHwnd = FindWindow(_T("#32770"),_T("大家来找茬"))->GetSafeHwnd();		//获取找茬游戏的窗口句柄
+		if (hackHwnd == NULL)					//如果没有找到目标窗口
+		{
+				return;
+		}
+		GetSelectWindowPic(hackHwnd);			//获取游戏图片
+		if((Img = cvLoadImage("srcPic.bmp", 1)) == 0)	//如果没有找到图片
+		{
+				return;
+		}
+		int x1 = 0;				//第一幅图的左X坐标
+		int x2 = 0;				//第一幅图的右X坐标
+		int x3 = 0;				//第二幅图的左X坐标
+		int width = 0;			//图宽度
+		int y = 190;			//图的Y方向起始坐标
+
+		int tempY = 200;		//..........................
+		while((x1 == 0 || x2 == 0 || x3 == 0 || width <= 0) && tempY <270)				//获取两图像的起始和结束位置
+		{
+				x1=0;
+				x2=0;
+				x3 = 0;
+				width = 0;
+				GetLocation(Img,x1,x2,x3,tempY);
+				width = x2 - x1;
+				tempY += 5;
+		}
+
+		
+		int height = 450;				//图像高度
+		if (x1 == 0 || x2 == 0 || x3 == 0 || width <= 0)		//如果找茬失败
+		{
+				return;
+		}
+
+		//调整坐标，否则找不到
+		x1 += 1;
+		width -= 1;
+		
+		//调整最小矩形的参数
+		int ijStart = 10;
+		width -= 10;
+		height -= 10;
+
+		CvMat *dst;
+		CvRect subRect;
+		dst=cvCreateMat(width,height,CV_8UC3);
+		subRect =cvRect(x1,y,width,height);
+		cvGetSubRect(Img,dst,subRect);
+		IplImage *dstLeft;
+		dstLeft=cvCreateImage(cvSize(width,height),IPL_DEPTH_8U,3);
+		cvGetImage(dst,dstLeft);
+
+		subRect =cvRect(x3,y,width,height);
+		cvGetSubRect(Img,dst,subRect);
+		IplImage *dstRight;
+		dstRight=cvCreateImage(cvSize(width,height),IPL_DEPTH_8U,3);
+		cvGetImage(dst,dstRight);
+
+		IplImage *dstXor;
+		dstXor=cvCreateImage(cvSize(width,height),IPL_DEPTH_8U,3);
+		cvXor(dstLeft,dstRight,dstXor);
+
+		cvSaveImage("dstPic.bmp",dstXor);
+		cvReleaseImage(&Img);
+
+		IplImage *dstXorBinary;
+
+		if((dstXorBinary = cvLoadImage("dstPic.bmp", 0)) == 0)
+				return;
+		cvThreshold(dstXorBinary,dstXorBinary,1,255,CV_THRESH_BINARY);
+		dstXorBinary->origin = 1;
+
+		int xRight;		//最小矩形最右坐标
+		int xLeft;		//最小矩形最左坐标
+		int yTop;		//最小矩形最上坐标
+		int yBottom;	//最小矩形最下坐标
+
+/************************************************************************/
+/*以下操作获取不同区域所构成的最小矩形（为了让不同区域窗口最小，方便控制）*/
+/************************************************************************/
+		for (int i=ijStart;i<width;i++)
+				for (int j=ijStart;j<height;j++)
+				{
+						CvScalar tempColor = cvGet2D(dstXorBinary,j,i);
+						if (tempColor.val[0] != 0)
+						{
+								xRight = i;
+								break;
+						}
+				}
+
+		for (int i=width-1;i>=ijStart ;i--)
+			for (int j=ijStart;j<height;j++)
+			{
+					CvScalar tempColor = cvGet2D(dstXorBinary,j,i);
+					if (tempColor.val[0] != 0)
+					{
+							xLeft = i;
+							break;
+					}
+			}		
+
+		for (int j=ijStart;j<height;j++)
+			for (int i=ijStart;i<width;i++)
+				{
+						CvScalar tempColor = cvGet2D(dstXorBinary,j,i);
+						if (tempColor.val[0] != 0)
+						{
+								yBottom = j;
+								break;
+						}
+				}
+
+		for (int j=height-1;j>=ijStart;j--)
+			for (int i=ijStart;i<width;i++)
+			{
+				CvScalar tempColor = cvGet2D(dstXorBinary,j,i);
+				if (tempColor.val[0] != 0)
+				{
+						yTop = j;
+						break;
+				}
+			}
+/************************************************************************/
+/*以上操作获取不同区域所构成的最小矩形（为了让不同区域窗口最小，方便控制）*/
+/************************************************************************/
+			//如果矩形获取出错，退出
+			if (xRight - xLeft< 0 || yBottom-yTop < 0)
+			{
+					return;
+			}
+
+			//得到最小矩形图以显示
+			dst=cvCreateMat(xRight - xLeft,yBottom-yTop,CV_8UC1);
+			subRect =cvRect(xLeft,yTop,xRight - xLeft,yBottom-yTop);
+			cvGetSubRect(dstXorBinary,dst,subRect);
+
+			IplImage *dstImage;
+			dstImage=cvCreateImage(cvSize(xRight - xLeft,yBottom-yTop),IPL_DEPTH_8U,1);
+			cvGetImage(dst,dstImage);
+
+			cvNamedWindow("找茬成功");
+			cvShowImage( "找茬成功", dstImage);
+
+			myParam *myparam = new myParam;
+			myparam->img = dstXor;
+			myparam->x = x1+xLeft;
+			myparam->y = y+yTop;
+			myparam->hwnd = hackHwnd;
+			cvSetMouseCallback("找茬成功",on_mouseProc,(void*)myparam);
+			cvWaitKey(0); //等待按键
+			cvDestroyWindow( "找茬成功" );//销毁窗口
+			cvReleaseImage(&dstXorBinary);//释放图像
+			delete myparam;
+			myparam = NULL;
+
+}

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UpLoad.aspx.cs" validateRequest=false Inherits="WebFile.UpLoad" %>

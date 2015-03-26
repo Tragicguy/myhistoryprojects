@@ -1,0 +1,24 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: aes_asm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\BRIANG~1.FOR\LOCALS~1\Temp\RSP109.bat" with contents
+[
+@echo off
+nasm -f win32 ..\aescrypt.asm -o .\Release\aescrypt.obj
+]
+Creating command line "C:\DOCUME~1\BRIANG~1.FOR\LOCALS~1\Temp\RSP109.bat"
+<h3>Output Window</h3>
+Performing Custom Build Step on ..\aescrypt.asm
+
+
+
+<h3>Results</h3>
+aescrypt.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

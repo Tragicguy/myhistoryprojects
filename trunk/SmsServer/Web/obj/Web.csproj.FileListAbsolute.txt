@@ -1,0 +1,17 @@
+E:\ASP.NET\SmsServer\Web\bin\SmsServer.Web.dll
+E:\ASP.NET\SmsServer\Web\bin\SmsServer.Web.pdb
+E:\ASP.NET\SmsServer\Web\bin\SmsServer.BLL.dll
+E:\ASP.NET\SmsServer\Web\bin\NBearLite.dll
+E:\ASP.NET\SmsServer\Web\bin\SmsServer.DAL.dll
+E:\ASP.NET\SmsServer\Web\bin\Newtonsoft.Json.dll
+E:\ASP.NET\SmsServer\Web\bin\NBear.Mapping.dll
+E:\ASP.NET\SmsServer\Web\bin\SmsServer.Model.dll
+E:\ASP.NET\SmsServer\Web\obj\Debug\ResolveAssemblyReference.cache
+E:\ASP.NET\SmsServer\Web\obj\Debug\SmsServer.Web.dll
+E:\ASP.NET\SmsServer\Web\obj\Debug\SmsServer.Web.pdb
+E:\ASP.NET\SmsServer\Web\bin\SmsServer.DataAdapter.dll
+E:\ASP.NET\SmsServer\Web\bin\SmsServer.DataAdapter.pdb
+E:\ASP.NET\SmsServer\Web\obj\Release\ResolveAssemblyReference.cache
+E:\ASP.NET\SmsServer\Web\obj\Release\SmsServer.Web.dll
+E:\ASP.NET\SmsServer\Web\obj\Release\SmsServer.Web.pdb
+E:\ASP.NET\SmsServer\Web\bin\NBear.Core.dll

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="OprateLogInfo.aspx.cs" Inherits="SmsServer.Web.Data.SmsLog.OprateLogInfo" %>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDiskDemo", "UDiskDemo\UDiskDemo.csproj", "{F1E8C2F5-E9EA-498F-9EA3-30D9BB558C6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDiskShell", "UDiskShell\UDiskShell.csproj", "{AADEC8F8-2519-4112-9D65-67FC72DAAE04}"
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E8C2F5-E9EA-498F-9EA3-30D9BB558C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E8C2F5-E9EA-498F-9EA3-30D9BB558C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E8C2F5-E9EA-498F-9EA3-30D9BB558C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E8C2F5-E9EA-498F-9EA3-30D9BB558C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADEC8F8-2519-4112-9D65-67FC72DAAE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADEC8F8-2519-4112-9D65-67FC72DAAE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADEC8F8-2519-4112-9D65-67FC72DAAE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADEC8F8-2519-4112-9D65-67FC72DAAE04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

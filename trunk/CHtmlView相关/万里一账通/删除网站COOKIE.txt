@@ -1,0 +1,1 @@
+int iRet = InternetSetCookie("http://www.sogou.com", NULL, "expires=Sat,06-Jan-1900 00:00:00 GMT");

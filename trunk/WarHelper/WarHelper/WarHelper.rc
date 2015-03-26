@@ -1,0 +1,284 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WarHelper.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\WarHelper.ico"
+IDI_ICON                ICON                    "res\\Torch.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 205, 56
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 WarHelper"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    ICON            IDI_ICON,IDC_STATIC,11,14,20,20
+    LTEXT           "WarHelper 1.20 版",IDC_STATIC,40,10,91,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2007",IDC_STATIC,40,25,99,8
+    DEFPUSHBUTTON   "确定",IDOK,148,11,50,14,WS_GROUP
+END
+
+IDD_WARHELPER_DIALOG DIALOGEX 0, 0, 296, 184
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "WarHelper"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "设置",IDC_SET,248,68,24,14
+    LTEXT           "",IDC_SHOW,76,23,128,15,0,WS_EX_ACCEPTFILES
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,7,19,1,
+                    156
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,7,19,
+                    273,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,7,174,
+                    273,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,278,19,
+                    1,156
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,241,19,
+                    1,156
+    LTEXT           "欢迎使用魔兽小助手",IDC_STATIC,96,5,82,11
+    LTEXT           "     这是一个用于临时为魔兽中数字键盘设置快捷键的小工具.设置采用键盘的扫描码,如:""ESC""键的为 1,"" ~ ""键为41,""Z""键为44,""Q""键为16,其他具体键码可以到网上搜索.只要进行简单的设置就能更换游戏中的按键.在游戏启动的情况下可以设置是否屏蔽左""WIN""键.                                    本版本已经加入显血功能,在游戏中按HOME键与END键可分别控制我方血条与敌方血条的显示.",
+                    IDC_STATIC,12,45,223,58
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,7,36,
+                    235,1
+    LTEXT           "    希望它能给您的游戏带来方便,让您更加享受游戏的乐趣.如有问题或者要改进的地方,请与我联系:                              Email: shaojun_hnist@126.com                            QQ; 182534287",
+                    IDC_STATIC,13,107,223,32
+    PUSHBUTTON      "退出",IDC_BUTTON_EXIT,249,121,22,12
+    LTEXT           "使用时请保证Hook.dll和WarHelper.exe在同一文件夹下!",
+                    IDC_STATIC,26,150,202,12
+END
+
+IDD_DIALOG_SET DIALOGEX 0, 0, 162, 83
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "按键替换设置"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "保存设置",IDOK,108,47,40,14
+    CTEXT           "7",IDC_STATIC,10,16,14,12
+    CTEXT           "4",IDC_STATIC,10,40,14,12
+    CTEXT           "1",IDC_STATIC,10,61,14,12
+    CTEXT           "8",IDC_STATIC,51,16,20,12
+    CTEXT           "5",IDC_STATIC,51,40,20,12
+    CTEXT           "2",IDC_STATIC,51,61,20,12
+    EDITTEXT        IDC_NUM7,27,15,22,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_NUM4,27,39,22,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_NUM1,27,60,22,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_NUM8,71,15,22,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_NUM5,71,39,22,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_NUM2,71,60,22,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_STATICEDGE
+    LTEXT           "在此设置您想要的快捷键",IDC_STATIC,23,1,88,9
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,7,10,
+                    148,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,7,10,1,
+                    66
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,154,10,
+                    1,66
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,7,75,
+                    148,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,100,10,
+                    1,66
+    CONTROL         "屏蔽Win键",IDC_CHECKWIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,103,23,46,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "WarHelper Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "WarHelper"
+            VALUE "LegalCopyright", "版权所有 (C) 2007"
+            VALUE "OriginalFilename", "WarHelper.EXE"
+            VALUE "ProductName", "WarHelper 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 49
+    END
+
+    IDD_WARHELPER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 19
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_DIALOG_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 76
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUPMENU MENU 
+BEGIN
+    POPUP ".................."
+    BEGIN
+        MENUITEM "设置",                        IDR_SET
+        MENUITEM "关于",                        IDR_ABOUT
+        MENUITEM "关闭",                        IDR_CLOSE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 WarHelper(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\WarHelper.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

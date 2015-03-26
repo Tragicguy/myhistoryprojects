@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SpgateType_Bus_List.aspx.cs" Inherits="SmsServer.Web.Data.SmsSpgate.SpgateType_Bus_List" %>

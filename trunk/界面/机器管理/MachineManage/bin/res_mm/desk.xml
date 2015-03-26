@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<Container width="150" height="80" inset="0,0,2,2" >
+		<VerticalLayout name="fadeEffect"  bkcolor="#20D0F1CF">
+		<ButtonExShow name="iconshow" float="true" pos="0,0,150,70" />
+		<Button name="removeitem" tooltip="移除"  float="true" pos="136,0,150,14" normalimage="file='btn_remove_normal.png'" hotimage="file='btn_remove_hot.png'" pushedimage="file='btn_remove_hot.png'" />
+		<CheckBox name="isuse" endellipsis="true" float="true" text="使用此软件哈哈哈哈" pos="0,48,148,63" textcolor="#FF386382" hottextcolor="#FF386382" selectedtextcolor="#FF386382" disabledtextcolor="#FFbac0c5" textpadding="20,2,0,0" align="left" selectedimage="file='checkbox_p.png' dest='0,2,15,17'" normalimage="file='checkbox_h.png' dest='0,2,15,17'"  />
+		</ VerticalLayout>
+	</Container>
+</Window>

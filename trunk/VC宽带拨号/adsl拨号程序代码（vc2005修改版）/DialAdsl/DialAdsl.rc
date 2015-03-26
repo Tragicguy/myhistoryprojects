@@ -1,0 +1,195 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\DialAdsl.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DialAdsl.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALADSL_DIALOG DIALOGEX 0, 0, 265, 171
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_BORDER
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    CONTROL         132,1005,"Static",SS_BITMAP | SS_REALSIZEIMAGE,2,0,307,20
+    CONTROL         133,1003,"Static",SS_BITMAP | SS_REALSIZEIMAGE,0,19,307,37
+    CONTROL         139,1009,"Static",SS_BITMAP,1,147,307,27
+    CONTROL         141,1010,"Static",SS_BITMAP,1,139,307,7
+    CONTROL         140,1008,"Static",SS_BITMAP,253,50,13,103
+    CONTROL         140,1007,"Static",SS_BITMAP,1,51,13,103
+    CONTROL         136,1011,"Static",SS_BITMAP,16,145,267,3
+    CONTROL         142,1012,"Static",SS_BITMAP,2,17,307,3
+    CONTROL         "close",IDC_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,244,1,21,14
+    CONTROL         "mini",IDC_MINI,"Button",BS_OWNERDRAW | WS_TABSTOP,223,1,21,14
+    CONTROL         "Button1",IDC_DIAL,"Button",BS_OWNERDRAW | WS_TABSTOP,193,149,50,14
+    LTEXT           "科技有限公司",IDC_STATIC,3,3,71,12
+    LTEXT           "用户名",IDC_USER,15,30,37,14
+    LTEXT           "密码",IDC_PASSWORD,131,30,37,14
+    EDITTEXT        IDC_EDITUSERNAME,53,28,64,19,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITPASSWORD,185,28,64,19,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "记住密码",IDC_HOLDPASSWORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,141,152,48,10
+    LISTBOX         IDC_LISTDIALSTATUS,15,55,238,83,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "DialAdsl.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "DialAdsl.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALADSL_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TOOLBAR             BITMAP                  "toolbar.bmp"
+IDB_BLACKLINE           BITMAP                  "blackline.bmp"
+IDB_NAMEREGION          BITMAP                  "nameregion.bmp"
+IDB_TITLE               BITMAP                  "title.bmp"
+IDB_BOTTOM              BITMAP                  "bottom.bmp"
+IDB_UPBOTTOM            BITMAP                  "upbottom.bmp"
+IDB_SEPARATE            BITMAP                  "separate.bmp"
+IDB_SIDE                BITMAP                  "side.bmp"
+IDB_DIALMAP             BITMAP                  "bt.bmp"
+IDB_MIN                 BITMAP                  "min.bmp"
+IDB_CLOSE               BITMAP                  "close.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\DialAdsl.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDiskTest", "UDiskTest\UDiskTest.vcproj", "{064E23EE-E78B-4AD3-B92C-AD13A55DF752}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDiskDll", "UDiskDll\UDiskDll.vcproj", "{3DC4FC1C-3FA3-49B4-912E-55633B30CF3B}"
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{064E23EE-E78B-4AD3-B92C-AD13A55DF752}.Debug|Win32.ActiveCfg = Debug|Win32
+		{064E23EE-E78B-4AD3-B92C-AD13A55DF752}.Debug|Win32.Build.0 = Debug|Win32
+		{064E23EE-E78B-4AD3-B92C-AD13A55DF752}.Release|Win32.ActiveCfg = Release|Win32
+		{064E23EE-E78B-4AD3-B92C-AD13A55DF752}.Release|Win32.Build.0 = Release|Win32
+		{3DC4FC1C-3FA3-49B4-912E-55633B30CF3B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DC4FC1C-3FA3-49B4-912E-55633B30CF3B}.Debug|Win32.Build.0 = Debug|Win32
+		{3DC4FC1C-3FA3-49B4-912E-55633B30CF3B}.Release|Win32.ActiveCfg = Release|Win32
+		{3DC4FC1C-3FA3-49B4-912E-55633B30CF3B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

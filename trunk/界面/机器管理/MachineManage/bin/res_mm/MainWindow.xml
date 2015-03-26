@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="840,530" caption="0,0,0,100" roundcorner="0,0">
+<Include source="default.xml" />
+    <VerticalLayout name="bg" bkcolor="#FFD0F1CF" bordersize="1" bordercolor="#ff666666" borderround="2,2" bkimage="file=&apos;bg0.png&apos; corner=&apos;600,200,1,1&apos;">
+		<HorizontalLayout name="controlbar" height="36" bordercolor="#000000FF" bordersize="0">
+            <Label text=" 账号管理助手" width="150" textcolor="#FF333333" disabledtextcolor="#FF333333" font="2" />
+            <Control height="36" />
+            <Button name="minbtn" tooltip="最小化" width="26" height="18" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;minimize.png&apos;" hotimage="file=&apos;minimize_h.png&apos;" pushedimage="file=&apos;minimize_p.png&apos;" />
+            <Button name="maxbtn" tooltip="最大化" width="25" height="18" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;maximize.png&apos;" hotimage="file=&apos;maximize_h.png&apos;" pushedimage="file=&apos;maximize_p.png&apos;" />
+            <Button name="restorebtn" tooltip="恢复" visible="false" width="25" height="18" align="center" normalimage="file=&apos;restore.png&apos;" hotimage="file=&apos;restore_h.png&apos;" pushedimage="file=&apos;restore_p.png&apos;" />
+            <Button name="closebtn" tooltip="关闭" width="43" height="18" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;close.png&apos;" hotimage="file=&apos;close_h.png&apos;" pushedimage="file=&apos;close_p.png&apos;" />
+        </HorizontalLayout>
+		<HorizontalLayout name="right_header" height="60" inset="2,0,0,0">
+                    <Control width="18" height="40" />
+                    <Option name="hostmachine" textpadding="0,0,0,5" text="主机" tooltip="主机" width="60" height="60" align="centerbottom" foreimage="file=&apos;task.png&apos; dest=&apos;6,0,54,48&apos;" hotimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" selectedimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" group="quickbar" tooltip="画刷工具"/>   
+					<Control width="10" height="40" />
+                    <Option name="database" textpadding="0,0,0,5" text="数据库" tooltip="数据库" width="60" height="60" align="centerbottom" foreimage="file=&apos;supporter.png&apos; dest=&apos;6,0,54,48&apos;" hotimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" selectedimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" group="quickbar" tooltip="画刷工具"/>   
+					<Control width="10" height="40" />
+                    <Option name="netmachine" textpadding="0,0,0,5" text="网络设备" tooltip="网络设备" width="60" height="60" align="centerbottom" foreimage="file=&apos;servicelog.png&apos; dest=&apos;6,0,54,48&apos;" hotimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" pushedimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" selectedimage="file=&apos;btn_push.png&apos; corner=&apos;2,2,2,2&apos;" group="quickbar" tooltip="画刷工具"/>   
+					
+                                      
+                </HorizontalLayout>
+        <HorizontalLayout>
+            <VerticalLayout inset="1,-12,1,1" width="200">      
+			<TreeView name="tree" visiblefolderbtn="true" visiblecheckbtn="false" vscrollbar="true" bordercolor="#ff2582e6" bordersize="0" bkcolor="#ffffffff" inset="1,0,1,1" header="false">
+			</TreeView>
+				<HorizontalLayout name="drag" float="true" pos="0,0,0,20" bordersize="1" bkcolor="#33FFFF11" bordercolor="#33C1E3FF">     
+				  <Label text="节点拖动中" textpadding="15,0,0,0" textcolor="#FFFFFFFF" align="leftmiddle" width="70" height="20" />
+				</HorizontalLayout>	
+				
+				<VerticalLayout name="treemenu" float="true" pos="0,0,0,20" bordersize="1" bkcolor="#FFFFFFFF" bordercolor="#FFC1E3FF">     
+				  <Button text="修改" textcolor="#FF337833" height="20" name="beginedit" />
+				  <Button text="添加IP" textcolor="#FF337833" height="20" name="beginadd" />
+				</VerticalLayout>	
+				<HorizontalLayout name="modifyoradd" float="true" pos="0,0,0,20" bordersize="1" bkcolor="#33FFFF11" bordercolor="#33C1E3FF">     
+				  <Edit name="edittext" width="80" height="18" bordersize="1" bordercolor="#FF4775CC"  /><Control width="5" /><Button text="保存" textcolor="#FF337833" width="30" height="20"  name="savetreenode" />
+				</HorizontalLayout>	
+<HorizontalLayout height="24" inset="5,4,0,0">
+			<Edit name="editdirectory" width="90" height="18" bordersize="1" bordercolor="#FF4775CC"  /><Control width="15" /><Button text="添加目录" textcolor="#FF337833" width="60" height="18"  name="adddirectory" />
+			</HorizontalLayout>				
+			</VerticalLayout>
+			
+            <VerticalLayout name="servicepanel">
+                
+                <VerticalLayout inset="5,5,5,5" name="servicepanel">
+<VerticalLayout bkcolor="#FFF7F3F7" height="170" bordercolor="#FF768D9B" bordersize="0">
+<AppList name="applist"  vscrollbar="true" />
+</VerticalLayout>
+<Control width="10" height="3" />
+<VerticalLayout inset="2,2,2,2" bordercolor="#FF768D9B" bordersize="0">
+ <List name="listex" bkcolor="#FFFFFFFF" inset="0,0,0,0" itemshowhtml="true" vscrollbar="true" hscrollbar="true" headerbkimage="file='list_header_bg.png'" itemhotimage="file='tree_hot.bmp' corner='2,1,2,1'" itemselectedimage="file='tree_select.bmp' corner='2,1,2,1'" itemalign="center" itembkcolor="#FFE2DDDF" itemaltbk="true" hscrollbar="false" menu="true">
+			<ListHeader height="24" menu="true">
+				<ListHeaderItem minwidth="50" inset="1,0,1,0"  endellipsis="true" font="1" width="50"  normalimage="headerctrl_normal.bmp" hotimage="headerctrl_hot.bmp" pushedimage="headerctrl_down.bmp" sepimage="Headerctrl_Sperator.bmp" sepwidth="1">
+				<VerticalLayout inset="1,3,1,0">
+				<CheckBox name="selall" endellipsis="true"  text="全选"  textcolor="#FF386382" hottextcolor="#FF386382" selectedtextcolor="#FF386382" disabledtextcolor="#FFbac0c5" textpadding="20,3,0,0" align="left" selectedimage="file='checkbox_p.png' dest='0,2,15,17'" normalimage="file='checkbox_h.png' dest='0,2,15,17'"  />
+				</VerticalLayout>
+				</ListHeaderItem>
+				<ListHeaderItem text="用户名" minwidth="90" endellipsis="true" font="1" width="110"  normalimage="headerctrl_normal.bmp" hotimage="headerctrl_hot.bmp" pushedimage="headerctrl_down.bmp" sepimage="Headerctrl_Sperator.bmp" sepwidth="1"></ListHeaderItem>
+				<ListHeaderItem text="密码" minwidth="90" endellipsis="true" font="1" width="110"  normalimage="headerctrl_normal.bmp" hotimage="headerctrl_hot.bmp" pushedimage="headerctrl_down.bmp" sepimage="Headerctrl_Sperator.bmp" sepwidth="1"></ListHeaderItem>
+				<ListHeaderItem text="协议" minwidth="70" endellipsis="true" font="1" width="90"  normalimage="headerctrl_normal.bmp" hotimage="headerctrl_hot.bmp" pushedimage="headerctrl_down.bmp" sepimage="Headerctrl_Sperator.bmp" sepwidth="1"></ListHeaderItem>
+				<ListHeaderItem text="类型" minwidth="70" endellipsis="true" font="1" width="90"  normalimage="headerctrl_normal.bmp" hotimage="headerctrl_hot.bmp" pushedimage="headerctrl_down.bmp" sepimage="Headerctrl_Sperator.bmp" sepwidth="1"></ListHeaderItem>
+				<ListHeaderItem text="操作" textpadding="30,0,0,0" align="left" minwidth="70" endellipsis="true" font="1" width="175"  normalimage="headerctrl_normal.bmp" hotimage="headerctrl_hot.bmp" pushedimage="headerctrl_down.bmp" sepimage="Headerctrl_Sperator.bmp" sepwidth="1"></ListHeaderItem>
+			</ListHeader>
+			</List>
+			<HorizontalLayout height="19" inset ="0,3,0,0">
+			<Button text="删除" textcolor="#FF337833" width="50" height="18"  name="deletesel" /><Control width="15" /><Button text="添加" textcolor="#FF337833" width="50" height="18"  name="additem" />
+			</HorizontalLayout>
+ </VerticalLayout>   
+ </VerticalLayout> 
+            </VerticalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

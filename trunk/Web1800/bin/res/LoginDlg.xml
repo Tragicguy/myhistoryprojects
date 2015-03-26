@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window caption="0,0,0,36" roundcorner="5,5" size="350,250" sizebox="6,6,6,6" mininfo="350,250" maxinfo="350,250">
+    <Include source="default.xml" />
+    <VerticalLayout bordersize="2" bkcolor="#FFFFFFFF" bordercolor="#FF4775CC">
+	<Include source="title.xml" />        
+        <VerticalLayout name="body" padding="2,0,2,2" bkcolor="#FFFFFFFF" bkcolor2="#ffd5ffff">
+<Control height="30" />
+<HorizontalLayout >
+<Label text="800ID:" align="right" width="120" height="25" />
+<Control width="20" />
+<Edit name="serviceid" height="22" width="120"/>
+</HorizontalLayout>
+<Control height="7" />
+<HorizontalLayout >
+<Label text="用户名:" align="right" width="120" height="25" />
+<Control width="20" />
+<Combo name="userid" height="22" maxwidth="120" >
+<ListLabelElement text="张三" selected="true" />
+<ListLabelElement text="李四" />
+<ListLabelElement text="李四1" />
+<ListLabelElement text="李四2" />
+</Combo>
+</HorizontalLayout>
+<Control height="7" />
+<HorizontalLayout>
+<Label text="密码:" align="right" width="120" height="25" />
+<Control width="20" />
+<Edit name="password" password="true" height="22" width="120" />
+</HorizontalLayout>
+<Control height="7" />
+<HorizontalLayout>
+<Control width="100" />
+<Button name="login" text="登录" width="50" height="22" />
+<Control width="50" />
+<Button name="exit" text="退出" width="50" height="22" />
+</HorizontalLayout>
+<HorizontalLayout padding="10,10,10,10" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" package="Mono.Apk" android:versionName="1.1.1.1" android:versionCode="1">
+  <uses-sdk android:targetSdkVersion="10" />
+  <application android:label="MonoApk">
+  </application>
+</manifest>

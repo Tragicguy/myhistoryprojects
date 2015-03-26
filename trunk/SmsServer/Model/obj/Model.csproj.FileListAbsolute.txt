@@ -1,0 +1,8 @@
+E:\ASP.NET\SmsServer\Model\bin\Debug\SmsServer.Model.dll
+E:\ASP.NET\SmsServer\Model\bin\Debug\SmsServer.Model.pdb
+E:\ASP.NET\SmsServer\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\ASP.NET\SmsServer\Model\obj\Debug\SmsServer.Model.dll
+E:\ASP.NET\SmsServer\Model\obj\Debug\SmsServer.Model.pdb
+E:\ASP.NET\SmsServer\Model\bin\Release\SmsServer.Model.dll
+E:\ASP.NET\SmsServer\Model\obj\Release\ResolveAssemblyReference.cache
+E:\ASP.NET\SmsServer\Model\obj\Release\SmsServer.Model.dll

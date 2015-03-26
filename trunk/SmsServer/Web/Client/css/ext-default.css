@@ -1,0 +1,44 @@
+.x-button-add {
+	background-image: url(../icons/button/add.gif)
+		!important;
+}
+
+.x-button-login {
+	background-image: url(../icons/button/collapse-all.gif)
+		!important;
+}
+
+.x-button-mdy {
+	background-image: url(../icons/button/modify.gif)
+		!important;
+}
+
+.x-button-del {
+	background-image: url(../icons/button/delete.gif)
+		!important;
+}
+
+.x-button-save {
+	background-image: url(../icons/button/save.gif)
+		!important;
+}
+
+.x-button-reset{
+	background-image: url(../icons/button/reset.gif)
+		!important;
+}
+
+.x-button-return {
+	background-image: url(../icons/button/return.gif)
+		!important;
+}
+
+.x-button-query {
+	background-image: url(../icons/button/query.gif)
+		!important;
+}
+
+.x-button-cancel {
+	background-image: url(../icons/button/delete.gif)
+		!important;
+}

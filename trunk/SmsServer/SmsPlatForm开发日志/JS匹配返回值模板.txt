@@ -1,0 +1,3 @@
+var GetRetValue= function(srcInfo) {
+return {RetValue:2,NeedResend:3,RetInfo:srcInfo};
+};

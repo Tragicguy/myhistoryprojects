@@ -1,0 +1,12 @@
+C:\VanklOrder\PcOnlineFresh\bin\Release_PcOnline\GoodsFresh.exe
+C:\VanklOrder\PcOnlineFresh\bin\Release_PcOnline\GoodsFresh.pdb
+C:\VanklOrder\PcOnlineFresh\bin\Release_PcOnline\ClassLibrary.dll
+C:\VanklOrder\PcOnlineFresh\obj\Release\ResolveAssemblyReference.cache
+C:\VanklOrder\PcOnlineFresh\obj\Release\PcOnlineFresh.Form1.resources
+C:\VanklOrder\PcOnlineFresh\obj\Release\PcOnlineFresh.Form2.resources
+C:\VanklOrder\PcOnlineFresh\obj\Release\PcOnlineFresh.Properties.Resources.resources
+C:\VanklOrder\PcOnlineFresh\obj\Release\VanklOrder.csproj.GenerateResource.Cache
+C:\VanklOrder\PcOnlineFresh\obj\Release\GoodsFresh.exe
+C:\VanklOrder\PcOnlineFresh\obj\Release\GoodsFresh.pdb
+C:\VanklOrder\VanklOrder\obj\Release\GoodsFresh.exe
+C:\VanklOrder\VanklOrder\obj\Release\GoodsFresh.pdb

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <ListContainerElement >
+	<HorizontalLayout inset="1,0,0,0">
+	<CheckBox name="selme" endellipsis="true" align="left" selectedimage="file='checkbox_p.png' dest='0,2,15,17'" normalimage="file='checkbox_h.png' dest='0,2,15,17'"  />
+	</HorizontalLayout>
+	<Label name="ip" align="center" endellipsis ="true" textpadding="0,2,0,0" text=""></Label>
+	<Label name="userid" align="center" endellipsis ="true" textpadding="0,2,0,0" text=""></Label>
+	<Label name="pwd" align="center" endellipsis ="true" textpadding="0,2,0,0" text=""></Label>
+	<Label name="protocol" align="center" endellipsis ="true" textpadding="0,2,0,0" text=""></Label>
+	<Label name="type" align="center" endellipsis ="true" textpadding="0,2,0,0" text=""></Label>
+	<Button name="deleteitem" textcolor="#FF337833" showhtml="true" text="{u}{l}删除{/l}{/u}" width="25" height="19" />
+  </ListContainerElement>
+</Window>

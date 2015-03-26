@@ -1,0 +1,40 @@
+stand-in   替身
+concrete   具体的
+composition 构成,合成物
+be composed of 由...组成
+substitute	代替
+swap out	置换出
+significant	重大的
+potentially	可能的
+prototype	标准
+derivatives	派生物
+Essentially	本质上地
+alternative	供替代的选择
+relieving	减轻
+harness		驾驭
+implicitly	含蓄地；暗中地
+sole storehouse	唯一的宝库
+infer		推断
+conform to	符合
+creational	创造型
+repository	知识库
+assign		分配
+mechanism	机械装置；机制；技巧；原理，途径；进程
+manipulation	操作；操纵；处理；篡改
+Concerns	关注点
+embedding	植入；埋藏（embed的ing形式）
+more often than not	通常；多半
+renovation	修理；革新；恢复活力
+accomplished	熟练的，有技巧的；完成的；有修养的；有学问的
+fragmented	成碎片的；片断的
+nightmare	恶梦
+dramatic	戏剧的；引人注目的；激动人心的
+Eventually	最后，终于
+encapsulated	密封的；包在荚膜内的	v. 压缩（encapsulate的过去分词）；封进内部；装入胶囊
+shim		填隙用木片；夹铁
+object relational mapper (ORM)	ORM模型
+persistence	 持续；存留；固执
+offload		卸下；卸货
+standpoint	立场,观点
+
+

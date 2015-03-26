@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window caption="0,0,0,36" roundcorner="0,0" size="350,250" sizebox="6,6,6,6" mininfo="350,250" maxinfo="350,250">
+    <Include source="default.xml" />
+<VerticalLayout  bkcolor="#FFFFFFFF" bordersize="1" bkcolor="#FFFFFFFF" bordercolor="#FF3D9E5D">     
+<Include source="title.xml" />   
+        <VerticalLayout name="body" padding="2,0,2,2" bkcolor="#FFFFFFFF" bkcolor2="#ffd5ffff">
+<Control height="30" />
+<HorizontalLayout >
+<Label text="纳税人识别号:" align="rightbottom" width="120" height="20" />
+<Control width="20" />
+<Edit name="nsrsbh" height="20" width="120"/>
+</HorizontalLayout>
+<Control height="7" />
+<HorizontalLayout >
+<Label text="密码:" align="rightbottom" width="120" height="20" />
+<Control width="20" />
+<Edit name="password" password="true" height="20" width="120" />
+</HorizontalLayout>
+<Control height="7" />
+<HorizontalLayout>
+<Control width="150" />
+<Button name="addenterprise" text="添加" width="50" height="22" />
+</HorizontalLayout>
+<HorizontalLayout padding="10,10,10,10" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

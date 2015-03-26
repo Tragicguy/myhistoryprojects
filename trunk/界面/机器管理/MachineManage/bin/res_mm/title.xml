@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<Font name="微软雅黑" size="12" bold="true" italic="false" />
+  <HorizontalLayout name="header" height="36" bordersize="1" bordercolor="#FF3D9E5D" bkcolor="#FF3D9E5D" bkcolor2="#FFFFFFFF">
+            <HorizontalLayout height="36">
+               <Control width="10"/>
+		<Control name="applogo" width="16" height="16" bkimage="file='slider_thumb.png'" source="0,3,16,16"/>
+                <Label name="apptitle" text="登录窗口" width="363" height="25" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" font="0" />
+            </HorizontalLayout>
+            <HorizontalLayout width="96" height="25">
+		<HorizontalLayout height="36" />
+                <Button name="minbtn" tooltip="最小化" width="26" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;minimize.png&apos;" hotimage="file=&apos;minimize_h.png&apos;" pushedimage="file=&apos;minimize_p.png&apos;" />
+                <Button name="maxbtn" tooltip="最大化" width="25" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;maximize.png&apos;" hotimage="file=&apos;maximize_h.png&apos;" pushedimage="file=&apos;maximize_p.png&apos;" />
+                <Button name="restorebtn" tooltip="恢复" visible="false" width="25" height="18" align="center" normalimage="file=&apos;restore.png&apos;" hotimage="file=&apos;restore_h.png&apos;" pushedimage="file=&apos;restore_p.png&apos;" />
+		<Button name="closebtn" tooltip="关闭" width="43" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;close.png&apos;" hotimage="file=&apos;close_h.png&apos;" pushedimage="file=&apos;close_p.png&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+</Windows>

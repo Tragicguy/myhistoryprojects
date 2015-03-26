@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[linux_ver.mak]
+SCC_Aux_Path = "\\192.169.1.151\source$"
+SCC_Project_Name = "$/行业应用一部/客馨通项目/SDK源码/VAS", DWHAAAAA
+
+[MWGateway.dsw]
+SCC_Aux_Path = "\\192.169.1.151\source$"
+SCC_Project_Name = "$/行业应用一部/客馨通项目/SDK源码/VAS", DWHAAAAA
+
+[MWGateway.dsp]
+SCC_Aux_Path = "\\192.169.1.151\source$"
+SCC_Project_Name = "$/行业应用一部/客馨通项目/SDK源码/VAS", DWHAAAAA

@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>yutone short message platform</title>
+
+<link rel="stylesheet" type="text/css" href="Ext/resources/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="css/ext-default.css" />
+
+<script type="text/javascript" src="Ext/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="Ext/ext-all.js"></script>
+<script type="text/javascript" src="Ext/ext-lang-zh_CN.js"></script>
+<script type="text/javascript">
+  Ext.BLANK_IMAGE_URL = 'Ext/resources/images/default/s.gif';
+  var topPanel = new Ext.Panel({
+  	html : '<div align="center"><img src="x-images/bg.jpg"/></div>'
+  	//html : '<embed height="150" width="700" flashvars="bannerWidth=780&bannerHeight=150&bannerSID=http://bm.alimama.cn/x/2010-05-24/17-41/2010-05-24_1e1b053e24b99ab90111c5d5265b88b1_0.xml&bannerXML=&bannerLink=http%3A%2F%2Fjacky68147527%2Ejavaeye%2Ecom&dataSource=&bid=appSource=default" wmode="transparent" allowscriptaccess="always" quality="high" name="6774219" id="6774219" style="" src="http://bm.alimama.cn/bcv1.swf?v=e392a7411c7d3313dec7ebb9186ee1a827f4d895" type="application/x-shockwave-flash"/></embed>'
+  });
+ 
+  
+  var msgWindow = new Ext.Window({
+			width : 300,
+			height : 40,
+			//title : 'Notice',
+			modal : true,
+			closeAction : 'hide',
+			closable : false,
+			hidden : true,
+			html : '<img src="icons/loading.gif"/> Login Successful,Loading...'
+		});
+		
+		var txt_userId = new Ext.form.TextField({
+			id : 'userId',
+			name : 'userId',
+			fieldLabel : '<img src="icons/user.png"/>UserId',
+			allowBlank : false
+		});
+
+		var txt_passWord = new Ext.form.TextField({
+			name : 'md5Password',
+			inputType : 'password',
+			fieldLabel : '<img src="icons/key.png"/>PassWord',
+			allowBlank : false,
+			enableKeyEvents: true,
+			initEvents: function() {   
+			    var keyPress = function(e){   
+			        if (e.getKey() == e.ENTER) {   
+			            login();  
+			        }   
+			    };   
+			    this.el.on("keypress", keyPress, this);   
+			}  
+		});
+		
+		var loginForm = new Ext.form.FormPanel({
+				defaults : {
+					anchor : '100%'
+				},
+				frame : true,
+				labelWidth : 100,
+				items :[txt_userId,txt_passWord]
+			});
+
+		var btn_login = new Ext.Toolbar.Button({
+			text : 'Login',
+			iconCls : 'x-button-login',
+			handler : login						
+		});
+
+		var btn_reset = new Ext.Toolbar.Button({
+			text : 'Reset',
+			iconCls : 'x-button-reset',
+			handler : function(){
+				txt_userId.setValue('');
+				txt_passWord.setValue('');
+			}
+		});
+		
+		var loginWindow = new Ext.Window({
+			title : 'User Login Window',
+			frame : true,
+			modal : true,
+			closable : false,
+			width : 550,
+			height : 400,
+			items : [topPanel,loginForm],
+			bbar : [btn_login,btn_reset]
+		});
+		
+			Ext.onReady(function(){
+				Ext.QuickTips.init();
+				loginWindow.show();
+				Ext.get('userId').focus();
+				
+			});
+
+			
+			function login(){
+				if(loginForm.getForm().isValid()){
+					Ext.Ajax.request({
+						url : contextPath+'/sys/login.ext',
+						method : 'post',
+						params : {
+							pmethod : 'login',
+							userId : txt_userId.getValue(),
+							passWord : txt_passWord.getValue()
+						},
+						 success : function(response, options)
+						  {
+							  var jsonObj = eval(response.responseText);
+							  if(jsonObj.state)
+							  {
+								  loginWindow.close();
+								  msgWindow.show();
+								  setTimeout(function(){
+									window.location.href=contextPath+'/sys/appMain.ext';
+								  },5); 
+							  }else{
+							  	  Ext.Msg.alert("Notice", jsonObj.message);
+							  }
+						} 
+					});
+				}else{
+					Ext.Msg.alert('提示','请输入用户名，密码！');
+				}
+			}
+			
+  
+</script>
+</head>
+
+<body>
+</body>
+</html>

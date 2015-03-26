@@ -1,0 +1,10 @@
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\bin\Release\iTunesDLLDebug.exe
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\bin\Release\iTunesDLLDebug.pdb
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\bin\Release\IphoneReadLib.dll
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\bin\Release\Manzana.dll
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\bin\Release\IphoneReadLib.pdb
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\obj\Release\ResolveAssemblyReference.cache
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\obj\Release\iTunesDLLDebug.frmMain.resources
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\obj\Release\iTunesDLLDebug.Properties.Resources.resources
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\obj\Release\iTunesDLLDebug.exe
+C:\Users\shaojun\Desktop\新建文件夹\TestDlg\obj\Release\iTunesDLLDebug.pdb

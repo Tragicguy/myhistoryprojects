@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{D3EF46E1-65D0-44E9-8CDA-3848B6B10F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D662747F-A4A6-46BD-ABD1-0922D9F37138}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		WindowsFormsApplication1.vsmdi = WindowsFormsApplication1.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject2", "TestProject2\TestProject2.csproj", "{4A2A1ADB-5177-4BDF-9B69-72C3C99F711E}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WindowsFormsApplication1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3EF46E1-65D0-44E9-8CDA-3848B6B10F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EF46E1-65D0-44E9-8CDA-3848B6B10F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EF46E1-65D0-44E9-8CDA-3848B6B10F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EF46E1-65D0-44E9-8CDA-3848B6B10F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2A1ADB-5177-4BDF-9B69-72C3C99F711E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2A1ADB-5177-4BDF-9B69-72C3C99F711E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2A1ADB-5177-4BDF-9B69-72C3C99F711E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2A1ADB-5177-4BDF-9B69-72C3C99F711E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+E:\ASP.NET\SmsServer\DAL\bin\Debug\SmsServer.DAL.dll
+E:\ASP.NET\SmsServer\DAL\bin\Debug\SmsServer.DAL.pdb
+E:\ASP.NET\SmsServer\DAL\bin\Debug\SmsServer.Model.dll
+E:\ASP.NET\SmsServer\DAL\bin\Debug\SmsServer.Model.pdb
+E:\ASP.NET\SmsServer\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\ASP.NET\SmsServer\DAL\obj\Debug\SmsServer.DAL.dll
+E:\ASP.NET\SmsServer\DAL\obj\Debug\SmsServer.DAL.pdb
+E:\ASP.NET\SmsServer\DAL\obj\Release\ResolveAssemblyReference.cache
+E:\ASP.NET\SmsServer\DAL\bin\Release\SmsServer.DAL.dll
+E:\ASP.NET\SmsServer\DAL\bin\Release\SmsServer.Model.dll
+E:\ASP.NET\SmsServer\DAL\obj\Release\SmsServer.DAL.dll
+E:\ASP.NET\SmsServer\DAL\bin\Release\NBear.Core.dll

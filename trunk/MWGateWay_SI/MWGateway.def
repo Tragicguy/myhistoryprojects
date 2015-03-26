@@ -1,0 +1,104 @@
+; MWGateway.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MWGateway"
+DESCRIPTION  'MWGateway Windows Dynamic Link Library'
+
+EXPORTS
+  MongateConnect             @1
+  MongateDisconnect          @2
+  MongateChangePwd           @3
+  MongateGetVer              @4
+  MongateTestConn            @5
+  MongateQueryBalance        @6
+  MongateQueryUsed           @7
+  MongateRecharge            @8
+  MongateSendSms             @9
+  MongateVasGetSms           @10
+  MongateVasSendSms          @11
+  MongateCsSendSms           @12
+  MongateCsGetSms            @13
+  MongateCsGetStatusReport   @14
+  MongateCsSPSendSms         @15 
+  MongateSendSmsBeta         @16
+  MongateVasSendSmsBeta      @17 
+  MongateConnectSocks4Proxy  @18
+  MongateConnectSocks5Proxy  @19 
+  MongateConnectHttpProxy    @20
+
+  Java_montnets_MWGateway_Connect           @21
+  Java_montnets_MWGateway_SendSms           @22
+  Java_montnets_MWGateway_TestConn          @23
+  Java_montnets_MWGateway_QueryBalance      @24
+  Java_montnets_MWGateway_QueryUsed         @25
+  Java_montnets_MWGateway_Recharge          @26
+  Java_montnets_MWGateway_ChangePwd         @27
+  Java_montnets_MWGateway_Disconnect        @28
+  Java_montnets_MWGateway_VasGetSms         @29
+  Java_montnets_MWGateway_VasSendSms        @30
+  Java_montnets_MWGateway_CsGetSms          @31
+  Java_montnets_MWGateway_CsSendSms         @32
+  Java_montnets_MWGateway_CsGetStatusReport @33
+  Java_montnets_MWGateway_GetVer            @34
+  Java_montnets_MWGateway_CsSPSendSms       @35  
+
+  Java_montnets_MWGateway_ConnectSocks4Proxy     @36
+  Java_montnets_MWGateway_ConnectSocks5Proxy     @37
+  Java_montnets_MWGateway_ConnectHttpProxy       @38
+
+  MongateConnectHttp			@40
+  MongateQueryBalanceHttp		@41
+  MongateQueryUsedHttp			@42
+  MongateCsSendSmsHttp			@43
+  MongateCsGetSmsHttp			@44 
+  MongateChangePwdHttp			@45
+  MongateCsGetStatusReportHttp  @46
+  MongateTestConnHttp           @47
+  MongateRechargeHttp           @48
+
+ Java_montnets_MWGateway_ConnectHttp			@50
+ Java_montnets_MWGateway_TestConnHttp			@51
+ Java_montnets_MWGateway_QueryBalanceHttp		@52
+ Java_montnets_MWGateway_QueryUsedHttp			@53
+ Java_montnets_MWGateway_RechargeHttp			@54
+ Java_montnets_MWGateway_ChangePwdHttp			@55
+ Java_montnets_MWGateway_CsGetSmsHttp			@56
+ Java_montnets_MWGateway_CsSendSmsHttp			@57
+ Java_montnets_MWGateway_CsGetStatusReportHttp  @58
+
+ MongateSetCmdType				@60
+ MongateSetOverTime				@61
+
+ MongateCsSendTime                        @62
+ MongateCsUpdateSendTime                  @63
+ MongateCsDelSendTime                     @64
+ MongateCsDelAllSendTime                  @65
+ MongateCsReadSendTime                    @66
+ MongateCsUpdateTelListSendTime           @67
+ MongateCsReadTelListSendTime             @68
+
+ MongateCsSendTimeHttp                        @69
+ MongateCsUpdateSendTimeHttp                  @70
+ MongateCsDelSendTimeHttp                     @71
+ MongateCsDelAllSendTimeHttp                  @72
+ MongateCsReadSendTimeHttp                    @73
+ MongateCsUpdateTelListSendTimeHttp           @74
+ MongateCsReadTelListSendTimeHttp             @75
+ MongateTestMsg                               @76
+ MongateTestMsgHttp                           @77
+ MongateCsSPSendSmsHttp                       @78
+
+ MongateCsGetStatusReportEx                   @79
+ MongateCsGetStatusReportHttpEx               @80
+ MongateCsGetSmsEx                            @81
+ MongateCsGetSmsHttpEx                        @82
+ MGhexChrTosrcStr                             @83
+ MongateKxtSend                               @84
+ MongateKxtSendHttp                           @85
+ SetUserType                                  @86
+ MGQueryAccount                               @87
+ MongateCsReadSendTimeEx                      @88
+ MongateCsReadSendTimeHttpEx                  @89
+ MongateCsReadInform                          @90
+
+MongateTestMsgEx   @91
+MongateTestMsgExHttp @92

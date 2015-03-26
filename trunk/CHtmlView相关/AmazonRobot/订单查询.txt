@@ -1,0 +1,36 @@
+订单号,货品名,收件人,送货方式,订单总记,发送状态,[如果已经发送,则有发送详情]
+
+
+orderID=C01-1253106-2231203">查看订单明细
+<SPAN class=item-title>Alice's Adventures in Wonderland </SPAN></A>
+收件人： </SPAN><SPAN class="info-data recipient" jQuery1301753298421="19">陈军&nbsp;<
+送货地址： </SPAN><SPAN class="info-data info-block"><BR>陈军<BR>开发区盛达街9号金融广场11层B区<BR>天津市, 天津 300457<BR>China<BR></SPAN>
+送货方式: </SPAN><SPAN class=info-data>快递送货上门-免配送费 </SPAN>
+
+订单总计： </SPAN><SPAN class="info-data total">￥ 15.00 </SPAN></LI></UL></DIV></TD></TR>
+
+<H3><SPAN class=current-state>即将发货 </SPAN>
+
+
+
+<DIV class=track-package-parent jQuery1301753316671="216">
+<DIV>
+<TABLE class=tracking cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TH class=top-left colSpan=2>跟踪信息： </TH>
+<TH class="top-right close-tracking" width="10%">&nbsp;
+<DIV class=track-close jQuery1301753316671="43">
+<TR>
+<TD class=col-l width="9%"><SPAN class=info-title>包裹状态：</SPAN> </TD>
+<TD class=col-r colSpan=2><SPAN class="info-data alertgreen">配送成功</SPAN> </TD></TR>
+<TR>
+<TD class=col-l><SPAN class=info-title>配送公司：</SPAN></TD>
+<TD class=col-r colSpan=2><SPAN class=info-data>梅州通路</SPAN></TD></TR>
+<TR>
+<TD class=col-l><SPAN class=info-title>包裹单号</SPAN></TD>
+<TD class=col-r colSpan=2><SPAN class=info-data>a335012184758</SPAN></TD></TR>
+<TR>
+<TD class=col-l width="9%"><SPAN class=info-title>最新活动:</SPAN> </TD>
+<TD class=col-r colSpan=2><SPAN class=info-data><SPAN class=alertgreen>广州总站020-34061875/34061859/34061776/34061514 </SPAN><BR>配送成功 - Mar 16, 2011&nbsp;6:00:00 PM</SPAN> </TD></TR>
+<TR>

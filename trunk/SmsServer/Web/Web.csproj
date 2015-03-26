@@ -1,0 +1,782 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0342A1F9-76C7-48BB-A3C6-EC7FDDDD6842}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmsServer.Web</RootNamespace>
+    <AssemblyName>SmsServer.Web</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminIndex.aspx" />
+    <Content Include="CSS\css.css" />
+    <Content Include="CSS\ext-default.css" />
+    <Content Include="CSS\Loading.css" />
+    <Content Include="Data\Login.aspx" />
+    <Content Include="Data\SmsConfig\IllegalInfo.aspx" />
+    <Content Include="Data\SmsConfig\IllegalOperate.aspx" />
+    <Content Include="Data\SmsConfig\PhoneSectionEdit.aspx" />
+    <Content Include="Data\SmsHistory\HistoryInfo.aspx" />
+    <Content Include="Data\SmsLog\OprateLogInfo.aspx" />
+    <Content Include="Data\SmsManager\ManagerOprate.aspx" />
+    <Content Include="Data\SmsManager\PortSet.aspx" />
+    <Content Include="Data\SmsManager\PowerSet.aspx" />
+    <Content Include="Data\SmsManager\PwdModify.aspx" />
+    <Content Include="Data\SmsManager\SmsManagerInfo.aspx" />
+    <Content Include="Data\SmsMapScript\EasyScriptOprate.aspx" />
+    <Content Include="Data\SmsMapScript\MapScriptInfo.aspx" />
+    <Content Include="Data\SmsMapScript\MapScriptOprate.aspx" />
+    <Content Include="Data\SmsSpgate\SmsSpgateInfo.aspx" />
+    <Content Include="Data\SmsSpgate\SpgateOprate.aspx" />
+    <Content Include="Data\SmsSpgate\SpgateType_Bus_List.aspx" />
+    <Content Include="Data\SmsUser\SmsUserInfo.aspx" />
+    <Content Include="Data\SmsUser\SmsUserOprate.aspx" />
+    <Content Include="Data\TreeShow.aspx" />
+    <Content Include="Ext\adapter\ext\ext-base-debug.js" />
+    <Content Include="Ext\adapter\ext\ext-base.js" />
+    <Content Include="Ext\adapter\jquery\ext-jquery-adapter-debug.js" />
+    <Content Include="Ext\adapter\jquery\ext-jquery-adapter.js" />
+    <Content Include="Ext\adapter\prototype\ext-prototype-adapter-debug.js" />
+    <Content Include="Ext\adapter\prototype\ext-prototype-adapter.js" />
+    <Content Include="Ext\adapter\yui\ext-yui-adapter-debug.js" />
+    <Content Include="Ext\adapter\yui\ext-yui-adapter.js" />
+    <Content Include="Ext\ext-all.js" />
+    <Content Include="Ext\ext-lang-zh_CN.js" />
+    <Content Include="Ext\resources\charts.swf" />
+    <Content Include="Ext\resources\css\ext-all-notheme.css" />
+    <Content Include="Ext\resources\css\ext-all.css" />
+    <Content Include="Ext\resources\css\README.txt" />
+    <Content Include="Ext\resources\css\reset-min.css" />
+    <Content Include="Ext\resources\css\structure\borders.css" />
+    <Content Include="Ext\resources\css\structure\box.css" />
+    <Content Include="Ext\resources\css\structure\button.css" />
+    <Content Include="Ext\resources\css\structure\combo.css" />
+    <Content Include="Ext\resources\css\structure\core.css" />
+    <Content Include="Ext\resources\css\structure\date-picker.css" />
+    <Content Include="Ext\resources\css\structure\dd.css" />
+    <Content Include="Ext\resources\css\structure\debug.css" />
+    <Content Include="Ext\resources\css\structure\dialog.css" />
+    <Content Include="Ext\resources\css\structure\editor.css" />
+    <Content Include="Ext\resources\css\structure\form.css" />
+    <Content Include="Ext\resources\css\structure\grid.css" />
+    <Content Include="Ext\resources\css\structure\layout.css" />
+    <Content Include="Ext\resources\css\structure\list-view.css" />
+    <Content Include="Ext\resources\css\structure\menu.css" />
+    <Content Include="Ext\resources\css\structure\panel-reset.css" />
+    <Content Include="Ext\resources\css\structure\panel.css" />
+    <Content Include="Ext\resources\css\structure\progress.css" />
+    <Content Include="Ext\resources\css\structure\qtips.css" />
+    <Content Include="Ext\resources\css\structure\reset.css" />
+    <Content Include="Ext\resources\css\structure\resizable.css" />
+    <Content Include="Ext\resources\css\structure\slider.css" />
+    <Content Include="Ext\resources\css\structure\tabs.css" />
+    <Content Include="Ext\resources\css\structure\toolbar.css" />
+    <Content Include="Ext\resources\css\structure\tree.css" />
+    <Content Include="Ext\resources\css\structure\window.css" />
+    <Content Include="Ext\resources\css\visual\borders.css" />
+    <Content Include="Ext\resources\css\visual\box.css" />
+    <Content Include="Ext\resources\css\visual\button.css" />
+    <Content Include="Ext\resources\css\visual\combo.css" />
+    <Content Include="Ext\resources\css\visual\core.css" />
+    <Content Include="Ext\resources\css\visual\date-picker.css" />
+    <Content Include="Ext\resources\css\visual\dd.css" />
+    <Content Include="Ext\resources\css\visual\debug.css" />
+    <Content Include="Ext\resources\css\visual\dialog.css" />
+    <Content Include="Ext\resources\css\visual\editor.css" />
+    <Content Include="Ext\resources\css\visual\form.css" />
+    <Content Include="Ext\resources\css\visual\grid.css" />
+    <Content Include="Ext\resources\css\visual\layout.css" />
+    <Content Include="Ext\resources\css\visual\list-view.css" />
+    <Content Include="Ext\resources\css\visual\menu.css" />
+    <Content Include="Ext\resources\css\visual\panel.css" />
+    <Content Include="Ext\resources\css\visual\progress.css" />
+    <Content Include="Ext\resources\css\visual\qtips.css" />
+    <Content Include="Ext\resources\css\visual\resizable.css" />
+    <Content Include="Ext\resources\css\visual\slider.css" />
+    <Content Include="Ext\resources\css\visual\tabs.css" />
+    <Content Include="Ext\resources\css\visual\toolbar.css" />
+    <Content Include="Ext\resources\css\visual\tree.css" />
+    <Content Include="Ext\resources\css\visual\window.css" />
+    <Content Include="Ext\resources\css\xtheme-blue.css" />
+    <Content Include="Ext\resources\expressinstall.swf" />
+    <Content Include="Ext\resources\images\default\box\corners-blue.gif" />
+    <Content Include="Ext\resources\images\default\box\corners.gif" />
+    <Content Include="Ext\resources\images\default\box\l-blue.gif" />
+    <Content Include="Ext\resources\images\default\box\l.gif" />
+    <Content Include="Ext\resources\images\default\box\r-blue.gif" />
+    <Content Include="Ext\resources\images\default\box\r.gif" />
+    <Content Include="Ext\resources\images\default\box\tb-blue.gif" />
+    <Content Include="Ext\resources\images\default\box\tb.gif" />
+    <Content Include="Ext\resources\images\default\button\arrow.gif" />
+    <Content Include="Ext\resources\images\default\button\btn.gif" />
+    <Content Include="Ext\resources\images\default\button\group-cs.gif" />
+    <Content Include="Ext\resources\images\default\button\group-lr.gif" />
+    <Content Include="Ext\resources\images\default\button\group-tb.gif" />
+    <Content Include="Ext\resources\images\default\button\s-arrow-b-noline.gif" />
+    <Content Include="Ext\resources\images\default\button\s-arrow-b.gif" />
+    <Content Include="Ext\resources\images\default\button\s-arrow-bo.gif" />
+    <Content Include="Ext\resources\images\default\button\s-arrow-noline.gif" />
+    <Content Include="Ext\resources\images\default\button\s-arrow-o.gif" />
+    <Content Include="Ext\resources\images\default\button\s-arrow.gif" />
+    <Content Include="Ext\resources\images\default\dd\drop-add.gif" />
+    <Content Include="Ext\resources\images\default\dd\drop-no.gif" />
+    <Content Include="Ext\resources\images\default\dd\drop-yes.gif" />
+    <Content Include="Ext\resources\images\default\editor\tb-sprite.gif" />
+    <Content Include="Ext\resources\images\default\form\checkbox.gif" />
+    <Content Include="Ext\resources\images\default\form\clear-trigger.gif" />
+    <Content Include="Ext\resources\images\default\form\date-trigger.gif" />
+    <Content Include="Ext\resources\images\default\form\error-tip-corners.gif" />
+    <Content Include="Ext\resources\images\default\form\exclamation.gif" />
+    <Content Include="Ext\resources\images\default\form\radio.gif" />
+    <Content Include="Ext\resources\images\default\form\search-trigger.gif" />
+    <Content Include="Ext\resources\images\default\form\text-bg.gif" />
+    <Content Include="Ext\resources\images\default\form\trigger-tpl.gif" />
+    <Content Include="Ext\resources\images\default\form\trigger.gif" />
+    <Content Include="Ext\resources\images\default\gradient-bg.gif" />
+    <Content Include="Ext\resources\images\default\grid\arrow-left-white.gif" />
+    <Content Include="Ext\resources\images\default\grid\arrow-right-white.gif" />
+    <Content Include="Ext\resources\images\default\grid\col-move-bottom.gif" />
+    <Content Include="Ext\resources\images\default\grid\col-move-top.gif" />
+    <Content Include="Ext\resources\images\default\grid\columns.gif" />
+    <Content Include="Ext\resources\images\default\grid\dirty.gif" />
+    <Content Include="Ext\resources\images\default\grid\done.gif" />
+    <Content Include="Ext\resources\images\default\grid\drop-no.gif" />
+    <Content Include="Ext\resources\images\default\grid\drop-yes.gif" />
+    <Content Include="Ext\resources\images\default\grid\footer-bg.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid-blue-hd.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid-blue-split.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid-hrow.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid-loading.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid-split.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid-vista-hd.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid3-hd-btn.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid3-hrow-over.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid3-hrow.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid3-special-col-bg.gif" />
+    <Content Include="Ext\resources\images\default\grid\grid3-special-col-sel-bg.gif" />
+    <Content Include="Ext\resources\images\default\grid\group-by.gif" />
+    <Content Include="Ext\resources\images\default\grid\group-collapse.gif" />
+    <Content Include="Ext\resources\images\default\grid\group-expand-sprite.gif" />
+    <Content Include="Ext\resources\images\default\grid\group-expand.gif" />
+    <Content Include="Ext\resources\images\default\grid\hd-pop.gif" />
+    <Content Include="Ext\resources\images\default\grid\hmenu-asc.gif" />
+    <Content Include="Ext\resources\images\default\grid\hmenu-desc.gif" />
+    <Content Include="Ext\resources\images\default\grid\hmenu-lock.gif" />
+    <Content Include="Ext\resources\images\default\grid\hmenu-lock.png" />
+    <Content Include="Ext\resources\images\default\grid\hmenu-unlock.gif" />
+    <Content Include="Ext\resources\images\default\grid\hmenu-unlock.png" />
+    <Content Include="Ext\resources\images\default\grid\invalid_line.gif" />
+    <Content Include="Ext\resources\images\default\grid\loading.gif" />
+    <Content Include="Ext\resources\images\default\grid\mso-hd.gif" />
+    <Content Include="Ext\resources\images\default\grid\nowait.gif" />
+    <Content Include="Ext\resources\images\default\grid\page-first-disabled.gif" />
+    <Content Include="Ext\resources\images\default\grid\page-first.gif" />
+    <Content Include="Ext\resources\images\default\grid\page-last-disabled.gif" />
+    <Content Include="Ext\resources\images\default\grid\page-last.gif" />
+    <Content Include="Ext\resources\images\default\grid\page-next-disabled.gif" />
+    <Content Include="Ext\resources\images\default\grid\page-next.gif" />
+    <Content Include="Ext\resources\images\default\grid\page-prev-disabled.gif" />
+    <Content Include="Ext\resources\images\default\grid\page-prev.gif" />
+    <Content Include="Ext\resources\images\default\grid\pick-button.gif" />
+    <Content Include="Ext\resources\images\default\grid\refresh.gif" />
+    <Content Include="Ext\resources\images\default\grid\row-check-sprite.gif" />
+    <Content Include="Ext\resources\images\default\grid\row-expand-sprite.gif" />
+    <Content Include="Ext\resources\images\default\grid\row-over.gif" />
+    <Content Include="Ext\resources\images\default\grid\row-sel.gif" />
+    <Content Include="Ext\resources\images\default\grid\sort-hd.gif" />
+    <Content Include="Ext\resources\images\default\grid\sort_asc.gif" />
+    <Content Include="Ext\resources\images\default\grid\sort_desc.gif" />
+    <Content Include="Ext\resources\images\default\grid\wait.gif" />
+    <Content Include="Ext\resources\images\default\layout\collapse.gif" />
+    <Content Include="Ext\resources\images\default\layout\expand.gif" />
+    <Content Include="Ext\resources\images\default\layout\gradient-bg.gif" />
+    <Content Include="Ext\resources\images\default\layout\mini-bottom.gif" />
+    <Content Include="Ext\resources\images\default\layout\mini-left.gif" />
+    <Content Include="Ext\resources\images\default\layout\mini-right.gif" />
+    <Content Include="Ext\resources\images\default\layout\mini-top.gif" />
+    <Content Include="Ext\resources\images\default\layout\ns-collapse.gif" />
+    <Content Include="Ext\resources\images\default\layout\ns-expand.gif" />
+    <Content Include="Ext\resources\images\default\layout\panel-close.gif" />
+    <Content Include="Ext\resources\images\default\layout\panel-title-bg.gif" />
+    <Content Include="Ext\resources\images\default\layout\panel-title-light-bg.gif" />
+    <Content Include="Ext\resources\images\default\layout\stick.gif" />
+    <Content Include="Ext\resources\images\default\layout\stuck.gif" />
+    <Content Include="Ext\resources\images\default\layout\tab-close-on.gif" />
+    <Content Include="Ext\resources\images\default\layout\tab-close.gif" />
+    <Content Include="Ext\resources\images\default\menu\checked.gif" />
+    <Content Include="Ext\resources\images\default\menu\group-checked.gif" />
+    <Content Include="Ext\resources\images\default\menu\item-over.gif" />
+    <Content Include="Ext\resources\images\default\menu\menu-parent.gif" />
+    <Content Include="Ext\resources\images\default\menu\menu.gif" />
+    <Content Include="Ext\resources\images\default\menu\unchecked.gif" />
+    <Content Include="Ext\resources\images\default\panel\corners-sprite.gif" />
+    <Content Include="Ext\resources\images\default\panel\left-right.gif" />
+    <Content Include="Ext\resources\images\default\panel\light-hd.gif" />
+    <Content Include="Ext\resources\images\default\panel\tool-sprite-tpl.gif" />
+    <Content Include="Ext\resources\images\default\panel\tool-sprites.gif" />
+    <Content Include="Ext\resources\images\default\panel\tools-sprites-trans.gif" />
+    <Content Include="Ext\resources\images\default\panel\top-bottom.gif" />
+    <Content Include="Ext\resources\images\default\panel\top-bottom.png" />
+    <Content Include="Ext\resources\images\default\panel\white-corners-sprite.gif" />
+    <Content Include="Ext\resources\images\default\panel\white-left-right.gif" />
+    <Content Include="Ext\resources\images\default\panel\white-top-bottom.gif" />
+    <Content Include="Ext\resources\images\default\progress\progress-bg.gif" />
+    <Content Include="Ext\resources\images\default\qtip\bg.gif" />
+    <Content Include="Ext\resources\images\default\qtip\close.gif" />
+    <Content Include="Ext\resources\images\default\qtip\tip-anchor-sprite.gif" />
+    <Content Include="Ext\resources\images\default\qtip\tip-sprite.gif" />
+    <Content Include="Ext\resources\images\default\s.gif" />
+    <Content Include="Ext\resources\images\default\shadow-c.png" />
+    <Content Include="Ext\resources\images\default\shadow-lr.png" />
+    <Content Include="Ext\resources\images\default\shadow.png" />
+    <Content Include="Ext\resources\images\default\shared\blue-loading.gif" />
+    <Content Include="Ext\resources\images\default\shared\calendar.gif" />
+    <Content Include="Ext\resources\images\default\shared\glass-bg.gif" />
+    <Content Include="Ext\resources\images\default\shared\hd-sprite.gif" />
+    <Content Include="Ext\resources\images\default\shared\large-loading.gif" />
+    <Content Include="Ext\resources\images\default\shared\left-btn.gif" />
+    <Content Include="Ext\resources\images\default\shared\loading-balls.gif" />
+    <Content Include="Ext\resources\images\default\shared\right-btn.gif" />
+    <Content Include="Ext\resources\images\default\shared\warning.gif" />
+    <Content Include="Ext\resources\images\default\sizer\e-handle-dark.gif" />
+    <Content Include="Ext\resources\images\default\sizer\e-handle.gif" />
+    <Content Include="Ext\resources\images\default\sizer\ne-handle-dark.gif" />
+    <Content Include="Ext\resources\images\default\sizer\ne-handle.gif" />
+    <Content Include="Ext\resources\images\default\sizer\nw-handle-dark.gif" />
+    <Content Include="Ext\resources\images\default\sizer\nw-handle.gif" />
+    <Content Include="Ext\resources\images\default\sizer\s-handle-dark.gif" />
+    <Content Include="Ext\resources\images\default\sizer\s-handle.gif" />
+    <Content Include="Ext\resources\images\default\sizer\se-handle-dark.gif" />
+    <Content Include="Ext\resources\images\default\sizer\se-handle.gif" />
+    <Content Include="Ext\resources\images\default\sizer\square.gif" />
+    <Content Include="Ext\resources\images\default\sizer\sw-handle-dark.gif" />
+    <Content Include="Ext\resources\images\default\sizer\sw-handle.gif" />
+    <Content Include="Ext\resources\images\default\slider\slider-bg.png" />
+    <Content Include="Ext\resources\images\default\slider\slider-thumb.png" />
+    <Content Include="Ext\resources\images\default\slider\slider-v-bg.png" />
+    <Content Include="Ext\resources\images\default\slider\slider-v-thumb.png" />
+    <Content Include="Ext\resources\images\default\tabs\scroll-left.gif" />
+    <Content Include="Ext\resources\images\default\tabs\scroll-right.gif" />
+    <Content Include="Ext\resources\images\default\tabs\scroller-bg.gif" />
+    <Content Include="Ext\resources\images\default\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="Ext\resources\images\default\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="Ext\resources\images\default\tabs\tab-btm-left-bg.gif" />
+    <Content Include="Ext\resources\images\default\tabs\tab-btm-right-bg.gif" />
+    <Content Include="Ext\resources\images\default\tabs\tab-close.gif" />
+    <Content Include="Ext\resources\images\default\tabs\tab-strip-bg.gif" />
+    <Content Include="Ext\resources\images\default\tabs\tab-strip-bg.png" />
+    <Content Include="Ext\resources\images\default\tabs\tab-strip-btm-bg.gif" />
+    <Content Include="Ext\resources\images\default\tabs\tabs-sprite.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\bg.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\btn-arrow-light.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\btn-arrow.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\btn-over-bg.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\gray-bg.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\more.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\tb-bg.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\tb-btn-sprite.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\tb-xl-btn-sprite.gif" />
+    <Content Include="Ext\resources\images\default\toolbar\tb-xl-sep.gif" />
+    <Content Include="Ext\resources\images\default\tree\arrows.gif" />
+    <Content Include="Ext\resources\images\default\tree\drop-add.gif" />
+    <Content Include="Ext\resources\images\default\tree\drop-between.gif" />
+    <Content Include="Ext\resources\images\default\tree\drop-no.gif" />
+    <Content Include="Ext\resources\images\default\tree\drop-over.gif" />
+    <Content Include="Ext\resources\images\default\tree\drop-under.gif" />
+    <Content Include="Ext\resources\images\default\tree\drop-yes.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-end-minus-nl.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-end-minus.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-end-plus-nl.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-end-plus.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-end.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-line.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-minus-nl.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-minus.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-plus-nl.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow-plus.gif" />
+    <Content Include="Ext\resources\images\default\tree\elbow.gif" />
+    <Content Include="Ext\resources\images\default\tree\folder-open.gif" />
+    <Content Include="Ext\resources\images\default\tree\folder.gif" />
+    <Content Include="Ext\resources\images\default\tree\leaf.gif" />
+    <Content Include="Ext\resources\images\default\tree\loading.gif" />
+    <Content Include="Ext\resources\images\default\tree\s.gif" />
+    <Content Include="Ext\resources\images\default\window\icon-error.gif" />
+    <Content Include="Ext\resources\images\default\window\icon-info.gif" />
+    <Content Include="Ext\resources\images\default\window\icon-question.gif" />
+    <Content Include="Ext\resources\images\default\window\icon-warning.gif" />
+    <Content Include="Ext\resources\images\default\window\left-corners.png" />
+    <Content Include="Ext\resources\images\default\window\left-right.png" />
+    <Content Include="Ext\resources\images\default\window\right-corners.png" />
+    <Content Include="Ext\resources\images\default\window\top-bottom.png" />
+    <Content Include="Global.asax" />
+    <Content Include="icons\button\add.gif" />
+    <Content Include="icons\button\bg.gif" />
+    <Content Include="icons\button\btn-arrow.gif" />
+    <Content Include="icons\button\btn-sprite.gif" />
+    <Content Include="icons\button\cancel.png" />
+    <Content Include="icons\button\check.gif" />
+    <Content Include="icons\button\cmp-bg.gif" />
+    <Content Include="icons\button\collapse-all.gif" />
+    <Content Include="icons\button\component.gif" />
+    <Content Include="icons\button\control-power.png" />
+    <Content Include="icons\button\control_rewind_blue.png" />
+    <Content Include="icons\button\control_stop_blue.png" />
+    <Content Include="icons\button\delete.gif" />
+    <Content Include="icons\button\disable.gif" />
+    <Content Include="icons\button\done.gif" />
+    <Content Include="icons\button\dotask.png" />
+    <Content Include="icons\button\excel.gif" />
+    <Content Include="icons\button\expand-all.gif" />
+    <Content Include="icons\button\failed.gif" />
+    <Content Include="icons\button\file-add.gif" />
+    <Content Include="icons\button\file-remove.gif" />
+    <Content Include="icons\button\file-uploading.gif" />
+    <Content Include="icons\button\finish.png" />
+    <Content Include="icons\button\grid.png" />
+    <Content Include="icons\button\loading.gif" />
+    <Content Include="icons\button\modify.gif" />
+    <Content Include="icons\button\monitor.png" />
+    <Content Include="icons\button\next.png" />
+    <Content Include="icons\button\pdf.gif" />
+    <Content Include="icons\button\prev.png" />
+    <Content Include="icons\button\print.gif" />
+    <Content Include="icons\button\query.gif" />
+    <Content Include="icons\button\reset.gif" />
+    <Content Include="icons\button\reset1.gif" />
+    <Content Include="icons\button\return.gif" />
+    <Content Include="icons\button\save.gif" />
+    <Content Include="icons\button\tabs.gif" />
+    <Content Include="icons\button\uncheck.gif" />
+    <Content Include="icons\button\upload-start.gif" />
+    <Content Include="icons\button\upload-stop.gif" />
+    <Content Include="icons\button\view.gif" />
+    <Content Include="icons\key.png" />
+    <Content Include="icons\loading.gif" />
+    <Content Include="icons\login.png" />
+    <Content Include="icons\nopic.gif" />
+    <Content Include="icons\picture.png" />
+    <Content Include="icons\picture_add.png" />
+    <Content Include="icons\picture_delete.png" />
+    <Content Include="icons\reset.png" />
+    <Content Include="icons\user.gif" />
+    <Content Include="icons\user.png" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\bg1.gif" />
+    <Content Include="Images\exit.png" />
+    <Content Include="Images\extanim32.gif" />
+    <Content Include="Images\from.gif" />
+    <Content Include="Images\icons\accept.png" />
+    <Content Include="Images\icons\add.png" />
+    <Content Include="Images\icons\allmanagemenu.png" />
+    <Content Include="Images\icons\closeTabAll.gif" />
+    <Content Include="Images\icons\closeTabOne.gif" />
+    <Content Include="Images\icons\delete.png" />
+    <Content Include="Images\icons\edit.png" />
+    <Content Include="Images\icons\gonggao.gif" />
+    <Content Include="Images\icons\guesticon.png" />
+    <Content Include="Images\icons\homemanage.gif" />
+    <Content Include="Images\icons\hotelmanage.png" />
+    <Content Include="Images\icons\indexicon.gif" />
+    <Content Include="Images\icons\openroomicons.gif" />
+    <Content Include="Images\icons\power.png" />
+    <Content Include="Images\icons\publishicon.png" />
+    <Content Include="Images\icons\query.png" />
+    <Content Include="Images\icons\refresh.png" />
+    <Content Include="Images\icons\roolrecordicon.png" />
+    <Content Include="Images\icons\roomicons.gif" />
+    <Content Include="Images\icons\roomtypeicon.gif" />
+    <Content Include="Images\icons\roomtypeseeicon.png" />
+    <Content Include="Images\icons\serchopenroomrecord.png" />
+    <Content Include="Images\icons\setport.gif" />
+    <Content Include="Images\icons\setuseridicon.png" />
+    <Content Include="Images\icons\sysmanagemenu.png" />
+    <Content Include="Images\icons\todaypriceicon.gif" />
+    <Content Include="Images\icons\totalicon.png" />
+    <Content Include="Images\icons\usericon.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\Login.gif" />
+    <Content Include="Images\money.png" />
+    <Content Include="Images\olive\button\btn-arrow.gif" />
+    <Content Include="Images\olive\button\btn-sprite.gif" />
+    <Content Include="Images\olive\form\clear-trigger.gif" />
+    <Content Include="Images\olive\form\date-trigger.gif" />
+    <Content Include="Images\olive\form\search-trigger.gif" />
+    <Content Include="Images\olive\form\text-bg.gif" />
+    <Content Include="Images\olive\form\trigger-tpl.gif" />
+    <Content Include="Images\olive\form\trigger.gif" />
+    <Content Include="Images\olive\grid\grid-hrow.gif" />
+    <Content Include="Images\olive\grid\grid-split.gif" />
+    <Content Include="Images\olive\grid\grid3-hd-btn.gif" />
+    <Content Include="Images\olive\grid\grid3-hrow-over.gif" />
+    <Content Include="Images\olive\grid\grid3-hrow.gif" />
+    <Content Include="Images\olive\grid\grid3-special-col-bg.gif" />
+    <Content Include="Images\olive\grid\grid3-special-col-sel-bg.gif" />
+    <Content Include="Images\olive\grid\hd-pop.gif" />
+    <Content Include="Images\olive\grid\row-over.gif" />
+    <Content Include="Images\olive\menu\item-over.gif" />
+    <Content Include="Images\olive\menu\menu.gif" />
+    <Content Include="Images\olive\panel\corners-sprite.gif" />
+    <Content Include="Images\olive\panel\left-right.gif" />
+    <Content Include="Images\olive\panel\light-hd.gif" />
+    <Content Include="Images\olive\panel\tool-sprites.gif" />
+    <Content Include="Images\olive\panel\top-bottom.gif" />
+    <Content Include="Images\olive\panel\white-top-bottom.gif" />
+    <Content Include="Images\olive\qtip\bg.gif" />
+    <Content Include="Images\olive\qtip\close.gif" />
+    <Content Include="Images\olive\qtip\tip-sprite.gif" />
+    <Content Include="Images\olive\shared\glass-bg.gif" />
+    <Content Include="Images\olive\shared\hd-sprite.gif" />
+    <Content Include="Images\olive\shared\left-btn.gif" />
+    <Content Include="Images\olive\shared\right-btn.gif" />
+    <Content Include="Images\olive\tabs\scroll-left.gif" />
+    <Content Include="Images\olive\tabs\scroll-right.gif" />
+    <Content Include="Images\olive\tabs\scroller-bg.gif" />
+    <Content Include="Images\olive\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="Images\olive\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="Images\olive\tabs\tab-btm-left-bg.gif" />
+    <Content Include="Images\olive\tabs\tab-btm-right-bg.gif" />
+    <Content Include="Images\olive\tabs\tab-close.gif" />
+    <Content Include="Images\olive\tabs\tab-strip-bg.gif" />
+    <Content Include="Images\olive\tabs\tab-strip-bg.png" />
+    <Content Include="Images\olive\tabs\tab-strip-btm-bg.gif" />
+    <Content Include="Images\olive\tabs\tabs-sprite.gif" />
+    <Content Include="Images\olive\toolbar\bg.gif" />
+    <Content Include="Images\olive\toolbar\btn-arrow-light.gif" />
+    <Content Include="Images\olive\toolbar\btn-arrow.gif" />
+    <Content Include="Images\olive\toolbar\btn-over-bg.gif" />
+    <Content Include="Images\olive\toolbar\tb-bg.gif" />
+    <Content Include="Images\olive\toolbar\tb-btn-sprite.gif" />
+    <Content Include="Images\s.gif" />
+    <Content Include="Images\skin\c0_0.gif" />
+    <Content Include="Images\skin\c0_1.gif" />
+    <Content Include="Images\skin\c1_0.gif" />
+    <Content Include="Images\skin\c1_1.gif" />
+    <Content Include="Images\skin\c2_0.gif" />
+    <Content Include="Images\skin\c2_1.gif" />
+    <Content Include="Images\skin\c3_0.gif" />
+    <Content Include="Images\skin\c3_1.gif" />
+    <Content Include="Images\skin\c4_0.gif" />
+    <Content Include="Images\skin\c4_1.gif" />
+    <Content Include="Index.aspx" />
+    <Content Include="JS\All.js" />
+    <Content Include="JS\extTab.js" />
+    <Content Include="JS\extTree.js" />
+    <Content Include="JS\SmsConfig\PhoneSection.js" />
+    <Content Include="JS\SmsConfig\SmsIllegalInfo.js" />
+    <Content Include="JS\SmsHistory\SmsHistoryInfo.js" />
+    <Content Include="JS\SmsLog\OprateLogInfo.js" />
+    <Content Include="JS\SmsManager\ManagerPwdModify.js" />
+    <Content Include="JS\SmsManager\SmsManagerAdd.js" />
+    <Content Include="JS\SmsManager\SmsManagerAuth.js" />
+    <Content Include="JS\SmsManager\SmsManagerInfo.js" />
+    <Content Include="JS\SmsManager\SmsManagerEdit.js" />
+    <Content Include="JS\SmsManager\SmsManagerPortSet.js" />
+    <Content Include="JS\SmsMapScript\MapScriptEasyEdit.js" />
+    <Content Include="JS\SmsMapScript\MapScriptEdit.js" />
+    <Content Include="JS\SmsMapScript\MapScriptInfo.js" />
+    <Content Include="JS\SmsSpgate\SmsSpgateEdit.js" />
+    <Content Include="JS\SmsSpgate\SmsSpgateInfo.js" />
+    <Content Include="JS\SmsUser\SmsUserEdit.js" />
+    <Content Include="JS\SmsUser\SmsUserInfo.js" />
+    <Content Include="KeepOnline.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="login.html" />
+    <Content Include="MsgGate.asmx" />
+    <Content Include="OnlineQuery.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminIndex.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AdminIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminIndex.aspx.designer.cs">
+      <DependentUpon>AdminIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Login.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsConfig\IllegalInfo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>IllegalInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsConfig\IllegalInfo.aspx.designer.cs">
+      <DependentUpon>IllegalInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsConfig\IllegalOperate.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>IllegalOperate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsConfig\IllegalOperate.aspx.designer.cs">
+      <DependentUpon>IllegalOperate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsConfig\PhoneSectionEdit.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>PhoneSectionEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsConfig\PhoneSectionEdit.aspx.designer.cs">
+      <DependentUpon>PhoneSectionEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsHistory\HistoryInfo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>HistoryInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsHistory\HistoryInfo.aspx.designer.cs">
+      <DependentUpon>HistoryInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsLog\OprateLogInfo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>OprateLogInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsLog\OprateLogInfo.aspx.designer.cs">
+      <DependentUpon>OprateLogInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\ManagerOprate.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ManagerOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\ManagerOprate.aspx.designer.cs">
+      <DependentUpon>ManagerOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\PortSet.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>PortSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\PortSet.aspx.designer.cs">
+      <DependentUpon>PortSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\PowerSet.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>PowerSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\PowerSet.aspx.designer.cs">
+      <DependentUpon>PowerSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\PwdModify.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>PwdModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\PwdModify.aspx.designer.cs">
+      <DependentUpon>PwdModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\SmsManagerInfo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SmsManagerInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsManager\SmsManagerInfo.aspx.designer.cs">
+      <DependentUpon>SmsManagerInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsMapScript\EasyScriptOprate.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>EasyScriptOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsMapScript\EasyScriptOprate.aspx.designer.cs">
+      <DependentUpon>EasyScriptOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsMapScript\MapScriptInfo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>MapScriptInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsMapScript\MapScriptInfo.aspx.designer.cs">
+      <DependentUpon>MapScriptInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsMapScript\MapScriptOprate.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>MapScriptOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsMapScript\MapScriptOprate.aspx.designer.cs">
+      <DependentUpon>MapScriptOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsSpgate\SmsSpgateInfo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SmsSpgateInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsSpgate\SmsSpgateInfo.aspx.designer.cs">
+      <DependentUpon>SmsSpgateInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsSpgate\SpgateOprate.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SpgateOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsSpgate\SpgateOprate.aspx.designer.cs">
+      <DependentUpon>SpgateOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsSpgate\SpgateType_Bus_List.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SpgateType_Bus_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsSpgate\SpgateType_Bus_List.aspx.designer.cs">
+      <DependentUpon>SpgateType_Bus_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsUser\SmsUserInfo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SmsUserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsUser\SmsUserInfo.aspx.designer.cs">
+      <DependentUpon>SmsUserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsUser\SmsUserOprate.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SmsUserOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SmsUser\SmsUserOprate.aspx.designer.cs">
+      <DependentUpon>SmsUserOprate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\TreeShow.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>TreeShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\TreeShow.aspx.designer.cs">
+      <DependentUpon>TreeShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KeepOnline.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>KeepOnline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KeepOnline.aspx.designer.cs">
+      <DependentUpon>KeepOnline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MsgGate.asmx.cs">
+      <DependentUpon>MsgGate.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OnlineQuery.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>OnlineQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineQuery.aspx.designer.cs">
+      <DependentUpon>OnlineQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TestClass.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ext\resources\images\default\form\clear-trigger.psd" />
+    <None Include="Ext\resources\images\default\form\date-trigger.psd" />
+    <None Include="Ext\resources\images\default\form\search-trigger.psd" />
+    <None Include="Ext\resources\images\default\form\trigger.psd" />
+    <None Include="Ext\resources\images\default\window\left-corners.psd" />
+    <None Include="Ext\resources\images\default\window\left-right.psd" />
+    <None Include="Ext\resources\images\default\window\right-corners.psd" />
+    <None Include="Ext\resources\images\default\window\top-bottom.psd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAdapter\DataAdapter.csproj">
+      <Project>{AFEA07FA-F3BD-47A4-B9FB-2C6EB8F8C5D6}</Project>
+      <Name>DataAdapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\SmsMsg\" />
+    <Folder Include="Images\olive\window\" />
+    <Folder Include="JS\SmsMsg\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>43188</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

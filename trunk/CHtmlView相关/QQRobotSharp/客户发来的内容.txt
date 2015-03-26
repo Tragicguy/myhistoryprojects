@@ -1,0 +1,25 @@
+<DIV class=hmCap>邵军&nbsp;2011-04-04 01:43:11</DIV>
+<DIV class=hmBody>''</DIV>
+<DIV class=hmCap>邵军&nbsp;2011-04-04 01:43:14</DIV>
+<DIV class=hmBody>'</DIV>
+<DIV style="COLOR: #76923c" class=hmCap>1002&nbsp;2011-04-04 01:43:18</DIV>
+<DIV class=hmBody>'</DIV>
+<DIV style="COLOR: #76923c" class=hmCap>1002&nbsp;2011-04-04 01:43:21</DIV>
+<DIV class=hmBody>这是由机器人自动回复的内容.</DIV>
+<DIV style="COLOR: #76923c" class=hmCap>1002&nbsp;2011-04-04 01:43:22</DIV>
+<DIV class=hmBody>这是由机器人自动回复的内容.</DIV>
+<DIV style="COLOR: #76923c" class=hmCap>1002&nbsp;2011-04-04 01:43:24</DIV>
+<DIV class=hmBody>这是由机器人自动回复的内容.</DIV>
+<DIV style="COLOR: #76923c" class=hmCap>1002&nbsp;2011-04-04 01:43:26</DIV>
+<DIV class=hmBody>这是由机器人自动回复的内容.</DIV>
+<DIV class=hmCap>邵军&nbsp;2011-04-04 01:44:13</DIV>
+<DIV class=hmBody>2</DIV>
+<DIV style="COLOR: #76923c" class=hmCap>1002&nbsp;2011-04-04 01:44:32</DIV>
+<DIV class=hmBody>这是由机器人自动回复的内容.</DIV>
+<DIV class=hmCap>邵军&nbsp;2011-04-04 01:45:05</DIV>
+<DIV class=hmBody>111111111111</DIV>
+<DIV style="BACKGROUND-COLOR: #a1a1a1; MARGIN: 0px 6px 6px; HEIGHT: 1px; OVERFLOW: hidden">&nbsp;</DIV>
+<DIV class=msgCap_2>邵军&nbsp;2011-04-04 01:52:01</DIV>
+<DIV class=msgBody_2>111111</DIV>
+<DIV class=msgCap>邵军&nbsp;2011-04-04 01:57:09</DIV>
+<DIV class=msgBody>2</DIV>

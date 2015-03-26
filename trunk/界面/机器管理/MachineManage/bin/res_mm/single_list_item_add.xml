@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <ListContainerElement >
+	<HorizontalLayout inset="4,4,4,4"></HorizontalLayout>
+	<HorizontalLayout inset="3,1,3,1"><Edit name="edituserid" bordersize="1" bordercolor="#FF4775CC"  ></Edit></HorizontalLayout>
+	<HorizontalLayout inset="3,1,3,1"><Edit name="editpwd" bordersize="1" bordercolor="#FF4775CC"  ></Edit>	</HorizontalLayout>
+	<HorizontalLayout inset="3,1,3,1">
+	<Combo name="editprotocol" textpadding="4,4,4,4" pushedimage="file='combo.png' source='0,44,100,66' corner='2,2,22,2'" hotimage="file='combo.png' source='0,22,100,44' corner='2,2,22,2'" normalimage="file='combo.png' source='0,0,100,22' corner='2,2,20,2'" >
+	<ListLabelElement text="HTTP" selected="true" />
+	<ListLabelElement text="TCP" />
+	</Combo>
+	</HorizontalLayout>
+	<HorizontalLayout inset="3,1,3,1">
+	<Combo name="edittype" textpadding="4,4,4,4" pushedimage="file='combo.png' source='0,44,100,66' corner='2,2,22,2'" hotimage="file='combo.png' source='0,22,100,44' corner='2,2,22,2'" normalimage="file='combo.png' source='0,0,100,22' corner='2,2,20,2'" >
+	<ListLabelElement text="企业应用" selected="true" />
+	<ListLabelElement text="个人产品" />
+	</Combo>
+	</HorizontalLayout>
+	<HorizontalLayout inset="25,1,3,1"> 
+	<Button name="saveitem" textcolor="#FF337833" showhtml="true" text="{u}{l}保存{/l}{/u}" width="25" height="19" />
+	<Control width="5" />
+	<Button name="canceladd" textcolor="#FF337833" showhtml="true" text="{u}{l}取消{/l}{/u}" width="25" height="19" />
+	</HorizontalLayout>
+  </ListContainerElement>
+</Window>

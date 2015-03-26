@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XlsCtrol", "XlsCtrol\XlsCtrol.vcproj", "{1B5F716E-C87F-43A6-8FF6-29D6372DE9CA}"
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B5F716E-C87F-43A6-8FF6-29D6372DE9CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B5F716E-C87F-43A6-8FF6-29D6372DE9CA}.Debug|Win32.Build.0 = Debug|Win32
+		{1B5F716E-C87F-43A6-8FF6-29D6372DE9CA}.Release|Win32.ActiveCfg = Release|Win32
+		{1B5F716E-C87F-43A6-8FF6-29D6372DE9CA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

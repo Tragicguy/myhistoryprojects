@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DefaultSet>
+<Font name="微软雅黑" size="12" bold="false" italic="false" default="true" />
+    	<Font name="微软雅黑" size="12" bold="true" italic="false" />
+	<Include source="default_scrollbar.xml" />
+   	<Default name="Combo" value="textpadding=&quot;4,4,4,4&quot; normalimage=&quot;file=&apos;combo.png&apos; source=&apos;0,0,100,22&apos; corner=&apos;2,2,20,2&apos;&quot; hotimage=&quot;file=&apos;combo.png&apos; source=&apos;0,22,100,44&apos; corner=&apos;2,2,22,2&apos;&quot; pushedimage=&quot;file=&apos;combo.png&apos; source=&apos;0,44,100,66&apos; corner=&apos;2,2,22,2&apos;&quot;" />	
+	<Default name="Button" value="normalimage=&quot;file='button.png' corner='4,2,4,2' fade='200' hsl='true'&quot; hotimage=&quot;file='button_h.png' corner='4,2,4,2' fade='200' hsl='true'&quot; pushedimage=&quot;file='button_p.png' corner='4,2,4,2' fade='200' hsl='true' &quot; " />
+	<Default name="Slider" value="thumbsize=&quot;10,10&quot; bkimage=&quot;file='bg.bmp' corner='6,0,6,0' mask='#FFFF00FF'&quot; foreimage=&quot;file='fg.bmp' corner='6,0,6,0' mask='#FFFF00FF'&quot; thumbimage=&quot;file='thumb.bmp' source='30,0,40,10' mask='#FFDAEBF9'&quot; thumbhotimage=&quot;file='thumb.bmp' source='10,0,20,10' mask='#FFDAEBF9'&quot; " />
+<Default name="Edit" value="colorhsl=&quot;true&quot; bordersize=&quot;1&quot; bordercolor=&quot;#FF4775CC&quot; showhtml=&quot;true&quot;" />
+<Default name="Label" value="colorhsl=&quot;true&quot; textcolor=&quot;#FF4775CC&quot; font=&quot;1&quot; " />
+</DefaultSet>
